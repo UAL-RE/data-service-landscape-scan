@@ -1,0 +1,3 @@
+# Data for data service landscape scan
+
++ institutions.csv: List of institutions considered peers of the University of Arizona as well as any institutions in the PAC-12 that are not peers of the University of Arizona. For each institution, includes location (state, city), public/private status, land grant status, Association of American Universities membership, and whether or not institution includes a medical school. Retrieved from [https://uair.arizona.edu/content/ua-peers](https://uair.arizona.edu/content/ua-peers) on 2020-05-21.

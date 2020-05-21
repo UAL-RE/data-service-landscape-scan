@@ -1,0 +1,26 @@
+Institution,State,City,UA_Peer,AAU,Med_School,PAC_12,Land_grant
+Arizona State University,AZ,Tempe,FALSE,FALSE,FALSE,TRUE,FALSE
+Michigan State University,MI,East Lansing,TRUE,TRUE,TRUE,FALSE,TRUE
+Ohio State University,OH,Columbus,TRUE,TRUE,TRUE,FALSE,TRUE
+Oregon State University,OR,Corvallis,FALSE,FALSE,FALSE,TRUE,TRUE
+Pennsylvania State University,PA,State College,TRUE,TRUE,TRUE,FALSE,TRUE
+Stanford University,CA,Palo Alto,FALSE,TRUE,TRUE,TRUE,FALSE
+Texas A&M University,TX,College Station,TRUE,TRUE,FALSE,FALSE,TRUE
+University of Arizona,AZ,Tucson,FALSE,TRUE,TRUE,TRUE,TRUE
+"University of California, Berkeley",CA,Berkeley,FALSE,TRUE,FALSE,TRUE,TRUE
+"University of California, Davis",CA,Davis,TRUE,TRUE,TRUE,FALSE,TRUE
+"University of California, Los Angeles",CA,Los Angeles,TRUE,TRUE,TRUE,TRUE,FALSE
+"University of Colorado, Boulder",CO,Boulder,FALSE,TRUE,FALSE,TRUE,FALSE
+University of Florida,FL,Gainesville,TRUE,TRUE,TRUE,FALSE,TRUE
+University of Illinois at Urbana-Champaign,IL,Urbana,TRUE,TRUE,TRUE,FALSE,TRUE
+University of Iowa,IA,Iowa City,TRUE,TRUE,TRUE,FALSE,FALSE
+"University of Maryland, College Park",MD,College Park,TRUE,TRUE,FALSE,FALSE,TRUE
+"University of Minnesota, Twin Cities",MN,Minneapolis,TRUE,TRUE,TRUE,FALSE,TRUE
+University of North Carolina at Chapel Hill,NC,Chapel Hill,TRUE,TRUE,TRUE,FALSE,FALSE
+University of Oregon,OR,Eugene,FALSE,FALSE,TRUE,TRUE,FALSE
+University of Southern California,CA,Los Angeles,TRUE,TRUE,TRUE,FALSE,FALSE
+University of Texas at Austin,TX,Austin,TRUE,TRUE,FALSE,FALSE,FALSE
+University of Utah,UT,Salt Lake City,FALSE,TRUE,TRUE,FALSE,FALSE
+University of Washington,WA,Seattle,TRUE,TRUE,TRUE,TRUE,FALSE
+"University of Wisconsin, Madison",WI,Madison,TRUE,TRUE,TRUE,FALSE,TRUE
+Washington State University,WA,Pullman,FALSE,FALSE,FALSE,TRUE,TRUE
