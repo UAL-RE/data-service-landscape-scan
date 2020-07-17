@@ -1,0 +1,37 @@
+Column,Column in original form
+Timestamp,Timestamp
+Reviewer,Your initials
+Institution,Institution
+Statistical_consulting,Statistical consulting
+Web_scraping,Web scraping
+Text_data_mining,Text data mining or text analysis
+Data_repository,Data repository or data preservation
+Electronic_lab_notebooks,Electronic lab notebooks
+Reproducible_research,"Reproducible research (really looking for the word ""reproducible"" or ""replicable"")"
+OSF,Open Science Framework or OSF
+DMPTool,DMPTool
+Carpentries,"Software, Data, or Library Carpentry workshops"
+Aerial_imagery,"Aerial photos, imagery, or LiDAR (related to GIS)"
+Version_control,"Version control (e.g. Git, GitHub, Bitbucket)"
+Geospatial_consult,"Geospatial data and GIS general support, consults"
+Geospatial_instruction,"Geospatial data and GIS general support, instruction"
+Geospatial_web,"Geospatial data and GIS general support, web resources"
+Geospatial_software_consult,"Geospatial and GIS software, consults"
+Geospatial_software_instruction,"Geospatial and GIS software, instruction"
+Geospatial_software_web,"Geospatial and GIS software, web resources"
+Data_management_consult,"Data management support, general, consults"
+Data_management_instruction,"Data management support, general, instruction"
+Data_management_web,"Data management support, general, web resources"
+Data_management_plans_consult,"Data management plans, consults"
+Data_management_plans_instruction,"Data management plans, instruction"
+Data_management_plans_web,"Data management plans, web resources"
+Data_visualization_software_consult,"Data visualization software, consults"
+Data_visualization_software_instruction,"Data visualization software, instruction"
+Data_visualization_software_web,"Data visualization software, web resources"
+Data_analysis_consult,"Data analysis or programming, consults"
+Data_analysis_instruction,"Data analysis or programming, instruction"
+Data_analysis_web,"Data analysis or programming, web resources"
+Other_service_1,Other service 1
+Other_service_2,Other service 2
+Other_service_3,Other service 3
+Other_service_4,Other service 4
