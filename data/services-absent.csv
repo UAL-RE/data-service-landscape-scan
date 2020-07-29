@@ -1,0 +1,122 @@
+Institution,Service,URL
+Arizona State University,Data_analysis_web,NA
+Arizona State University,Web_scraping,NA
+Michigan State University,DMPTool,NA
+Michigan State University,Electronic_lab_notebooks,NA
+Michigan State University,OSF,NA
+Michigan State University,Reproducible_research,NA
+Michigan State University,Version_control,NA
+Michigan State University,Web_scraping,NA
+Ohio State University,Carpentries,NA
+Oregon State University,Data_analysis_consult,NA
+Oregon State University,Data_analysis_instruction,NA
+Oregon State University,Data_visualization_software_consult,NA
+Oregon State University,Data_visualization_software_instruction,NA
+Oregon State University,Reproducible_research,NA
+Oregon State University,Web_scraping,NA
+Pennsylvania State University,Carpentries,NA
+Pennsylvania State University,Electronic_lab_notebooks,NA
+Pennsylvania State University,OSF,NA
+Pennsylvania State University,Text_data_mining,NA
+Pennsylvania State University,Version_control,NA
+Pennsylvania State University,Web_scraping,NA
+Stanford University,OSF,NA
+Texas A&M University,Carpentries,NA
+Texas A&M University,Data_analysis_consult,NA
+Texas A&M University,Data_analysis_instruction,NA
+Texas A&M University,Data_analysis_web,NA
+Texas A&M University,Data_visualization_software_instruction,NA
+Texas A&M University,Electronic_lab_notebooks,NA
+Texas A&M University,Geospatial_software_consult,NA
+Texas A&M University,Reproducible_research,NA
+Texas A&M University,Statistical_consulting,NA
+Texas A&M University,Version_control,NA
+Texas A&M University,Web_scraping,NA
+University of Arizona,Data_analysis_web,NA
+University of Arizona,Data_visualization_software_consult,NA
+University of Arizona,Web_scraping,NA
+"University of California, Berkeley",Data_analysis_consult,NA
+"University of California, Berkeley",Data_visualization_software_consult,NA
+"University of California, Berkeley",Geospatial_software_consult,NA
+"University of California, Davis",Web_scraping,NA
+"University of California, Los Angeles",Geospatial_instruction,NA
+"University of Colorado, Boulder",Data_analysis_web,NA
+"University of Colorado, Boulder",Data_management_plans_instruction,NA
+"University of Colorado, Boulder",Data_management_plans_web,NA
+"University of Colorado, Boulder",Data_management_web,NA
+"University of Colorado, Boulder",Electronic_lab_notebooks,NA
+"University of Colorado, Boulder",Geospatial_instruction,NA
+"University of Colorado, Boulder",Geospatial_software_consult,NA
+"University of Colorado, Boulder",Reproducible_research,NA
+"University of Colorado, Boulder",Version_control,NA
+University of Florida,Data_analysis_web,NA
+University of Florida,Geospatial_software_web,NA
+University of Florida,Web_scraping,NA
+University of Illinois at Urbana-Champaign,Carpentries,NA
+University of Illinois at Urbana-Champaign,Data_analysis_consult,NA
+University of Illinois at Urbana-Champaign,Data_management_consult,NA
+University of Illinois at Urbana-Champaign,Data_management_plans_consult,NA
+University of Illinois at Urbana-Champaign,Data_visualization_software_consult,NA
+University of Illinois at Urbana-Champaign,Electronic_lab_notebooks,NA
+University of Illinois at Urbana-Champaign,Geospatial_software_web,NA
+University of Illinois at Urbana-Champaign,Web_scraping,NA
+University of Iowa,Carpentries,NA
+University of Iowa,Data_visualization_software_web,NA
+University of Iowa,Geospatial_software_consult,NA
+University of Iowa,OSF,NA
+"University of Maryland, College Park",Data_visualization_software_consult,NA
+"University of Maryland, College Park",Data_visualization_software_web,NA
+"University of Maryland, College Park",Reproducible_research,NA
+"University of Maryland, College Park",Version_control,NA
+"University of Minnesota, Twin Cities",Geospatial_consult,NA
+"University of Minnesota, Twin Cities",Geospatial_software_consult,NA
+"University of Minnesota, Twin Cities",Statistical_consulting,NA
+"University of Minnesota, Twin Cities",Web_scraping,NA
+University of North Carolina at Chapel Hill,Data_analysis_web,NA
+University of North Carolina at Chapel Hill,Electronic_lab_notebooks,NA
+University of North Carolina at Chapel Hill,Geospatial_instruction,NA
+University of Oregon,Carpentries,NA
+University of Oregon,Reproducible_research,NA
+University of Oregon,Web_scraping,NA
+University of Southern California,Carpentries,NA
+University of Southern California,Data_analysis_instruction,NA
+University of Southern California,Data_management_consult,NA
+University of Southern California,Data_management_plans_consult,NA
+University of Southern California,Data_visualization_software_consult,NA
+University of Southern California,Electronic_lab_notebooks,NA
+University of Southern California,Geospatial_consult,NA
+University of Southern California,Geospatial_software_consult,NA
+University of Southern California,Geospatial_software_instruction,NA
+University of Southern California,Version_control,NA
+University of Southern California,Web_scraping,NA
+University of Texas at Austin,Data_analysis_consult,NA
+University of Texas at Austin,Data_management_plans_instruction,NA
+University of Texas at Austin,Data_management_web,NA
+University of Texas at Austin,Data_visualization_software_consult,NA
+University of Texas at Austin,Electronic_lab_notebooks,NA
+University of Texas at Austin,OSF,NA
+University of Texas at Austin,Reproducible_research,NA
+University of Texas at Austin,Statistical_consulting,NA
+University of Utah,Carpentries,NA
+University of Utah,Data_analysis_consult,NA
+University of Utah,Data_visualization_software_consult,NA
+University of Washington,Carpentries,NA
+University of Washington,Data_analysis_consult,NA
+University of Washington,Data_visualization_software_consult,NA
+University of Washington,Geospatial_instruction,NA
+University of Washington,Geospatial_software_instruction,NA
+Washington State University,Carpentries,NA
+Washington State University,Data_analysis_consult,NA
+Washington State University,Data_analysis_instruction,NA
+Washington State University,Data_management_consult,NA
+Washington State University,Data_management_plans_consult,NA
+Washington State University,Data_management_plans_instruction,NA
+Washington State University,Data_visualization_software_consult,NA
+Washington State University,Data_visualization_software_instruction,NA
+Washington State University,Geospatial_instruction,NA
+Washington State University,Geospatial_software_consult,NA
+Washington State University,Geospatial_software_instruction,NA
+Washington State University,OSF,NA
+Washington State University,Reproducible_research,NA
+Washington State University,Version_control,NA
+Washington State University,Web_scraping,NA
