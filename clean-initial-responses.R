@@ -31,8 +31,11 @@ services_present <- responses_long %>%
 # Create data frame with unique URL for each service (in some cases, there 
 # might be two unique URLs for a service at an institution, if the reviewers 
 # found the resource at different places). Will use this to check to see if 
-# service is really present at the indicated URL
-services_present <- services_present[!duplicated(services_present), ]
+# service is really present at the indicated URL. Using group_by and summarize
+# to keep track of how many reviewers identified the resource
+services_present <- services_present %>%
+  group_by(Institution, Service, URL) %>%
+  summarize(Times_found = n())
 
 write_csv(x = services_present, 
           path = "data/services-present.csv")
