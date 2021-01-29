@@ -1,0 +1,361 @@
+Institution,Service,URL,Present,Notes
+Arizona State University,Aerial_imagery,https://lib.asu.edu/geo,Y,
+Arizona State University,Aerial_imagery,https://lib.asu.edu/geo/imagery,N,Repeat of the above link. If you click on imegry in above link it will redirec there. 
+Michigan State University,Aerial_imagery,http://digitalscholarshiplab.msu.edu/using-the-lab/lab-technology/,N,Page only provides links to other data or software sources
+Michigan State University,Aerial_imagery,http://libguides.lib.msu.edu/c.php?g=95932&p=624998,Y,
+Ohio State University,Aerial_imagery,http://guides.osu.edu/maps-geospatial-data/maps,Y,
+Oregon State University,Aerial_imagery,https://guides.library.oregonstate.edu/c.php?g=285932&p=1906685,Y,
+Oregon State University,Aerial_imagery,https://spatialdata.oregonexplorer.info/geoportal/,Y,
+Pennsylvania State University,Aerial_imagery,http://guides.libraries.psu.edu/aerialphotographs,Y,Pennsylvania specific though
+Stanford University,Aerial_imagery,https://library.stanford.edu/guides/satellite-imagery,N,Only links to other sources such as Planet.com and Landsat
+Texas A&M University,Aerial_imagery,http://tamu.libguides.com/aerialphotos,Y,Texas specific
+University of Arizona,Aerial_imagery,https://libguides.library.arizona.edu/GIS/ImageryandLidar,Y,Obviously!
+"University of California, Berkeley",Aerial_imagery,https://guides.lib.berkeley.edu/c.php?g=130718&p=3874462,Y,
+"University of California, Berkeley",Aerial_imagery,https://guides.lib.berkeley.edu/maps/airphotos,N,Direct to same link as above
+"University of California, Davis",Aerial_imagery,https://www.library.ucdavis.edu/guide/geospatial-data-for-storage-exchange/,N,Does not provide data
+"University of California, Davis",Aerial_imagery,https://www.library.ucdavis.edu/guide/ucd-aerial-photo-holdings-county/,Y,Data not downloadable but can be accesed through them by reaching out
+"University of California, Los Angeles",Aerial_imagery,https://guides.library.ucla.edu/maps/aerial-photos,Y,
+"University of California, Los Angeles",Aerial_imagery,https://www.library.ucla.edu/events/gis-day-2016,N,Link is for GIS day
+"University of Colorado, Boulder",Aerial_imagery,https://geo.colorado.edu/,Y,
+"University of Colorado, Boulder",Aerial_imagery,https://libguides.colorado.edu/strategies/maps,Y,
+University of Florida,Aerial_imagery,https://cms.uflib.ufl.edu/maps/collections,Y,As far as I can tell it houses unique images specific for Florida but this one is ify
+University of Florida,Aerial_imagery,https://guides.uflib.ufl.edu/c.php?g=147404&p=966753,Y,Same institution as above link but this one is better
+University of Illinois at Urbana-Champaign,Aerial_imagery,https://www.library.illinois.edu/max/collections/aerial_photographs/,Y,
+University of Illinois at Urbana-Champaign,Aerial_imagery,https://www.library.illinois.edu/max/collections/aerial_photographs/#ILPhotos,N,Same link as above
+University of Iowa,Aerial_imagery,https://www.lib.uiowa.edu/maps/aerial/,Y,
+"University of Maryland, College Park",Aerial_imagery,https://www.lib.umd.edu/gis/data-and-resources,N,TO make it work link would need to be chanced to <https://www.lib.umd.edu/gis/data-and-resources>
+"University of Minnesota, Twin Cities",Aerial_imagery,https://www.lib.umn.edu/borchert/aerial-photography-and-remote-sensed-imagery,Y,
+"University of Minnesota, Twin Cities",Aerial_imagery,https://www.lib.umn.edu/borchert/gis-data,N,Only provides links to other data sources. Some are Minnesota specific so no idea how to handle that?
+University of North Carolina at Chapel Hill,Aerial_imagery,https://library.unc.edu/data/gis-usda/,Y,
+University of Oregon,Aerial_imagery,https://library.uoregon.edu/aerial-photography-collection,Y,Fee required for public users outside OU network
+University of Oregon,Aerial_imagery,https://library.uoregon.edu/map/or/gis_or_city,N,
+University of Southern California,Aerial_imagery,https://libguides.usc.edu/spatial,N,
+University of Texas at Austin,Aerial_imagery,https://www.lib.utexas.edu/events/356,N,
+University of Utah,Aerial_imagery,https://campusguides.lib.utah.edu/c.php?g=160828&p=1054034,Y,Many of the links on the site are broken but hopefully those will be updated soon...
+University of Washington,Aerial_imagery,https://guides.lib.uw.edu/research/gis/imagery_available,Y,
+University of Washington,Aerial_imagery,https://guides.lib.uw.edu/research/maps/aerial_photography,Y,
+"University of Wisconsin, Madison",Aerial_imagery,https://geography.wisc.edu/maplibrary/aerial-photography/,Y,
+Washington State University,Aerial_imagery,http://forestry.wsu.edu/wp-content/.../Mapping-Spatial-Resources-Handout.pdf,N,Broken link
+Washington State University,Aerial_imagery,https://geography.wisc.edu/maplibrary/aerial-photography/,N,Repeat link from 2 above
+Arizona State University,Data_visualization_software_consult,https://lib.asu.edu/data/about,N,This is just info about staff link below is about the open lab
+Arizona State University,Data_visualization_software_consult,https://lib.asu.edu/data/open-lab,Y,
+Michigan State University,Data_visualization_software_consult,http://digitalscholarshiplab.msu.edu/using-the-lab/experts/,Y,
+Michigan State University,Data_visualization_software_consult,https://lib.msu.edu/about/data/,Y,
+Ohio State University,Data_visualization_software_consult,https://library.osu.edu/researchcommons/help/visualizing-data,Y,
+Pennsylvania State University,Data_visualization_software_consult,https://guides.libraries.psu.edu/data-analytics-visualization,Y,
+Pennsylvania State University,Data_visualization_software_consult,https://libraries.psu.edu/about/departments/research-informatics-and-publishing/advanced-analytics-and-visualization-digital,Y,
+Stanford University,Data_visualization_software_consult,https://library.stanford.edu/events/data-visualization-r,N,I think this is apporproate but the link is outdated showing a workshop in 2016 but if it is updated (hard to see with COVID) it would work
+Texas A&M University,Data_visualization_software_consult,http://tamu.libguides.com/viz,Y,
+"University of California, Davis",Data_visualization_software_consult,https://www.library.ucdavis.edu/service/digital-scholarship/,Y,
+"University of California, Los Angeles",Data_visualization_software_consult,https://www.library.ucla.edu/datasquad,Y,
+"University of California, Los Angeles",Data_visualization_software_consult,https://www.library.ucla.edu/events/intro-tableau-public,N,This looked like a one time workshop
+"University of Colorado, Boulder",Data_visualization_software_consult,https://calendar.colorado.edu/event/interdisciplinary_data_consult_hours_5549?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder,Y,
+University of Florida,Data_visualization_software_consult,http://arcs.uflib.ufl.edu/services/visualization/,Y,
+University of Iowa,Data_visualization_software_consult,https://www.lib.uiowa.edu/data/data-analysis/,Y,
+"University of Minnesota, Twin Cities",Data_visualization_software_consult,https://libguides.umn.edu/c.php?g=921727&p=6644331,N,Broken link
+University of North Carolina at Chapel Hill,Data_visualization_software_consult,https://guides.lib.unc.edu/lorinbruckner,Y,
+University of Oregon,Data_visualization_software_consult,https://library.uoregon.edu/psc-visualization-lab,Y,
+Arizona State University,Data_visualization_software_instruction,https://lib.asu.edu/data/open-lab,Y,*Repeat from above
+Arizona State University,Data_visualization_software_instruction,https://lib.asu.edu/librarychannel/Competition-Telling-stories-data,N,This is for a competition about data viz no idea if that would work for this?
+Michigan State University,Data_visualization_software_instruction,http://digitalscholarshiplab.msu.edu/using-the-lab/experts/,Y,*Repeat from above
+Michigan State University,Data_visualization_software_instruction,http://digitalscholarshiplab.msu.edu/using-the-lab/lab-technology/,N,This is just about tech they use at the school
+Ohio State University,Data_visualization_software_instruction,https://library.osu.edu/researchcommons/help/visualizing-data,Y,
+Pennsylvania State University,Data_visualization_software_instruction,https://guides.libraries.psu.edu/data-analytics-visualization,Y,*Repeat from above
+Pennsylvania State University,Data_visualization_software_instruction,https://libraries.psu.edu/about/departments/research-informatics-and-publishing/advanced-analytics-and-visualization-digital,N,
+Stanford University,Data_visualization_software_instruction,https://library.stanford.edu/events/data-visualization-tableau,Y,*Repeat
+Stanford University,Data_visualization_software_instruction,https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services,Y,
+University of Arizona,Data_visualization_software_instruction,https://libguides.library.arizona.edu/dighumantools/dataviz,Y,
+"University of California, Berkeley",Data_visualization_software_instruction,https://dlab.berkeley.edu/,Y,
+"University of California, Davis",Data_visualization_software_instruction,https://datalab.ucdavis.edu/instructional-support/,N,
+"University of California, Davis",Data_visualization_software_instruction,https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/,Y,This link is better than the one above for the same school
+"University of California, Los Angeles",Data_visualization_software_instruction,https://www.library.ucla.edu/events/intro-tableau-public,Y,
+"University of California, Los Angeles",Data_visualization_software_instruction,https://www.library.ucla.edu/support/research-help/research-data-services,Y,
+"University of Colorado, Boulder",Data_visualization_software_instruction,https://osf.io/36mj4/,Y,
+University of Florida,Data_visualization_software_instruction,https://guides.uflib.ufl.edu/images,Y,
+University of Illinois at Urbana-Champaign,Data_visualization_software_instruction,https://guides.library.illinois.edu/visualize-your-data/,N,
+University of Illinois at Urbana-Champaign,Data_visualization_software_instruction,https://www.library.illinois.edu/sc/services/data-visualization/,N,See below
+University of Iowa,Data_visualization_software_instruction,https://ppc.uiowa.edu/isrc/methods-consulting,N,This site can direct you to the above link some what the same from same univeristy
+University of Iowa,Data_visualization_software_instruction,https://www.lib.uiowa.edu/news-and-events/event/?id=53141,N,This was a one time course offering but I am sure they offer similar courses continually so I think this works
+"University of Maryland, College Park",Data_visualization_software_instruction,https://www.lib.umd.edu/binaries/content/assets/public/gis/data-viz-workbook---final-july-20189.13.18.pdf,Y,Good PDF How To
+"University of Maryland, College Park",Data_visualization_software_instruction,https://www.lib.umd.edu/rc/data-science,Y,
+"University of Minnesota, Twin Cities",Data_visualization_software_instruction,https://libguides.umn.edu/datavis,N,
+University of North Carolina at Chapel Hill,Data_visualization_software_instruction,https://guides.lib.unc.edu/DataViz/reading,N,
+University of North Carolina at Chapel Hill,Data_visualization_software_instruction,https://guides.lib.unc.edu/lorinbruckner,Y,*Repost from above section
+University of Oregon,Data_visualization_software_instruction,https://library.uoregon.edu/psc-visualization-lab,N,
+University of Oregon,Data_visualization_software_instruction,https://researchguides.uoregon.edu/library_workshops/r,Y,
+University of Southern California,Data_visualization_software_instruction,https://libraries.usc.edu/events/usc-libraries-data-and-visualization-workshops-0,Y,
+University of Texas at Austin,Data_visualization_software_instruction,https://guides.lib.utexas.edu/c.php?g=494171&p=5550738,Y,
+University of Texas at Austin,Data_visualization_software_instruction,https://www.lib.utexas.edu/events/312,Y,
+University of Utah,Data_visualization_software_instruction,https://campusguides.lib.utah.edu/c.php?g=160571&p=1050556,N,
+University of Washington,Data_visualization_software_instruction,https://guides.lib.uw.edu/hsl/data/analyze#s-lg-box-1908365,N,
+"University of Wisconsin, Madison",Data_visualization_software_instruction,https://researchguides.library.wisc.edu/R/why,Y,
+Washington State University,Data_visualization_software_instruction,https://libguides.libraries.wsu.edu/dataviz/programming,N,
+Arizona State University,Data_visualization_software_web,https://lib.asu.edu/librarychannel/Get-involved-data-science,N,
+Michigan State University,Data_visualization_software_web,http://digitalscholarshiplab.msu.edu/using-the-lab/lab-technology/,Y,But site only links to other sites for viz web software
+Michigan State University,Data_visualization_software_web,http://libguides.lib.msu.edu/c.php?g=966965&p=7019951,Y,
+Ohio State University,Data_visualization_software_web,http://guides.osu.edu/DH/viz,Y,Has links to viz software at bottom of page but these redirect to other pages
+Ohio State University,Data_visualization_software_web,https://library.osu.edu/researchcommons/help/visualizing-data,N,
+Oregon State University,Data_visualization_software_web,https://guides.library.oregonstate.edu/data,Y,
+Pennsylvania State University,Data_visualization_software_web,https://guides.libraries.psu.edu/data-analytics-visualization,Y,
+Pennsylvania State University,Data_visualization_software_web,https://libraries.psu.edu/about/departments/research-informatics-and-publishing/advanced-analytics-and-visualization-digital,N,Link just talks about Penn States Lab that you can use and what software they have available
+Stanford University,Data_visualization_software_web,https://library.stanford.edu/events/basics-data-visualization,N,Link was for a past workshop
+Texas A&M University,Data_visualization_software_web,https://library.tamu.edu/libraryInstruction/the-studio.html,N,
+University of Arizona,Data_visualization_software_web,https://libguides.library.arizona.edu/dighumantools/dataviz,Y,
+"University of California, Berkeley",Data_visualization_software_web,https://guides.lib.berkeley.edu/data-visualization/about,Y,
+"University of California, Berkeley",Data_visualization_software_web,https://guides.lib.berkeley.edu/data-visualization/type,N,Same link as above just different tab
+"University of California, Davis",Data_visualization_software_web,"https://www.library.ucdavis.edu/service/research-data-services/#Data%20Extraction,%20Formatting,%20and%20Visualization",N,This is for consultation
+"University of California, Los Angeles",Data_visualization_software_web,https://www.library.ucla.edu/news/research-data-visualization-2017-spring-workshop-series,Y,
+"University of Colorado, Boulder",Data_visualization_software_web,https://www.colorado.edu/crdds/learning-materials,Y,
+University of Florida,Data_visualization_software_web,https://guides.uflib.ufl.edu/visualization,N,
+University of Florida,Data_visualization_software_web,https://guides.uflib.ufl.edu/Visualization,N,
+University of Illinois at Urbana-Champaign,Data_visualization_software_web,https://www.library.illinois.edu/sc/services/data-visualization/,Y,
+"University of Minnesota, Twin Cities",Data_visualization_software_web,https://libguides.umn.edu/c.php?g=921727&p=6642925,Y,
+"University of Minnesota, Twin Cities",Data_visualization_software_web,https://libguides.umn.edu/c.php?g=921727&p=6642972,N,Same link as above just different tab. Repetitive so can be excluded
+University of North Carolina at Chapel Hill,Data_visualization_software_web,http://learndataviz.web.unc.edu/,Y,
+University of North Carolina at Chapel Hill,Data_visualization_software_web,https://guides.lib.unc.edu/DataViz/basics,Y,Very similar to above link but slgihtly different might be an older version
+University of Oregon,Data_visualization_software_web,https://library.uoregon.edu/scilib/psc-visualization-lab-resources,N,This page is for booking viz room at UOregon
+University of Southern California,Data_visualization_software_web,https://libguides.usc.edu/visualizeLA,N,Think this is archives of visualized data not software
+University of Texas at Austin,Data_visualization_software_web,https://guides.lib.utexas.edu/data-visualization,Y,
+University of Utah,Data_visualization_software_web,https://campusguides.lib.utah.edu/c.php?g=160762&p=1050352,Y,
+University of Utah,Data_visualization_software_web,https://campusguides.lib.utah.edu/c.php?g=893558&p=6444106,Y,
+University of Washington,Data_visualization_software_web,https://guides.lib.uw.edu/hsl/data/analyze,Y,
+University of Washington,Data_visualization_software_web,https://guides.lib.uw.edu/research/dstools/visualize,Y,
+"University of Wisconsin, Madison",Data_visualization_software_web,https://researchguides.library.wisc.edu/R/ggplot2,N,
+Washington State University,Data_visualization_software_web,https://designlab.wisc.edu/tag/data-visualization/,N,I dont know if this cite works so I marked N
+Washington State University,Data_visualization_software_web,https://libguides.libraries.wsu.edu/dataviz,Y,
+Arizona State University,Geospatial_consult,https://lib.asu.edu/geo/services,Y,
+Michigan State University,Geospatial_consult,https://blogs.lib.msu.edu/map-library/2016/mar/geospatial-workshops-spring-2016,N,Workshop not consult
+Ohio State University,Geospatial_consult,http://guides.osu.edu/maps-geospatial-data/training-tutorials,Y,
+Ohio State University,Geospatial_consult,https://library.osu.edu/researchcommons/help/gis-and-mapping,Y,
+Oregon State University,Geospatial_consult,https://guides.library.oregonstate.edu/c.php?g=285915&p=1905258,N,
+Pennsylvania State University,Geospatial_consult,https://libraries.psu.edu/about/libraries/donald-w-hamer-center-maps-and-geospatial-information/request-geospatial-or-maps,Y,
+Stanford University,Geospatial_consult,https://library.stanford.edu/research/stanford-geospatial-center/services,Y,
+Stanford University,Geospatial_consult,https://library.stanford.edu/rumsey/using-center/teaching-researching-and-consulting,Y,
+Texas A&M University,Geospatial_consult,http://tamu.libguides.com/gis/gis,N,
+University of Arizona,Geospatial_consult,https://libguides.library.arizona.edu/GIS/Help,Y,
+"University of California, Berkeley",Geospatial_consult,https://guides.lib.berkeley.edu/gis/remote,Y,
+"University of California, Davis",Geospatial_consult,https://www.library.ucdavis.edu/author/michele-tobias/,N,
+"University of California, Davis",Geospatial_consult,https://www.library.ucdavis.edu/guide/mapping-and-gis/,N,
+"University of California, Los Angeles",Geospatial_consult,https://calendly.com/data-science-team,Y,
+"University of California, Los Angeles",Geospatial_consult,https://www.library.ucla.edu/get-help,Y,
+"University of Colorado, Boulder",Geospatial_consult,https://www.colorado.edu/libraries/research/consultation,Y,
+University of Florida,Geospatial_consult,http://arcs.uflib.ufl.edu/services/geospatialanalysis/,N,
+University of Florida,Geospatial_consult,https://guides.uflib.ufl.edu/c.php?g=147404&p=966619,Y,
+University of Illinois at Urbana-Champaign,Geospatial_consult,https://www.library.illinois.edu/sc/gis/consult/,Y,
+University of Iowa,Geospatial_consult,https://guides.lib.uiowa.edu/c.php?g=132116&p=2316517,Y,
+"University of Maryland, College Park",Geospatial_consult,https://www.lib.umd.edu/gis,Y,
+University of North Carolina at Chapel Hill,Geospatial_consult,https://library.unc.edu/data/gis-assistance/,Y,
+University of Oregon,Geospatial_consult,http://researchguides.uoregon.edu/gis/guide,N,
+University of Texas at Austin,Geospatial_consult,https://www.lib.utexas.edu/research-help-support/gis-geospatial-data-services,Y,
+University of Utah,Geospatial_consult,https://lib.utah.edu/services/geospatial/services.php,Y,
+University of Washington,Geospatial_consult,https://guides.lib.uw.edu/research/gis/home,Y,
+University of Washington,Geospatial_consult,https://guides.lib.uw.edu/research/gis/resources,Y,Repeated from Above
+"University of Wisconsin, Madison",Geospatial_consult,https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191,Y,
+Washington State University,Geospatial_consult,https://geography.wisc.edu/maplibrary/geographic-information-systems-gis/,N,
+Washington State University,Geospatial_consult,https://libguides.libraries.wsu.edu/c.php?g=294141&p=1959555,Y,
+Arizona State University,Geospatial_instruction,https://lib.asu.edu/geo/services,N,This would fit in consultation
+Michigan State University,Geospatial_instruction,http://libguides.lib.msu.edu/gis,Y,
+Michigan State University,Geospatial_instruction,https://blogs.lib.msu.edu/map-library/2016/mar/geospatial-workshops-spring-2016,N,Workshop from 2016 and also from same univerity as above
+Ohio State University,Geospatial_instruction,http://guides.osu.edu/maps-geospatial-data/training-tutorials,Y,
+Oregon State University,Geospatial_instruction,https://guides.library.oregonstate.edu/c.php?g=285915&p=1905258,N,
+Pennsylvania State University,Geospatial_instruction,http://guides.libraries.psu.edu/GISopensource,N,Just provides links to outside soruces for GIS trianing
+Stanford University,Geospatial_instruction,https://library.stanford.edu/research/stanford-geospatial-center/workshops,Y,
+Stanford University,Geospatial_instruction,https://library.stanford.edu/rumsey/using-center/teaching-researching-and-consulting,N,Repeat from a previous post
+Texas A&M University,Geospatial_instruction,http://tamu.libguides.com/gis/onlinelearning,N,Provides links to outside training sources not Lib specific
+University of Arizona,Geospatial_instruction,https://libguides.library.arizona.edu/GIS/tutorials,Y,
+"University of California, Berkeley",Geospatial_instruction,https://guides.lib.berkeley.edu/gis/remote,Y,
+"University of California, Berkeley",Geospatial_instruction,https://guides.lib.berkeley.edu/gis/training,N,Repeat from above post
+"University of California, Davis",Geospatial_instruction,https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/,Y,
+"University of California, Davis",Geospatial_instruction,https://www.library.ucdavis.edu/service/data-management/mapping-cartography/,N,Repeat from university above this post
+University of Florida,Geospatial_instruction,http://arcs.uflib.ufl.edu/services/geospatialanalysis/,N,
+University of Florida,Geospatial_instruction,https://guides.uflib.ufl.edu/c.php?g=147838&p=969165,N,
+University of Illinois at Urbana-Champaign,Geospatial_instruction,https://guides.library.illinois.edu/GIS/Workshops,Y,
+University of Illinois at Urbana-Champaign,Geospatial_instruction,https://www.library.illinois.edu/sc/gis/workshops/,N,Same university as above
+University of Iowa,Geospatial_instruction,https://guides.lib.uiowa.edu/c.php?g=132116&p=2316517,N,
+University of Iowa,Geospatial_instruction,https://guides.lib.uiowa.edu/c.php?g=132116&p=862378,N,
+"University of Maryland, College Park",Geospatial_instruction,https://www.lib.umd.edu/gis/learning,Y,
+"University of Maryland, College Park",Geospatial_instruction,https://www.lib.umd.edu/gis/workshops,N,Same university as above
+"University of Minnesota, Twin Cities",Geospatial_instruction,https://www.lib.umn.edu/borchert/gis-data,N,Just provides links to outside instructional courses
+University of Oregon,Geospatial_instruction,https://researchguides.uoregon.edu/gis/uo-resources,Y,To work link should be changed to <https://researchguides.uoregon.edu/gis/uo-resources>
+University of Southern California,Geospatial_instruction,https://libguides.usc.edu/spatial,N,
+University of Texas at Austin,Geospatial_instruction,https://guides.lib.utexas.edu/gis/past-event-info-and-downloads,Y,
+University of Texas at Austin,Geospatial_instruction,https://www.lib.utexas.edu/research-help-support/gis-geospatial-data-services,Y,Better fit for consultation but think this still works
+University of Utah,Geospatial_instruction,https://campusguides.lib.utah.edu/c.php?g=160707&p=1051857,Y,Very basic instruction
+University of Utah,Geospatial_instruction,https://lib.utah.edu/services/geospatial/services.php,N,
+"University of Wisconsin, Madison",Geospatial_instruction,https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191,Y,
+Washington State University,Geospatial_instruction,https://libguides.libraries.wsu.edu/c.php?g=294141&p=1959556,N,Broken link
+Arizona State University,Geospatial_software_consult,https://lib.asu.edu/geo/services,Y,
+Arizona State University,Geospatial_software_consult,https://lib.asu.edu/geo/software,N,Repeat from directly above post
+Michigan State University,Geospatial_software_consult,https://blogs.lib.msu.edu/map-library/2016/mar/geospatial-workshops-spring-2016,N,
+Ohio State University,Geospatial_software_consult,http://guides.osu.edu/maps-geospatial-data/software-tools,Y,
+Ohio State University,Geospatial_software_consult,https://library.osu.edu/researchcommons/help/gis-and-mapping,Y,
+Oregon State University,Geospatial_software_consult,http://www.geo.oregonstate.edu/esri/,N,Links provided sent you to Arc page not Lib specific help. Also was this site created in Geocities I feel like im back in the 90s
+Pennsylvania State University,Geospatial_software_consult,http://guides.libraries.psu.edu/GISopensource,N,
+Stanford University,Geospatial_software_consult,https://library.stanford.edu/rumsey/programs/workshops-and-tours,N,
+University of Arizona,Geospatial_software_consult,https://libguides.library.arizona.edu/GIS/Help,Y,
+"University of California, Davis",Geospatial_software_consult,https://www.library.ucdavis.edu/guide/mapping-and-gis/#gis-resources-on-campus-1,Y,
+"University of California, Los Angeles",Geospatial_software_consult,https://calendly.com/data-science-team,Y,
+University of Florida,Geospatial_software_consult,http://arcs.uflib.ufl.edu/services/geospatialanalysis/,Y,Not much info but say it is provided by contacting them
+University of Florida,Geospatial_software_consult,https://guides.uflib.ufl.edu/c.php?g=147404&p=966619,N,Repeat from above
+University of Illinois at Urbana-Champaign,Geospatial_software_consult,https://www.library.illinois.edu/sc/gis/consult/,Y,
+"University of Maryland, College Park",Geospatial_software_consult,https://www.lib.umd.edu/gis,Y,
+"University of Maryland, College Park",Geospatial_software_consult,https://www.lib.umd.edu/gis/people-and-facilities,N,
+University of North Carolina at Chapel Hill,Geospatial_software_consult,https://library.unc.edu/data/gis-assistance/,Y,
+University of Oregon,Geospatial_software_consult,http://researchguides.uoregon.edu/gis/guide,Y,This exact site has been posted before just in another section
+University of Texas at Austin,Geospatial_software_consult,https://www.lib.utexas.edu/research-help-support/gis-geospatial-data-services,Y,
+University of Utah,Geospatial_software_consult,https://lib.utah.edu/services/geospatial/training-materials.php,Y,
+University of Washington,Geospatial_software_consult,https://guides.lib.uw.edu/research/gis/resources,Y,
+"University of Wisconsin, Madison",Geospatial_software_consult,https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191,Y,
+Washington State University,Geospatial_software_consult,https://geography.wisc.edu/maplibrary/geographic-information-systems-gis/,Y,
+Arizona State University,Geospatial_software_instruction,https://lib.asu.edu/geo/services,N,
+Arizona State University,Geospatial_software_instruction,https://lib.asu.edu/geo/software,Y,
+Michigan State University,Geospatial_software_instruction,http://libguides.lib.msu.edu/gis,Y,
+Michigan State University,Geospatial_software_instruction,https://libguides.lib.msu.edu/c.php?g=224434,N,
+Ohio State University,Geospatial_software_instruction,http://guides.osu.edu/maps-geospatial-data/software-tools,Y,
+Oregon State University,Geospatial_software_instruction,http://www.geo.oregonstate.edu/esri/,N,Links to sites provided by ESRI not library specifically
+Pennsylvania State University,Geospatial_software_instruction,http://guides.libraries.psu.edu/GISopensource,N,Just links to published books not specific instuction from library
+Stanford University,Geospatial_software_instruction,https://library.stanford.edu/research/stanford-geospatial-center/workshops,Y,
+Stanford University,Geospatial_software_instruction,https://library.stanford.edu/rumsey/programs/workshops-and-tours,N,Repeat to same info as post directly above
+Texas A&M University,Geospatial_software_instruction,http://tamu.libguides.com/gis/tutorials,Y,
+University of Arizona,Geospatial_software_instruction,https://libguides.library.arizona.edu/GIS/tutorials,Y,Bottom section makes it applicable
+"University of California, Berkeley",Geospatial_software_instruction,https://guides.lib.berkeley.edu/gis/training,Y,
+"University of California, Davis",Geospatial_software_instruction,https://www.library.ucdavis.edu/guide/mapping-and-gis/#gis-resources-on-campus-1,N,
+"University of California, Davis",Geospatial_software_instruction,https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/,Y,
+"University of California, Los Angeles",Geospatial_software_instruction,https://www.library.ucla.edu/events/gis-python,N,
+"University of Colorado, Boulder",Geospatial_software_instruction,https://www.colorado.edu/libraries/research/digital-scholarship,N,
+University of Florida,Geospatial_software_instruction,http://arcs.uflib.ufl.edu/services/geospatialanalysis/,N,
+University of Illinois at Urbana-Champaign,Geospatial_software_instruction,https://guides.library.illinois.edu/GIS/Workshops,Y,
+University of Illinois at Urbana-Champaign,Geospatial_software_instruction,https://www.library.illinois.edu/sc/gis/software/,N,Repeat from same university
+University of Iowa,Geospatial_software_instruction,https://guides.lib.uiowa.edu/c.php?g=132116&p=2316517,N,
+University of Iowa,Geospatial_software_instruction,https://guides.lib.uiowa.edu/c.php?g=132116&p=6634664,Y,
+"University of Maryland, College Park",Geospatial_software_instruction,https://www.lib.umd.edu/binaries/content/assets/public/gis/open-source-geospatial-tools-workbook-update-2019.pdf,Y,
+"University of Maryland, College Park",Geospatial_software_instruction,https://www.lib.umd.edu/gis/workshops,Y,This is somwhat a repeat from above do know how to address. This link is the better of the two.
+"University of Minnesota, Twin Cities",Geospatial_software_instruction,https://www.lib.umn.edu/borchert/automated-cartographic-information-center,N,
+University of North Carolina at Chapel Hill,Geospatial_software_instruction,https://guides.lib.unc.edu/software/training,N,Links are for outside sources mostly provided by ESRI not the Lib themselves
+University of Oregon,Geospatial_software_instruction,https://library.uoregon.edu/portland/gis,Y,
+University of Texas at Austin,Geospatial_software_instruction,https://guides.lib.utexas.edu/gis/past-event-info-and-downloads,Y,
+University of Texas at Austin,Geospatial_software_instruction,https://www.lib.utexas.edu/research-help-support/gis-geospatial-data-services,N,Say provide consulting but do not have resources online
+University of Utah,Geospatial_software_instruction,https://campusguides.lib.utah.edu/c.php?g=160702,Y,
+University of Utah,Geospatial_software_instruction,https://lib.utah.edu/services/geospatial/training-materials.php,Y,
+"University of Wisconsin, Madison",Geospatial_software_instruction,https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191,N,
+Washington State University,Geospatial_software_instruction,https://researchguides.library.wisc.edu/c.php?g=178144&p=7290067,Y,
+Arizona State University,Geospatial_software_web,https://lib.asu.edu/geo/software,Y,
+Arizona State University,Geospatial_software_web,https://libguides.asu.edu/esrisoftware,N,Repeat Link
+Michigan State University,Geospatial_software_web,http://libguides.lib.msu.edu/c.php?g=95932&p=1493888,Y,
+Michigan State University,Geospatial_software_web,https://libguides.lib.msu.edu/c.php?g=224434,N,
+Ohio State University,Geospatial_software_web,http://guides.osu.edu/maps-geospatial-data/software-tools,Y,
+Oregon State University,Geospatial_software_web,http://www.geo.oregonstate.edu/esri/,Y,
+Pennsylvania State University,Geospatial_software_web,http://guides.libraries.psu.edu/GISopensource,N,
+Stanford University,Geospatial_software_web,https://library.stanford.edu/research/stanford-geospatial-center/software,Y,
+Stanford University,Geospatial_software_web,https://us14.campaign-archive.com/?u=bc280d099b8c85ba9fd6e0bb0&id=8ad908bc32,N,
+Texas A&M University,Geospatial_software_web,http://tamu.libguides.com/gis/onlinelearning,Y,
+Texas A&M University,Geospatial_software_web,http://tamu.libguides.com/gis/software,N,Need to follow one link to get to relevent site
+University of Arizona,Geospatial_software_web,https://libguides.library.arizona.edu/GIS/software,Y,
+"University of California, Berkeley",Geospatial_software_web,https://guides.lib.berkeley.edu/gis/help,N,
+"University of California, Berkeley",Geospatial_software_web,https://guides.lib.berkeley.edu/gis/tools,Y,
+"University of California, Davis",Geospatial_software_web,https://www.library.ucdavis.edu/guide/mapping-and-gis/,Y,
+"University of California, Davis",Geospatial_software_web,https://www.library.ucdavis.edu/guide/mapping-and-gis/#selected-map-gis-data-sources-4,N,Repeat post from directly above
+"University of California, Los Angeles",Geospatial_software_web,https://guides.library.ucla.edu/c.php?g=180507&p=1187577,N,"But need to follow ""GIS database and mapping applications"" to get to it"
+"University of California, Los Angeles",Geospatial_software_web,https://www.library.ucla.edu/events/discovering-data-making-maps,N,
+"University of Colorado, Boulder",Geospatial_software_web,https://geo.colorado.edu/,Y,
+University of Iowa,Geospatial_software_web,https://guides.lib.uiowa.edu/c.php?g=132116&p=2713587,Y,
+University of Iowa,Geospatial_software_web,https://guides.lib.uiowa.edu/c.php?g=132116&p=6634664,N,
+"University of Maryland, College Park",Geospatial_software_web,https://www.lib.umd.edu/gis/learning,N,
+"University of Maryland, College Park",Geospatial_software_web,https://www.lib.umd.edu/gis/research,N,
+"University of Minnesota, Twin Cities",Geospatial_software_web,https://www.lib.umn.edu/borchert/automated-cartographic-information-center,N,
+University of North Carolina at Chapel Hill,Geospatial_software_web,https://guides.lib.unc.edu/software/data-vis,Y,This is web based GIS tools
+University of North Carolina at Chapel Hill,Geospatial_software_web,https://guides.lib.unc.edu/software/software,Y,Yes but same university as above
+University of Oregon,Geospatial_software_web,http://researchguides.uoregon.edu/gis/uo-resources,N,"Need to click on ""Open-source GIS"" to get to it"
+University of Oregon,Geospatial_software_web,https://library.uoregon.edu/map/general_libInfo/library_checkout,N,
+University of Southern California,Geospatial_software_web,https://libguides.usc.edu/c.php?g=235195&p=1560665,N,
+University of Texas at Austin,Geospatial_software_web,https://guides.lib.utexas.edu/gis,Y,
+University of Texas at Austin,Geospatial_software_web,https://guides.lib.utexas.edu/gis/install-gis-software,N,
+University of Utah,Geospatial_software_web,https://campusguides.lib.utah.edu/c.php?g=160702&p=1052576,Y,
+University of Utah,Geospatial_software_web,https://lib.utah.edu/services/geospatial/training-materials.php,Y,
+University of Washington,Geospatial_software_web,https://guides.lib.uw.edu/research/gis/resources,Y,
+"University of Wisconsin, Madison",Geospatial_software_web,https://researchguides.library.wisc.edu/c.php?g=178144&p=1169833,Y,
+Washington State University,Geospatial_software_web,https://geography.wisc.edu/maplibrary/geospatial-data-resources-u-s/,Y,
+Washington State University,Geospatial_software_web,https://libguides.libraries.wsu.edu/c.php?g=294141&p=1959555,Y,
+Washington State University,Geospatial_software_web,https://libguides.libraries.wsu.edu/c.php?g=294141&p=1959556,N,Broken Link
+Arizona State University,Geospatial_web,https://lib.asu.edu/geo,Y,
+Arizona State University,Geospatial_web,https://lib.asu.edu/geo/data,N,
+Michigan State University,Geospatial_web,http://digitalscholarshiplab.msu.edu/using-the-lab/lab-technology/,Y,
+Michigan State University,Geospatial_web,http://libguides.lib.msu.edu/gis,N,Need to follow GIS Lite
+Ohio State University,Geospatial_web,http://guides.osu.edu/maps-geospatial-data,N,
+Ohio State University,Geospatial_web,http://guides.osu.edu/maps-geospatial-data/geospatial-data,N,"Need to follow link to ""Ohio"" and then ""OSU GIS"""
+Oregon State University,Geospatial_web,https://guides.library.oregonstate.edu/c.php?g=285915&p=1905258,Y,
+Pennsylvania State University,Geospatial_web,http://guides.libraries.psu.edu/c.php?g=515722&p=3525892,N,
+Pennsylvania State University,Geospatial_web,http://guides.libraries.psu.edu/GISopensource,N,
+Stanford University,Geospatial_web,https://library.stanford.edu/research/stanford-geospatial-center,N,"Need to follow ""Data"" link"
+Stanford University,Geospatial_web,https://library.stanford.edu/rumsey/collections,N,
+Texas A&M University,Geospatial_web,http://tamu.libguides.com/gis,N,
+University of Arizona,Geospatial_web,https://libguides.library.arizona.edu/GIS,N,
+University of Arizona,Geospatial_web,https://libguides.library.arizona.edu/GIS/get-started,N,"Need to follow ""find data"" then ""Spatial Data Explorer"" to find UofA's geospatial web"
+"University of California, Berkeley",Geospatial_web,https://guides.lib.berkeley.edu/gis/data,N,Links are for outside sources not those provided by Library 
+"University of California, Berkeley",Geospatial_web,https://guides.lib.berkeley.edu/gis/remote,N,
+"University of California, Davis",Geospatial_web,https://www.library.ucdavis.edu/guide/geospatial-data-for-storage-exchange/,N,
+"University of California, Davis",Geospatial_web,https://www.library.ucdavis.edu/guide/mapping-and-gis/,N,
+"University of California, Los Angeles",Geospatial_web,https://guides.library.ucla.edu/c.php?g=180507&p=1187577,N,
+"University of Colorado, Boulder",Geospatial_web,https://geo.colorado.edu/,Y,
+"University of Colorado, Boulder",Geospatial_web,https://libguides.colorado.edu/strategies/maps,N,
+University of Florida,Geospatial_web,https://guides.uflib.ufl.edu/c.php?g=147404&p=966619,N,"Might be applicable if you click of ""UF Data Library"" but can see if this link works as you need to sign in"
+University of Illinois at Urbana-Champaign,Geospatial_web,https://guides.library.illinois.edu/GIS,N,
+University of Illinois at Urbana-Champaign,Geospatial_web,https://www.library.illinois.edu/sc/gis/community/,N,
+University of Iowa,Geospatial_web,https://guides.lib.uiowa.edu/c.php?g=132116&p=862462,N,
+University of Iowa,Geospatial_web,https://guides.lib.uiowa.edu/gis,N,
+"University of Maryland, College Park",Geospatial_web,https://www.lib.umd.edu/gis/data-and-resources,Y,
+"University of Maryland, College Park",Geospatial_web,https://www.lib.umd.edu/gis/what-is-gis,N,
+"University of Minnesota, Twin Cities",Geospatial_web,https://www.lib.umn.edu/borchert/geodata,Y,But this directs you to the Big10 geospatial protal which is the same and Univ. Maryland link but this is still applicable
+"University of Minnesota, Twin Cities",Geospatial_web,https://www.lib.umn.edu/borchert/map-geography-online-resources,N,Might be applicable but same university as above and really only links to sites that are hosted by other organizations
+University of North Carolina at Chapel Hill,Geospatial_web,https://guides.lib.unc.edu/citedata/additional,N,
+University of North Carolina at Chapel Hill,Geospatial_web,https://guides.lib.unc.edu/spatialdata/getting-started,N,"Need to click on ""NC Geospatial Portal"" link (first one)"
+University of Oregon,Geospatial_web,https://library.uoregon.edu/dc/dlc/geospatialdata.html,N,
+University of Oregon,Geospatial_web,https://library.uoregon.edu/map/gis_data/data_in_commons,Y,
+University of Southern California,Geospatial_web,https://libguides.usc.edu/c.php?g=235195&p=1562120,N,
+University of Southern California,Geospatial_web,https://libguides.usc.edu/prf.php?account_id=24691,N,
+University of Texas at Austin,Geospatial_web,https://guides.lib.utexas.edu/gis,N,"But need to clikc on ""Texas Geodata Portal"" to get thier thier webservice of spatial data"
+University of Texas at Austin,Geospatial_web,https://guides.lib.utexas.edu/gis/gis-events-and-resources,N,
+University of Utah,Geospatial_web,https://campusguides.lib.utah.edu/c.php?g=160707&p=1052255,N,
+University of Utah,Geospatial_web,https://lib.utah.edu/services/geospatial/services.php,N,
+University of Washington,Geospatial_web,https://guides.lib.uw.edu/research/gis/data_sites,N,
+University of Washington,Geospatial_web,https://guides.lib.uw.edu/research/gis/home,N,"Need to click on ""Libraries Hosted Data"""
+"University of Wisconsin, Madison",Geospatial_web,https://researchguides.library.wisc.edu/GIS,N,"Need to click on ""Finding Geospatial Data"" will take you to Big10 geospatial hub"
+Washington State University,Geospatial_web,https://libguides.libraries.wsu.edu/c.php?g=294141&p=1959554,N,
+Washington State University,Geospatial_web,https://libguides.libraries.wsu.edu/c.php?g=294141&p=1959560,N,
+Washington State University,Geospatial_web,https://researchguides.library.wisc.edu/GIS,N,Repeat link from above still does not work for this section
+Arizona State University,Text_data_mining,https://lib.asu.edu/data,N,
+Arizona State University,Text_data_mining,https://libguides.asu.edu/textanddatamining/introduction,Y,
+Michigan State University,Text_data_mining,https://lib.msu.edu/dh/,N,
+Michigan State University,Text_data_mining,https://libguides.lib.msu.edu/c.php?g=95580&p=6293247,Y,I believe this one works they provide access to some data mining resource that MSU pays for
+Ohio State University,Text_data_mining,http://guides.osu.edu/DH/text,N,This ones close but it seems to just link the user to an outside open source program
+Ohio State University,Text_data_mining,https://research.osu.edu/collaborative-archive-and-data-research-environment-cadre-services-now-available/,Y,
+Oregon State University,Text_data_mining,https://guides.library.oregonstate.edu/Library-Workshops-for-Grad-Students-Faculty/workshops_on_demand,N,
+Oregon State University,Text_data_mining,https://guides.library.oregonstate.edu/research-data-services/data-management-types-formats,N,
+Stanford University,Text_data_mining,https://library.stanford.edu/events/text-analysis-r,N,This was a onetime workshop using R to text mine. Would work if they were ongoing but couldnt find an further info.
+Stanford University,Text_data_mining,https://library.stanford.edu/research/cidr/consulting,N,This is a link for consulting
+Texas A&M University,Text_data_mining,http://tamu.libguides.com/systematicreviews/resources,N,This sight might work but not super familiar with text mining so I might be wrong by marking it No
+University of Arizona,Text_data_mining,https://libguides.library.arizona.edu/dighumantools/text,N,This is a link to outside text mining services and nothing specifically provided by he library
+University of Arizona,Text_data_mining,https://libguides.library.arizona.edu/text-mining,Y,
+"University of California, Berkeley",Text_data_mining,https://guides.lib.berkeley.edu/text-mining,Y,
+"University of California, Berkeley",Text_data_mining,https://update.lib.berkeley.edu/2019/10/23/building-legal-literacies-for-text-data-mining-call-for-participants/,N,Same univeristy as above and this is a call to participate in text mining
+"University of California, Davis",Text_data_mining,https://www.library.ucdavis.edu/service/digital-scholarship/,Y,Blurb at the end of this paget aht says Library staff can assist in text mining so I think this would work
+"University of California, Los Angeles",Text_data_mining,https://guides.library.ucla.edu/text,Y,
+"University of California, Los Angeles",Text_data_mining,https://www.library.ucla.edu/events/text-data-mining-resource-spotlight,N,One time workshop no idea if they are till going on or offered
+"University of Colorado, Boulder",Text_data_mining,https://www.colorado.edu/crdds/learning-materials,Y,
+University of Florida,Text_data_mining,https://guides.uflib.ufl.edu/digitalhumanities/dh/tools,Y,
+University of Illinois at Urbana-Champaign,Text_data_mining,https://guides.library.illinois.edu/textmining,Y,
+University of Iowa,Text_data_mining,https://dsps.lib.uiowa.edu/programera/2018/10/10/extracting-and-organizing-htrc-corpora-tips-tool-and-walkthrough/,Y,I think this works it seems to be a walkthrough on how to text/data mine
+"University of Maryland, College Park",Text_data_mining,https://lib.guides.umd.edu/textmining,N,Not sure about this one so it might be good to check again
+"University of Maryland, College Park",Text_data_mining,https://www.lib.umd.edu/rc/data-and-text-mining,Y,
+"University of Minnesota, Twin Cities",Text_data_mining,https://libguides.umn.edu/c.php?g=895901&p=6454823,N,This provides a bunch of links to outside tet/data mining resources
+"University of Minnesota, Twin Cities",Text_data_mining,https://libguides.umn.edu/text-mining,N,Again provides a plethura of links to outside resources but does not seem to be anyting specifici to the library (very simimlar to the above link and is from same uniersity)
+University of North Carolina at Chapel Hill,Text_data_mining,https://guides.lib.unc.edu/dhatcarolina/skills,Y,
+University of Oregon,Text_data_mining,https://library.uoregon.edu/digital-scholarship-workshop-demand-tbd,N,This was a one time seminar and do not know if similar ones are being offered anymore
+University of Southern California,Text_data_mining,https://libguides.usc.edu/contentmining,Y,
+University of Texas at Austin,Text_data_mining,https://www.lib.utexas.edu/events/238,N,This was a ones time seminar and do not know if similar ones are being offered anymore
+University of Texas at Austin,Text_data_mining,https://www.lib.utexas.edu/events/68,N,Seems to be a repeat from above but might be a seperate event 
+University of Utah,Text_data_mining,https://campusguides.lib.utah.edu/miningengineering/texts,N,This is all actual geologic mining links and books
+University of Washington,Text_data_mining,https://guides.lib.uw.edu/research/dstools/tdm,Y,
+"University of Wisconsin, Madison",Text_data_mining,https://researchguides.library.wisc.edu/c.php?g=246897&p=1645187,Y,
+Washington State University,Text_data_mining,https://libguides.libraries.wsu.edu/c.php?g=388821&p=2638273,Y,
+Washington State University,Text_data_mining,https://www.library.wisc.edu/digital-library-services/uwdcc/resources-documentation/guidelines-for-markup-of-electronic-texts/,N,

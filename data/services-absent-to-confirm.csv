@@ -1,0 +1,453 @@
+Institution,Service
+Arizona State University,Carpentries
+Arizona State University,Data_analysis_consult
+Arizona State University,Data_analysis_web
+Arizona State University,Data_management_consult
+Arizona State University,Data_management_instruction
+Arizona State University,Data_management_plans_instruction
+Arizona State University,Data_visualization_software_instruction
+Arizona State University,Data_visualization_software_web
+Arizona State University,Electronic_lab_notebooks
+Arizona State University,Geospatial_instruction
+Arizona State University,Geospatial_software_web
+Arizona State University,Geospatial_web
+Arizona State University,OSF
+Arizona State University,Other_service_1
+Arizona State University,Reproducible_research
+Arizona State University,Statistical_consulting
+Arizona State University,Text_data_mining
+Arizona State University,Version_control
+Arizona State University,Web_scraping
+Michigan State University,Aerial_imagery
+Michigan State University,Carpentries
+Michigan State University,Data_analysis_consult
+Michigan State University,Data_analysis_instruction
+Michigan State University,Data_analysis_web
+Michigan State University,Data_management_instruction
+Michigan State University,Data_management_plans_instruction
+Michigan State University,Data_management_plans_web
+Michigan State University,Data_repository
+Michigan State University,Data_visualization_software_instruction
+Michigan State University,Data_visualization_software_web
+Michigan State University,DMPTool
+Michigan State University,Electronic_lab_notebooks
+Michigan State University,Geospatial_consult
+Michigan State University,Geospatial_software_consult
+Michigan State University,Geospatial_web
+Michigan State University,OSF
+Michigan State University,Other_service_1
+Michigan State University,Other_service_2
+Michigan State University,Other_service_3
+Michigan State University,Other_service_4
+Michigan State University,Reproducible_research
+Michigan State University,Statistical_consulting
+Michigan State University,Text_data_mining
+Michigan State University,Version_control
+Michigan State University,Web_scraping
+Ohio State University,Aerial_imagery
+Ohio State University,Carpentries
+Ohio State University,Data_analysis_consult
+Ohio State University,Data_analysis_instruction
+Ohio State University,Data_analysis_web
+Ohio State University,Data_management_consult
+Ohio State University,Data_management_instruction
+Ohio State University,Data_management_plans_instruction
+Ohio State University,Data_management_plans_web
+Ohio State University,Data_visualization_software_instruction
+Ohio State University,Data_visualization_software_web
+Ohio State University,Electronic_lab_notebooks
+Ohio State University,Geospatial_instruction
+Ohio State University,Geospatial_software_instruction
+Ohio State University,Geospatial_web
+Ohio State University,OSF
+Ohio State University,Other_service_1
+Ohio State University,Reproducible_research
+Ohio State University,Statistical_consulting
+Ohio State University,Version_control
+Oregon State University,Data_analysis_consult
+Oregon State University,Data_analysis_instruction
+Oregon State University,Data_analysis_web
+Oregon State University,Data_management_consult
+Oregon State University,Data_management_instruction
+Oregon State University,Data_management_plans_instruction
+Oregon State University,Data_visualization_software_consult
+Oregon State University,Data_visualization_software_instruction
+Oregon State University,Data_visualization_software_web
+Oregon State University,Electronic_lab_notebooks
+Oregon State University,Geospatial_consult
+Oregon State University,Geospatial_instruction
+Oregon State University,Geospatial_software_consult
+Oregon State University,Geospatial_software_instruction
+Oregon State University,Geospatial_software_web
+Oregon State University,OSF
+Oregon State University,Other_service_1
+Oregon State University,Other_service_2
+Oregon State University,Reproducible_research
+Oregon State University,Statistical_consulting
+Oregon State University,Text_data_mining
+Oregon State University,Web_scraping
+Pennsylvania State University,Carpentries
+Pennsylvania State University,Data_management_instruction
+Pennsylvania State University,Data_management_plans_instruction
+Pennsylvania State University,Data_management_plans_web
+Pennsylvania State University,Data_repository
+Pennsylvania State University,Data_visualization_software_web
+Pennsylvania State University,DMPTool
+Pennsylvania State University,Electronic_lab_notebooks
+Pennsylvania State University,Geospatial_instruction
+Pennsylvania State University,Geospatial_software_consult
+Pennsylvania State University,Geospatial_software_instruction
+Pennsylvania State University,Geospatial_software_web
+Pennsylvania State University,Geospatial_web
+Pennsylvania State University,OSF
+Pennsylvania State University,Other_service_1
+Pennsylvania State University,Reproducible_research
+Pennsylvania State University,Text_data_mining
+Pennsylvania State University,Version_control
+Pennsylvania State University,Web_scraping
+Stanford University,Aerial_imagery
+Stanford University,Data_analysis_web
+Stanford University,Data_management_instruction
+Stanford University,Data_repository
+Stanford University,Data_visualization_software_consult
+Stanford University,Data_visualization_software_web
+Stanford University,Geospatial_software_consult
+Stanford University,Geospatial_web
+Stanford University,OSF
+Stanford University,Other_service_1
+Stanford University,Reproducible_research
+Stanford University,Text_data_mining
+Texas A&M University,Carpentries
+Texas A&M University,Data_analysis_consult
+Texas A&M University,Data_analysis_instruction
+Texas A&M University,Data_analysis_web
+Texas A&M University,Data_management_consult
+Texas A&M University,Data_visualization_software_consult
+Texas A&M University,Data_visualization_software_instruction
+Texas A&M University,Data_visualization_software_web
+Texas A&M University,Electronic_lab_notebooks
+Texas A&M University,Geospatial_consult
+Texas A&M University,Geospatial_instruction
+Texas A&M University,Geospatial_software_consult
+Texas A&M University,Geospatial_software_web
+Texas A&M University,Geospatial_web
+Texas A&M University,OSF
+Texas A&M University,Reproducible_research
+Texas A&M University,Statistical_consulting
+Texas A&M University,Text_data_mining
+Texas A&M University,Version_control
+Texas A&M University,Web_scraping
+University of Arizona,Carpentries
+University of Arizona,Data_analysis_instruction
+University of Arizona,Data_analysis_web
+University of Arizona,Data_management_instruction
+University of Arizona,Data_management_plans_instruction
+University of Arizona,Data_visualization_software_consult
+University of Arizona,Data_visualization_software_instruction
+University of Arizona,Data_visualization_software_web
+University of Arizona,Electronic_lab_notebooks
+University of Arizona,Geospatial_web
+University of Arizona,Statistical_consulting
+University of Arizona,Version_control
+University of Arizona,Web_scraping
+"University of California, Berkeley",Carpentries
+"University of California, Berkeley",Data_analysis_consult
+"University of California, Berkeley",Data_analysis_instruction
+"University of California, Berkeley",Data_analysis_web
+"University of California, Berkeley",Data_management_instruction
+"University of California, Berkeley",Data_management_plans_instruction
+"University of California, Berkeley",Data_management_plans_web
+"University of California, Berkeley",Data_repository
+"University of California, Berkeley",Data_visualization_software_consult
+"University of California, Berkeley",Data_visualization_software_instruction
+"University of California, Berkeley",Electronic_lab_notebooks
+"University of California, Berkeley",Geospatial_software_consult
+"University of California, Berkeley",Geospatial_web
+"University of California, Berkeley",OSF
+"University of California, Berkeley",Statistical_consulting
+"University of California, Berkeley",Version_control
+"University of California, Berkeley",Web_scraping
+"University of California, Davis",Carpentries
+"University of California, Davis",Data_analysis_instruction
+"University of California, Davis",Data_analysis_web
+"University of California, Davis",Data_management_consult
+"University of California, Davis",Data_management_plans_consult
+"University of California, Davis",Data_management_plans_web
+"University of California, Davis",Data_repository
+"University of California, Davis",Data_visualization_software_web
+"University of California, Davis",Electronic_lab_notebooks
+"University of California, Davis",Geospatial_consult
+"University of California, Davis",Geospatial_software_web
+"University of California, Davis",Geospatial_web
+"University of California, Davis",OSF
+"University of California, Davis",Statistical_consulting
+"University of California, Davis",Version_control
+"University of California, Davis",Web_scraping
+"University of California, Los Angeles",Carpentries
+"University of California, Los Angeles",Data_analysis_consult
+"University of California, Los Angeles",Data_analysis_instruction
+"University of California, Los Angeles",Data_analysis_web
+"University of California, Los Angeles",Data_management_consult
+"University of California, Los Angeles",Data_management_instruction
+"University of California, Los Angeles",Data_management_plans_instruction
+"University of California, Los Angeles",Data_visualization_software_web
+"University of California, Los Angeles",Electronic_lab_notebooks
+"University of California, Los Angeles",Geospatial_instruction
+"University of California, Los Angeles",Geospatial_software_instruction
+"University of California, Los Angeles",Geospatial_software_web
+"University of California, Los Angeles",Geospatial_web
+"University of California, Los Angeles",OSF
+"University of California, Los Angeles",Reproducible_research
+"University of Colorado, Boulder",Carpentries
+"University of Colorado, Boulder",Data_analysis_instruction
+"University of Colorado, Boulder",Data_analysis_web
+"University of Colorado, Boulder",Data_management_instruction
+"University of Colorado, Boulder",Data_management_plans_instruction
+"University of Colorado, Boulder",Data_management_plans_web
+"University of Colorado, Boulder",Data_management_web
+"University of Colorado, Boulder",Data_repository
+"University of Colorado, Boulder",DMPTool
+"University of Colorado, Boulder",Electronic_lab_notebooks
+"University of Colorado, Boulder",Geospatial_instruction
+"University of Colorado, Boulder",Geospatial_software_consult
+"University of Colorado, Boulder",Geospatial_software_instruction
+"University of Colorado, Boulder",Geospatial_software_web
+"University of Colorado, Boulder",OSF
+"University of Colorado, Boulder",Reproducible_research
+"University of Colorado, Boulder",Statistical_consulting
+"University of Colorado, Boulder",Text_data_mining
+"University of Colorado, Boulder",Version_control
+"University of Colorado, Boulder",Web_scraping
+University of Florida,Carpentries
+University of Florida,Data_analysis_consult
+University of Florida,Data_analysis_instruction
+University of Florida,Data_analysis_web
+University of Florida,Data_management_instruction
+University of Florida,Data_management_plans_consult
+University of Florida,Data_management_plans_web
+University of Florida,Data_repository
+University of Florida,Data_visualization_software_instruction
+University of Florida,Data_visualization_software_web
+University of Florida,Electronic_lab_notebooks
+University of Florida,Geospatial_instruction
+University of Florida,Geospatial_software_instruction
+University of Florida,Geospatial_software_web
+University of Florida,Geospatial_web
+University of Florida,OSF
+University of Florida,Text_data_mining
+University of Florida,Version_control
+University of Florida,Web_scraping
+University of Illinois at Urbana-Champaign,Carpentries
+University of Illinois at Urbana-Champaign,Data_analysis_consult
+University of Illinois at Urbana-Champaign,Data_analysis_instruction
+University of Illinois at Urbana-Champaign,Data_analysis_web
+University of Illinois at Urbana-Champaign,Data_management_consult
+University of Illinois at Urbana-Champaign,Data_management_plans_consult
+University of Illinois at Urbana-Champaign,Data_management_plans_instruction
+University of Illinois at Urbana-Champaign,Data_visualization_software_consult
+University of Illinois at Urbana-Champaign,Data_visualization_software_instruction
+University of Illinois at Urbana-Champaign,Data_visualization_software_web
+University of Illinois at Urbana-Champaign,Electronic_lab_notebooks
+University of Illinois at Urbana-Champaign,Geospatial_software_web
+University of Illinois at Urbana-Champaign,Geospatial_web
+University of Illinois at Urbana-Champaign,OSF
+University of Illinois at Urbana-Champaign,Statistical_consulting
+University of Illinois at Urbana-Champaign,Web_scraping
+University of Iowa,Carpentries
+University of Iowa,Data_analysis_consult
+University of Iowa,Data_analysis_web
+University of Iowa,Data_management_instruction
+University of Iowa,Data_management_plans_instruction
+University of Iowa,Data_repository
+University of Iowa,Data_visualization_software_consult
+University of Iowa,Data_visualization_software_instruction
+University of Iowa,Data_visualization_software_web
+University of Iowa,DMPTool
+University of Iowa,Electronic_lab_notebooks
+University of Iowa,Geospatial_consult
+University of Iowa,Geospatial_instruction
+University of Iowa,Geospatial_software_consult
+University of Iowa,Geospatial_software_instruction
+University of Iowa,Geospatial_web
+University of Iowa,OSF
+University of Iowa,Reproducible_research
+University of Iowa,Statistical_consulting
+University of Iowa,Text_data_mining
+University of Iowa,Version_control
+University of Iowa,Web_scraping
+"University of Maryland, College Park",Aerial_imagery
+"University of Maryland, College Park",Data_analysis_web
+"University of Maryland, College Park",Data_management_consult
+"University of Maryland, College Park",Data_management_instruction
+"University of Maryland, College Park",Data_management_plans_consult
+"University of Maryland, College Park",Data_management_plans_instruction
+"University of Maryland, College Park",Data_management_plans_web
+"University of Maryland, College Park",Data_management_web
+"University of Maryland, College Park",Data_repository
+"University of Maryland, College Park",Data_visualization_software_consult
+"University of Maryland, College Park",Data_visualization_software_web
+"University of Maryland, College Park",DMPTool
+"University of Maryland, College Park",Electronic_lab_notebooks
+"University of Maryland, College Park",Geospatial_software_web
+"University of Maryland, College Park",OSF
+"University of Maryland, College Park",Reproducible_research
+"University of Maryland, College Park",Text_data_mining
+"University of Maryland, College Park",Version_control
+"University of Maryland, College Park",Web_scraping
+"University of Minnesota, Twin Cities",Carpentries
+"University of Minnesota, Twin Cities",Data_analysis_consult
+"University of Minnesota, Twin Cities",Data_analysis_instruction
+"University of Minnesota, Twin Cities",Data_analysis_web
+"University of Minnesota, Twin Cities",Data_management_plans_instruction
+"University of Minnesota, Twin Cities",Data_visualization_software_consult
+"University of Minnesota, Twin Cities",Data_visualization_software_instruction
+"University of Minnesota, Twin Cities",Electronic_lab_notebooks
+"University of Minnesota, Twin Cities",Geospatial_consult
+"University of Minnesota, Twin Cities",Geospatial_instruction
+"University of Minnesota, Twin Cities",Geospatial_software_consult
+"University of Minnesota, Twin Cities",Geospatial_software_instruction
+"University of Minnesota, Twin Cities",Geospatial_software_web
+"University of Minnesota, Twin Cities",OSF
+"University of Minnesota, Twin Cities",Statistical_consulting
+"University of Minnesota, Twin Cities",Text_data_mining
+"University of Minnesota, Twin Cities",Web_scraping
+University of North Carolina at Chapel Hill,Carpentries
+University of North Carolina at Chapel Hill,Data_analysis_web
+University of North Carolina at Chapel Hill,Data_management_consult
+University of North Carolina at Chapel Hill,Data_management_instruction
+University of North Carolina at Chapel Hill,Data_management_plans_consult
+University of North Carolina at Chapel Hill,Data_management_plans_instruction
+University of North Carolina at Chapel Hill,Electronic_lab_notebooks
+University of North Carolina at Chapel Hill,Geospatial_consult
+University of North Carolina at Chapel Hill,Geospatial_instruction
+University of North Carolina at Chapel Hill,Geospatial_software_consult
+University of North Carolina at Chapel Hill,Geospatial_software_instruction
+University of North Carolina at Chapel Hill,Geospatial_web
+University of North Carolina at Chapel Hill,OSF
+University of North Carolina at Chapel Hill,Reproducible_research
+University of North Carolina at Chapel Hill,Text_data_mining
+University of North Carolina at Chapel Hill,Web_scraping
+University of Oregon,Carpentries
+University of Oregon,Data_analysis_instruction
+University of Oregon,Data_analysis_web
+University of Oregon,Data_management_instruction
+University of Oregon,Data_management_plans_consult
+University of Oregon,Data_visualization_software_consult
+University of Oregon,Data_visualization_software_web
+University of Oregon,DMPTool
+University of Oregon,Electronic_lab_notebooks
+University of Oregon,Geospatial_consult
+University of Oregon,Geospatial_instruction
+University of Oregon,Geospatial_software_consult
+University of Oregon,Geospatial_software_instruction
+University of Oregon,Geospatial_software_web
+University of Oregon,OSF
+University of Oregon,Reproducible_research
+University of Oregon,Text_data_mining
+University of Oregon,Web_scraping
+University of Southern California,Aerial_imagery
+University of Southern California,Carpentries
+University of Southern California,Data_analysis_consult
+University of Southern California,Data_analysis_instruction
+University of Southern California,Data_analysis_web
+University of Southern California,Data_management_consult
+University of Southern California,Data_management_instruction
+University of Southern California,Data_management_plans_consult
+University of Southern California,Data_management_plans_web
+University of Southern California,Data_management_web
+University of Southern California,Data_repository
+University of Southern California,Data_visualization_software_consult
+University of Southern California,Data_visualization_software_web
+University of Southern California,DMPTool
+University of Southern California,Electronic_lab_notebooks
+University of Southern California,Geospatial_consult
+University of Southern California,Geospatial_instruction
+University of Southern California,Geospatial_software_consult
+University of Southern California,Geospatial_software_instruction
+University of Southern California,Geospatial_software_web
+University of Southern California,Geospatial_web
+University of Southern California,OSF
+University of Southern California,Statistical_consulting
+University of Southern California,Version_control
+University of Southern California,Web_scraping
+University of Texas at Austin,Aerial_imagery
+University of Texas at Austin,Data_analysis_consult
+University of Texas at Austin,Data_analysis_instruction
+University of Texas at Austin,Data_analysis_web
+University of Texas at Austin,Data_management_plans_instruction
+University of Texas at Austin,Data_management_plans_web
+University of Texas at Austin,Data_management_web
+University of Texas at Austin,Data_repository
+University of Texas at Austin,Data_visualization_software_consult
+University of Texas at Austin,Data_visualization_software_web
+University of Texas at Austin,Electronic_lab_notebooks
+University of Texas at Austin,Geospatial_web
+University of Texas at Austin,OSF
+University of Texas at Austin,Reproducible_research
+University of Texas at Austin,Statistical_consulting
+University of Texas at Austin,Text_data_mining
+University of Texas at Austin,Version_control
+University of Utah,Carpentries
+University of Utah,Data_analysis_consult
+University of Utah,Data_analysis_instruction
+University of Utah,Data_analysis_web
+University of Utah,Data_management_plans_instruction
+University of Utah,Data_repository
+University of Utah,Data_visualization_software_consult
+University of Utah,Data_visualization_software_instruction
+University of Utah,Geospatial_instruction
+University of Utah,Geospatial_web
+University of Utah,OSF
+University of Utah,Text_data_mining
+University of Utah,Web_scraping
+University of Washington,Carpentries
+University of Washington,Data_analysis_consult
+University of Washington,Data_analysis_instruction
+University of Washington,Data_analysis_web
+University of Washington,Data_management_plans_web
+University of Washington,Data_repository
+University of Washington,Data_visualization_software_consult
+University of Washington,Data_visualization_software_instruction
+University of Washington,Data_visualization_software_web
+University of Washington,Electronic_lab_notebooks
+University of Washington,Geospatial_instruction
+University of Washington,Geospatial_software_instruction
+University of Washington,Geospatial_software_web
+University of Washington,Geospatial_web
+University of Washington,Statistical_consulting
+University of Washington,Version_control
+University of Washington,Web_scraping
+"University of Wisconsin, Madison",Data_analysis_web
+"University of Wisconsin, Madison",Data_management_consult
+"University of Wisconsin, Madison",Data_management_instruction
+"University of Wisconsin, Madison",Data_management_plans_instruction
+"University of Wisconsin, Madison",Data_visualization_software_web
+"University of Wisconsin, Madison",Geospatial_software_instruction
+"University of Wisconsin, Madison",Geospatial_software_web
+"University of Wisconsin, Madison",Geospatial_web
+"University of Wisconsin, Madison",Text_data_mining
+"University of Wisconsin, Madison",Version_control
+Washington State University,Aerial_imagery
+Washington State University,Carpentries
+Washington State University,Data_analysis_consult
+Washington State University,Data_analysis_instruction
+Washington State University,Data_analysis_web
+Washington State University,Data_management_instruction
+Washington State University,Data_management_plans_instruction
+Washington State University,Data_visualization_software_consult
+Washington State University,Data_visualization_software_instruction
+Washington State University,Data_visualization_software_web
+Washington State University,DMPTool
+Washington State University,Electronic_lab_notebooks
+Washington State University,Geospatial_consult
+Washington State University,Geospatial_instruction
+Washington State University,Geospatial_software_consult
+Washington State University,Geospatial_software_instruction
+Washington State University,Geospatial_software_web
+Washington State University,Geospatial_web
+Washington State University,OSF
+Washington State University,Reproducible_research
+Washington State University,Statistical_consulting
+Washington State University,Text_data_mining
+Washington State University,Version_control
+Washington State University,Web_scraping

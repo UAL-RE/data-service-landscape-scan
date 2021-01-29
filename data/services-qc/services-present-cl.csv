@@ -1,0 +1,361 @@
+Institution,Service,URL,Present,Notes
+Arizona State University,Carpentries,https://lib.asu.edu/data/open-lab,N,
+Michigan State University,Carpentries,http://digitalscholarshiplab.msu.edu/using-the-lab/lab-technology/,N,
+Oregon State University,Carpentries,https://guides.library.oregonstate.edu/c.php?g=285930&p=7590538#s-lg-box-24107783,y,
+Oregon State University,Carpentries,https://library.oregonstate.edu/researcher-support,y,
+Stanford University,Carpentries,https://library.stanford.edu/research/data-management-services/events,y,
+Stanford University,Carpentries,https://searchworks.stanford.edu/view/gb482gq5743,n,But this page seems outdated
+University of Arizona,Carpentries,https://librarycarpentry.org/lessons/,n,This isn't a UA page
+University of Arizona,Carpentries,https://new.library.arizona.edu/research/support/data,n,Not updated
+"University of California, Berkeley",Carpentries,https://guides.lib.berkeley.edu/library-carpentry-sprint2017,n,2017 - not recent
+"University of California, Davis",Carpentries,https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/,y,
+"University of California, Los Angeles",Carpentries,https://calendly.com/data-science-team,n,link to schedule a meeting to plan - unclear if they lead
+"University of California, Los Angeles",Carpentries,https://www.library.ucla.edu/events/library-carpentry-workshop-day-1,n,Event is from 2018
+"University of Colorado, Boulder",Carpentries,https://www.colorado.edu/libraries/research-assistance/data-services,n,"discuss partnering, but unclear at what levels"
+University of Florida,Carpentries,https://datacarpentry.org/lessons/,n,This isn't a UF page
+"University of Maryland, College Park",Carpentries,https://www.lib.umd.edu/rc/data-science,y,cohort instructors in 2019
+"University of Minnesota, Twin Cities",Carpentries,https://dash.umn.edu/software-carpentry/,n,404 error
+University of North Carolina at Chapel Hill,Carpentries,https://guides.lib.unc.edu/intro-git-workshop,n,Last event was in 2018
+University of Texas at Austin,Carpentries,https://www.lib.utexas.edu/events/285,y,event in 2019 with 1 instructor as library staff
+"University of Wisconsin, Madison",Carpentries,https://ebling.library.wisc.edu/2020/05/14/data-carpentry-on-zoom/,y,Event by Health Science it seems with one librarian staff
+Washington State University,Carpentries,http://ebling.library.wisc.edu/2019/05/13/data-carpentry-workshop/,n,"Mistake here. This is a wisc link, not WSU"
+Arizona State University,Data_analysis_consult,https://lib.asu.edu/data/open-lab,n,
+Michigan State University,Data_analysis_consult,http://libguides.lib.msu.edu/dataanalysis,n,Library Data Services does not assist in the analysis of data
+Michigan State University,Data_analysis_consult,https://lib.msu.edu/rdmg/servcat/cstat/,n,This seems to be a separate page
+Ohio State University,Data_analysis_consult,https://hslguides.osu.edu/hsl_du_software/home,n,landing page with info it seems
+Pennsylvania State University,Data_analysis_consult,https://guides.libraries.psu.edu/c.php?g=894031&p=6889383,y,
+Stanford University,Data_analysis_consult,https://ssds.stanford.edu/consulting-workshops/walk-consulting,y,Seems to allow for consultations
+University of Arizona,Data_analysis_consult,https://new.library.arizona.edu/research/support/data,y,
+"University of California, Davis",Data_analysis_consult,https://www.library.ucdavis.edu/service/digital-scholarship/,y,
+"University of California, Los Angeles",Data_analysis_consult,https://www.library.ucla.edu/datasquad,y,
+"University of California, Los Angeles",Data_analysis_consult,https://www.library.ucla.edu/support/support-instructors/teaching-consultations-assignment-design,n,"consulation yes, but unclear"
+"University of Colorado, Boulder",Data_analysis_consult,https://calendar.colorado.edu/event/interdisciplinary_data_consult_hours_5549?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder,y,they have their own center
+University of Florida,Data_analysis_consult,http://arcs.uflib.ufl.edu/services/datascience/,n,Not clear they offer data analysis
+University of Iowa,Data_analysis_consult,https://www.lib.uiowa.edu/data/data-analysis/,n,Seems to be other data analysis resources
+"University of Maryland, College Park",Data_analysis_consult,https://www.lib.umd.edu/rc/data-science,y,
+"University of Minnesota, Twin Cities",Data_analysis_consult,https://www.lib.umn.edu/datamanagement/computing,n,seems to be other services
+University of North Carolina at Chapel Hill,Data_analysis_consult,https://guides.lib.unc.edu/mattjansen,y,staff page
+University of Oregon,Data_analysis_consult,https://library.uoregon.edu/research-data-management/consultations,y,link provided for appt
+University of Southern California,Data_analysis_consult,https://libguides.usc.edu/healthsciences/nml-bioinfo,n,services but does not seem to be consultation
+Washington State University,Data_analysis_consult,https://ciser.wsu.edu/initial-meeting-request/,n,unclear what services they offer for meeting requests
+Arizona State University,Data_analysis_instruction,https://lib.asu.edu/data/open-lab,y,
+Michigan State University,Data_analysis_instruction,http://libguides.lib.msu.edu/c.php?g=96626&p=626740,n,
+Michigan State University,Data_analysis_instruction,https://lib.msu.edu/rdmg/servcat/cstat/,n,not clear CSTAT is part of library
+Ohio State University,Data_analysis_instruction,https://hslguides.osu.edu/hsl_du_software/home,n,no clear workshop
+Pennsylvania State University,Data_analysis_instruction,https://libraries.psu.edu/about/departments/research-informatics-and-publishing/training-events,y,
+Stanford University,Data_analysis_instruction,https://library.stanford.edu/research/cidr/workshops,y,
+University of Arizona,Data_analysis_instruction,https://new.library.arizona.edu/events/r-programming-help,y,
+"University of California, Berkeley",Data_analysis_instruction,https://guides.lib.berkeley.edu/publichealth/ph210,n,This is only public health
+"University of California, Davis",Data_analysis_instruction,https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/,y,Carpentry primarily
+"University of California, Los Angeles",Data_analysis_instruction,https://www.library.ucla.edu/events/hands-introduction-literate-programming-aug-25-2017,n,previous info not available/findable
+"University of Colorado, Boulder",Data_analysis_instruction,https://osf.io/36mj4/,n,Organized but unclear if they are providing instructions recently
+University of Florida,Data_analysis_instruction,http://arcs.uflib.ufl.edu/services/datascience/,n,Say they do but unclear if they done so recently
+University of Illinois at Urbana-Champaign,Data_analysis_instruction,https://guides.library.illinois.edu/STATA,n,workshops through CITL. Not sure if that's part of libraries
+University of Iowa,Data_analysis_instruction,http://www.lib.uiowa.edu/data/events/,y,recent workshops
+University of Iowa,Data_analysis_instruction,https://www.lib.uiowa.edu/news-and-events/event/?id=53141,y,recent workshop
+"University of Maryland, College Park",Data_analysis_instruction,https://lib.guides.umd.edu/c.php?g=327087&p=3506810,n,"no clear workshops, just materials"
+"University of Maryland, College Park",Data_analysis_instruction,https://www.lib.umd.edu/rc/data-science,y,Through events calendar
+"University of Minnesota, Twin Cities",Data_analysis_instruction,https://www.lib.umn.edu/datamanagement/computing,n,This is a direct of services across their campuses
+University of North Carolina at Chapel Hill,Data_analysis_instruction,https://guides.lib.unc.edu/mattjansen,y,Through their Research Hub
+University of North Carolina at Chapel Hill,Data_analysis_instruction,https://library.unc.edu/hub/services/statistical-consulting/,y,
+University of Oregon,Data_analysis_instruction,https://researchguides.uoregon.edu/c.php?g=567658&p=3987370,n,
+University of Oregon,Data_analysis_instruction,https://researchguides.uoregon.edu/library_workshops/python,y,
+University of Texas at Austin,Data_analysis_instruction,https://www.lib.utexas.edu/events/234,n,Not my library staff
+University of Utah,Data_analysis_instruction,https://campusguides.lib.utah.edu/c.php?g=893558&p=6660727,n,moslty guides it seems
+University of Washington,Data_analysis_instruction,https://guides.lib.uw.edu/research/dstools/help,n,Just a guide
+"University of Wisconsin, Madison",Data_analysis_instruction,https://researchguides.library.wisc.edu/R/why,y,Clear workshop calendar
+Washington State University,Data_analysis_instruction,https://ciser.wsu.edu/events-workshops/,y,"Engaged Learning hours, so yes?"
+Michigan State University,Data_analysis_web,http://libguides.lib.msu.edu/c.php?g=96626&p=768034,n,
+Michigan State University,Data_analysis_web,https://libguides.lib.msu.edu/dataanalysis,y,
+Ohio State University,Data_analysis_web,http://guides.osu.edu/DH/data,y,
+Ohio State University,Data_analysis_web,https://hslguides.osu.edu/hsl_du_software/home,y,
+Oregon State University,Data_analysis_web,https://guides.library.oregonstate.edu/data,y,
+Pennsylvania State University,Data_analysis_web,https://guides.libraries.psu.edu/c.php?g=894031&p=6429300,y,specific psu pages it seems
+Stanford University,Data_analysis_web,https://library.stanford.edu/research/data-and-statistical-software,y,
+"University of California, Berkeley",Data_analysis_web,https://guides.lib.berkeley.edu/ps190/stats,y,
+"University of California, Berkeley",Data_analysis_web,https://update.lib.berkeley.edu/2016/03/04/professional-development-data-analysis-take-it-to-the-max/,n,This seems to be a course
+"University of California, Davis",Data_analysis_web,https://www.library.ucdavis.edu/service/digital-scholarship/,n,"landing page, hard to find resources pages"
+"University of California, Los Angeles",Data_analysis_web,https://www.library.ucla.edu/news/data-archive-workshops,n,this list workshops in the archive (2018)
+University of Illinois at Urbana-Champaign,Data_analysis_web,https://guides.library.illinois.edu/c.php?g=348074&p=2346110,n,This is iffy I think
+University of Illinois at Urbana-Champaign,Data_analysis_web,https://www.library.illinois.edu/search.php?q=Data+analysis+or+programming&hl=en&safe=off&filter=0,y,many guides it seems
+University of Iowa,Data_analysis_web,https://its.uiowa.edu/big-data-analytics,n,This is ITS and not Library
+"University of Maryland, College Park",Data_analysis_web,https://lib.guides.umd.edu/c.php?g=327087&p=3506810,n,"A bit unclear for me.  Resources list, but not tutorial, actual guides"
+"University of Minnesota, Twin Cities",Data_analysis_web,https://www.lib.umn.edu/datamanagement/computing,y,provide Minnesota tutorials
+University of Oregon,Data_analysis_web,https://researchguides.uoregon.edu/c.php?g=567658&p=3940646,n,A bit unclear as well
+University of Oregon,Data_analysis_web,https://researchguides.uoregon.edu/c.php?g=567658&p=3987370,n,"resources are publications, so unclear. Most are outdated it seems"
+University of Southern California,Data_analysis_web,https://libguides.usc.edu/c.php?g=234919,n,A bit unclear for me
+University of Texas at Austin,Data_analysis_web,https://guides.lib.utexas.edu/datalab/home,n,LibGuides provide links to other resources
+University of Utah,Data_analysis_web,https://campusguides.lib.utah.edu/c.php?g=893558&p=6425370,n,"provides youtube videos, unclear if this is entirely external"
+University of Utah,Data_analysis_web,https://lib.utah.edu/services/knowledge-commons/software.php,n,Just a database of software
+University of Washington,Data_analysis_web,https://guides.lib.uw.edu/hsl/data/analyze,n,libguides provide external links
+University of Washington,Data_analysis_web,https://guides.lib.uw.edu/research/dstools/help,y,provide campus resources
+"University of Wisconsin, Madison",Data_analysis_web,https://researchguides.library.wisc.edu/R,y,This is the workshop sercies but serves as a resource
+Washington State University,Data_analysis_web,https://atl.wsu.edu/assessment-toolkits/assessment-data-analysis-toolkit/,y,lnks to WSU PDF guides
+Washington State University,Data_analysis_web,https://libguides.libraries.wsu.edu/dataviz/programming,n,A bit iffy - external guides
+Arizona State University,Data_management_consult,https://lib.asu.edu/research,n,
+Arizona State University,Data_management_consult,https://lib.asu.edu/research/proposals,n,
+Michigan State University,Data_management_consult,https://lib.msu.edu/rdmg/advising/,y,
+Ohio State University,Data_management_consult,http://guides.osu.edu/IntroDataManagement,n,
+Ohio State University,Data_management_consult,https://library.osu.edu/researchcommons/help/managing-data,n,
+Oregon State University,Data_management_consult,https://guides.library.oregonstate.edu/research-data-services/campus-data-services,y,
+Oregon State University,Data_management_consult,https://guides.library.oregonstate.edu/research-data-services/managing-data,n,
+Pennsylvania State University,Data_management_consult,https://libraries.psu.edu/research/research-data-services/data-management,y,
+Stanford University,Data_management_consult,https://library.stanford.edu/research/data-management-services,y,
+Stanford University,Data_management_consult,https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services,n,
+Texas A&M University,Data_management_consult,http://tamu.libguides.com/research-data-management/overview,n,
+Texas A&M University,Data_management_consult,https://askus.library.tamu.edu/rdms,n,
+University of Arizona,Data_management_consult,https://data.library.arizona.edu/,y,
+University of Arizona,Data_management_consult,https://data.library.arizona.edu/our-services,y,
+"University of California, Berkeley",Data_management_consult,https://guides.lib.berkeley.edu/researchdata,y,
+"University of California, Berkeley",Data_management_consult,https://researchdata.berkeley.edu/services,y,
+"University of California, Davis",Data_management_consult,https://datalab.ucdavis.edu/office-hours/,n,
+"University of California, Davis",Data_management_consult,https://www.library.ucdavis.edu/service/preserve-your-research/,n,
+"University of California, Los Angeles",Data_management_consult,https://www.library.ucla.edu/support/publishing-data-management/scholarly-communication-services/data-management-curation-services/data-management-plans,n,
+"University of California, Los Angeles",Data_management_consult,https://www.library.ucla.edu/support/research-help/research-data-services,n,one click away
+"University of Colorado, Boulder",Data_management_consult,https://www.colorado.edu/libraries/research-assistance/data-services,y,
+University of Florida,Data_management_consult,http://arcs.uflib.ufl.edu/consultations/,y,
+University of Iowa,Data_management_consult,https://www.lib.uiowa.edu/data/contact/,y,
+"University of Maryland, College Park",Data_management_consult,https://www.lib.umd.edu/data/events,n,
+"University of Minnesota, Twin Cities",Data_management_consult,https://www.lib.umn.edu/datamanagement/workshops,y,
+University of North Carolina at Chapel Hill,Data_management_consult,https://guides.lib.unc.edu/researchdatatoolkit/unc-services,n,
+University of North Carolina at Chapel Hill,Data_management_consult,https://library.unc.edu/hub/services/data-management-consulting/,y,
+University of Oregon,Data_management_consult,https://library.uoregon.edu/data-services/contact,y,
+University of Texas at Austin,Data_management_consult,https://www.lib.utexas.edu/research-help-support/research-data-services,y,
+University of Utah,Data_management_consult,https://campusguides.lib.utah.edu/c.php?g=246386&p=2090992,y,
+University of Utah,Data_management_consult,https://lib.utah.edu/services/data-management/consultations.php,y,
+University of Washington,Data_management_consult,https://www.lib.washington.edu/digitalscholarship/services/data,y,
+"University of Wisconsin, Madison",Data_management_consult,https://researchdata.wisc.edu/consultations/,y,
+Washington State University,Data_management_consult,https://libguides.libraries.wsu.edu/rdmlibguide/training,y,
+Arizona State University,Data_management_instruction,https://lib.asu.edu/research/proposals,n,
+Michigan State University,Data_management_instruction,https://lib.msu.edu/rdmg/training/,y,
+Ohio State University,Data_management_instruction,http://guides.osu.edu/IntroDataManagement,n,
+Oregon State University,Data_management_instruction,https://guides.library.oregonstate.edu/Library-Workshops-for-Grad-Students-Faculty/workshops_on_demand,n,
+Oregon State University,Data_management_instruction,https://guides.library.oregonstate.edu/research-data-services/managing-data,n,
+Pennsylvania State University,Data_management_instruction,https://libraries.psu.edu/research/research-data-services/data-management,y,
+Stanford University,Data_management_instruction,https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services,y,
+Texas A&M University,Data_management_instruction,http://tamu.libguides.com/research-data-management/workshops,y,
+Texas A&M University,Data_management_instruction,https://tamu.libguides.com/research-data-management/workshops,y,
+University of Arizona,Data_management_instruction,https://data.library.arizona.edu/,y,
+University of Arizona,Data_management_instruction,https://data.library.arizona.edu/our-services,y,
+"University of California, Berkeley",Data_management_instruction,https://guides.lib.berkeley.edu/reproducibility-guide,y,
+"University of California, Berkeley",Data_management_instruction,https://researchdata.berkeley.edu/training,y,
+"University of California, Davis",Data_management_instruction,https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/,y,
+"University of California, Los Angeles",Data_management_instruction,https://guides.library.ucla.edu/data-management-sciences,n,
+"University of Colorado, Boulder",Data_management_instruction,https://www.colorado.edu/crdds/what-we-do/research-data-management,y,
+University of Florida,Data_management_instruction,https://guides.uflib.ufl.edu/datamanagement/home,y,
+University of Illinois at Urbana-Champaign,Data_management_instruction,http://guides.library.illinois.edu/introdata,n,
+University of Illinois at Urbana-Champaign,Data_management_instruction,https://www.library.illinois.edu/rds/workshops/,y,
+University of Iowa,Data_management_instruction,http://www.lib.uiowa.edu/data/plan/,y,
+"University of Maryland, College Park",Data_management_instruction,https://www.lib.umd.edu/data/data-mgmt,n,
+"University of Maryland, College Park",Data_management_instruction,https://www.lib.umd.edu/rc/common-quandaries,n,
+"University of Minnesota, Twin Cities",Data_management_instruction,https://www.lib.umn.edu/datamanagement/best-practices-templates,n,
+"University of Minnesota, Twin Cities",Data_management_instruction,https://www.lib.umn.edu/datamanagement/workshops,y,
+University of North Carolina at Chapel Hill,Data_management_instruction,https://guides.lib.unc.edu/metadata,y,
+University of Oregon,Data_management_instruction,https://researchguides.uoregon.edu/data-management/services,y,
+University of Southern California,Data_management_instruction,https://libguides.usc.edu/CER_RDM,y,
+University of Texas at Austin,Data_management_instruction,https://guides.lib.utexas.edu/data-and-donuts/managing-research-data,y,
+University of Utah,Data_management_instruction,https://campusguides.lib.utah.edu/c.php?g=246386&p=2090992,y,
+University of Utah,Data_management_instruction,https://lib.utah.edu/services/data-management/education-training.php,y,
+University of Washington,Data_management_instruction,https://guides.lib.uw.edu/research/dmg,n,
+University of Washington,Data_management_instruction,https://www.lib.washington.edu/digitalscholarship/hacking-the-academy-programming-series,y,
+"University of Wisconsin, Madison",Data_management_instruction,https://researchdata.wisc.edu/our-services/,y,
+Washington State University,Data_management_instruction,https://cereo.wsu.edu/data-management-workshops/,n,
+Washington State University,Data_management_instruction,https://libguides.libraries.wsu.edu/rdmlibguide/training,y,
+Washington State University,Data_management_instruction,https://lo.library.wisc.edu/research_data_mgmt/,n,Wisconsin link
+Arizona State University,Data_management_web,https://lib.asu.edu/research/proposals,n,
+Arizona State University,Data_management_web,https://libguides.asu.edu/c.php?g=264208&p=1763700,y,
+Michigan State University,Data_management_web,https://lib.msu.edu/rdmg/resources/,y,
+Ohio State University,Data_management_web,https://guides.osu.edu/IntroDataManagement,y,
+Ohio State University,Data_management_web,https://library.osu.edu/researchcommons/help/managing-data,n,
+Oregon State University,Data_management_web,https://guides.library.oregonstate.edu/research-data-services/managing-data,y,
+Pennsylvania State University,Data_management_web,http://guides.libraries.psu.edu/dmptoolkit,y,
+Pennsylvania State University,Data_management_web,http://guides.libraries.psu.edu/rdm,n,
+Stanford University,Data_management_web,https://library.stanford.edu/research/data-management-services/data-best-practices,y,
+Stanford University,Data_management_web,https://www.dataone.org/all-best-practices,y,
+Texas A&M University,Data_management_web,http://tamu.libguides.com/research-data-management/data-sharing-requirements,n,
+Texas A&M University,Data_management_web,https://tamu.libguides.com/research-data-management/overview,y,
+University of Arizona,Data_management_web,https://data.library.arizona.edu/best-practices,y,
+"University of California, Berkeley",Data_management_web,https://guides.lib.berkeley.edu/researchdata,y,
+"University of California, Berkeley",Data_management_web,https://researchdata.berkeley.edu/services,y,
+"University of California, Davis",Data_management_web,https://www.library.ucdavis.edu/service/data-management/share/,n,
+"University of California, Davis",Data_management_web,https://www.library.ucdavis.edu/service/research-data-services/,y,
+"University of California, Los Angeles",Data_management_web,https://guides.library.ucla.edu/data-management-sciences,y,
+University of Florida,Data_management_web,https://guides.uflib.ufl.edu/datamanagement/home,y,
+University of Illinois at Urbana-Champaign,Data_management_web,http://guides.library.illinois.edu/introdata,y,
+University of Iowa,Data_management_web,http://www.lib.uiowa.edu/data/plan/funder-and-ui-requirements/,n,
+University of Iowa,Data_management_web,https://www.lib.uiowa.edu/data/manage/,y,
+"University of Maryland, College Park",Data_management_web,https://www.lib.umd.edu/data/data-mgmt,n,
+"University of Minnesota, Twin Cities",Data_management_web,https://www.lib.umn.edu/datamanagement/best-practices-templates,y,
+University of North Carolina at Chapel Hill,Data_management_web,https://guides.lib.unc.edu/researchdatatoolkit/home,y,
+University of Oregon,Data_management_web,https://researchguides.uoregon.edu/data-management/services,y,
+University of Southern California,Data_management_web,https://libraries.usc.edu/databases/dataverse,n,
+University of Utah,Data_management_web,http://campusguides.lib.utah.edu/researchdata,y,
+University of Utah,Data_management_web,https://campusguides.lib.utah.edu/c.php?g=246386&p=2090992,n,
+University of Washington,Data_management_web,https://guides.lib.uw.edu/friendly.php?s=research/dmg,y,
+University of Washington,Data_management_web,https://guides.lib.uw.edu/research/dmg,y,
+"University of Wisconsin, Madison",Data_management_web,https://lo.library.wisc.edu/research_data_mgmt/,y,
+Washington State University,Data_management_web,https://libguides.libraries.wsu.edu/rdmlibguide,y,
+Washington State University,Data_management_web,https://lo.library.wisc.edu/research_data_lifecycle/story_html5.html,n,Wisconsin link
+Arizona State University,Data_repository,https://lib.asu.edu/research/store,y,Refers to future repository (but the future is now)
+Arizona State University,Data_repository,https://repository.asu.edu/,n,
+Michigan State University,Data_repository,https://lib.msu.edu/preservation/digital/,n,
+Michigan State University,Data_repository,https://lib.msu.edu/rdmg/advising/,n,
+Ohio State University,Data_repository,http://guides.osu.edu/c.php?g=707751&p=6017038,n,
+Ohio State University,Data_repository,https://library.osu.edu/site/osulstaff/2020/01/31/ohio-state-new-institutional-member-of-dryad-open-data-repository/,y,
+Oregon State University,Data_repository,https://guides.library.oregonstate.edu/research-data-services/data-management-archive-preserve,y,
+Oregon State University,Data_repository,https://guides.library.oregonstate.edu/research-data-services/data-management-data-repositories,y,
+Pennsylvania State University,Data_repository,https://libraries.psu.edu/about/departments/preservation-conservation-and-digitization/about-bindery,n,
+Pennsylvania State University,Data_repository,https://libraries.psu.edu/research/research-data-services/data-archiving-and-preservation,n,
+Stanford University,Data_repository,https://library.stanford.edu/research/data-management-services/share-and-preserve-research-data,y,
+Stanford University,Data_repository,https://library.stanford.edu/research/stanford-digital-repository,y,
+Texas A&M University,Data_repository,http://tamu.libguides.com/research-data-management/repositories,y,
+Texas A&M University,Data_repository,https://tamu.libguides.com/research-data-management/repositories,y,
+University of Arizona,Data_repository,https://data.library.arizona.edu/best-practices/data-sharing-archiving,n,
+University of Arizona,Data_repository,https://data.library.arizona.edu/services/ua-research-data-repository,y,
+"University of California, Berkeley",Data_repository,https://researchdata.berkeley.edu/services/data-preservation-and-archiving,n,
+"University of California, Berkeley",Data_repository,https://update.lib.berkeley.edu/2020/01/28/dryad/,n,
+"University of California, Davis",Data_repository,https://www.library.ucdavis.edu/service/data-management/share/,n,
+"University of California, Davis",Data_repository,https://www.library.ucdavis.edu/service/data-management/share/#dryad-1,n,
+"University of California, Los Angeles",Data_repository,https://www.library.ucla.edu/events/open-access-data-repositories,n,
+"University of California, Los Angeles",Data_repository,https://www.library.ucla.edu/location/data-science-center/data-archive-collections,y,
+"University of Colorado, Boulder",Data_repository,https://scholar.colorado.edu/about,y,
+University of Florida,Data_repository,http://arcs.uflib.ufl.edu/services/publishingarchiving/,y,
+University of Florida,Data_repository,https://guides.uflib.ufl.edu/c.php?g=636498&p=5441695,n,
+University of Illinois at Urbana-Champaign,Data_repository,http://guides.library.illinois.edu/introdata/preservation,n,
+University of Illinois at Urbana-Champaign,Data_repository,https://www.library.illinois.edu/scp/repositories/,y,
+University of Iowa,Data_repository,https://www.lib.uiowa.edu/data/share/data-repositories/,n,
+"University of Maryland, College Park",Data_repository,https://www.lib.umd.edu/data/repositories,n,
+"University of Minnesota, Twin Cities",Data_repository,https://conservancy.umn.edu/handle/11299/166578,y,
+University of North Carolina at Chapel Hill,Data_repository,https://guides.lib.unc.edu/metadata/repositories,y,
+University of North Carolina at Chapel Hill,Data_repository,https://guides.lib.unc.edu/researchdatatoolkit/choosing-a-repository,n,
+University of Oregon,Data_repository,https://researchguides.uoregon.edu/data-management/archiving,n,
+University of Oregon,Data_repository,https://researchguides.uoregon.edu/scholarsbank/faculty-publishing-data,y,
+University of Southern California,Data_repository,https://libraries.usc.edu/article/usc-digital-repository-shapes-future-archiving,n,
+University of Texas at Austin,Data_repository,https://data.tdl.org/,n,
+University of Texas at Austin,Data_repository,https://guides.lib.utexas.edu/c.php?g=1020955&p=7429419,n,
+University of Utah,Data_repository,https://campusguides.lib.utah.edu/data_repositories,y,
+University of Utah,Data_repository,https://lib.utah.edu/services/data-management/consultations.php,n,
+University of Washington,Data_repository,https://guides.lib.uw.edu/hsl/data/find,n,
+University of Washington,Data_repository,https://guides.lib.uw.edu/research/dmg/ssp,n,
+"University of Wisconsin, Madison",Data_repository,https://www.library.wisc.edu/digital-library-services/minds/,y,
+Washington State University,Data_repository,https://libguides.libraries.wsu.edu/datamanagement/datastorage,y,
+Washington State University,Data_repository,https://www.library.wisc.edu/digital-library-services/,n,
+Arizona State University,Electronic_lab_notebooks,https://libguides.asu.edu/chemistry/web,n,
+Ohio State University,Electronic_lab_notebooks,https://resourcecenter.odee.osu.edu/labarchives,n,
+Oregon State University,Electronic_lab_notebooks,https://guides.library.oregonstate.edu/research-data-services/data-management-lab-notebooks,n,
+Stanford University,Electronic_lab_notebooks,https://library.stanford.edu/blogs/stanford-libraries-blog/2018/11/chemoffice-professional-version-18-and-signals-notebook,n,
+Stanford University,Electronic_lab_notebooks,https://library.stanford.edu/science/software/chemoffice-professional,y,
+University of Arizona,Electronic_lab_notebooks,https://data.library.arizona.edu/best-practices/open-science-framework-osf,n,
+"University of California, Berkeley",Electronic_lab_notebooks,https://guides.lib.berkeley.edu/ERN,y,
+"University of California, Davis",Electronic_lab_notebooks,https://www.library.ucdavis.edu/service/preserve-your-research/,n,
+"University of California, Los Angeles",Electronic_lab_notebooks,https://www.library.ucla.edu/events/electronic-lab-notebooks-workshop-biomed-demo,n,
+University of Florida,Electronic_lab_notebooks,https://guides.uflib.ufl.edu/c.php?g=729909&p=5215812,n,
+University of Florida,Electronic_lab_notebooks,https://guides.uflib.ufl.edu/datamanagement/tools,n,
+University of Iowa,Electronic_lab_notebooks,https://www.lib.uiowa.edu/data/manage/documenting/lab-notebooks/,n,
+"University of Maryland, College Park",Electronic_lab_notebooks,https://www.lib.umd.edu/binaries/content/assets/public/chemistry/elns/quick-start.pdf,n,"PDF for using an ELN, provenance & date unknown"
+"University of Minnesota, Twin Cities",Electronic_lab_notebooks,https://www.lib.umn.edu/datamanagement/eln,y,
+University of Oregon,Electronic_lab_notebooks,http://researchguides.uoregon.edu/library_workshops/digital_projects,n,
+University of Utah,Electronic_lab_notebooks,http://campusguides.lib.utah.edu/ELNs,y,
+University of Utah,Electronic_lab_notebooks,https://campusguides.lib.utah.edu/ELNs,y,
+University of Washington,Electronic_lab_notebooks,https://guides.lib.uw.edu/research/ELN,n,
+"University of Wisconsin, Madison",Electronic_lab_notebooks,https://eln.wisc.edu/,y,
+Washington State University,Electronic_lab_notebooks,http://ebling.library.wisc.edu/2018/07/19/electronic-lab-notebooks-all-invited/,n,
+Washington State University,Electronic_lab_notebooks,http://libguides.libraries.wsu.edu/rdmlibguide/metadata,n,
+Arizona State University,OSF,https://libguides.asu.edu/data/storage,n,
+Arizona State University,OSF,https://libguides.asu.edu/openaccess/opendata-science,n,
+Ohio State University,OSF,https://library.osu.edu/researchcommons/tag/open-science,n,
+Oregon State University,OSF,https://guin.library.oregonstate.edu/workshops-offered-data-wrangling-research-411-and-open-research-%E2%80%93-toolsbest-practices-412,n,
+Texas A&M University,OSF,https://library.tamu.edu/services/scholarly_communication/Open_Access/index.html,n,
+Texas A&M University,OSF,https://tamu.libguides.com/research-data-management/collaborate,n,
+University of Arizona,OSF,https://data.library.arizona.edu/best-practices/open-science-framework-osf,y,
+"University of California, Berkeley",OSF,https://update.lib.berkeley.edu/tag/open-science/,n,
+"University of California, Davis",OSF,https://www.library.ucdavis.edu/service/data-management/share/,n,
+"University of California, Los Angeles",OSF,https://www.library.ucla.edu/events/open-science-framework-research-workflows,n,
+"University of Colorado, Boulder",OSF,https://www.colorado.edu/libraries/research-assistance/open-access,n,
+"University of Colorado, Boulder",OSF,https://www.colorado.edu/libraries/research/research-data-initiative/open-science-framework-institutions,n,
+University of Florida,OSF,https://guides.uflib.ufl.edu/datamanagement/tools,n,
+University of Illinois at Urbana-Champaign,OSF,https://guides.library.illinois.edu/c.php?g=348005&p=3423447,n,
+"University of Maryland, College Park",OSF,https://www.lib.umd.edu/news/2015/02/open-science,n,
+"University of Minnesota, Twin Cities",OSF,https://www.lib.umn.edu/scholcom/open-science,n,
+University of North Carolina at Chapel Hill,OSF,https://guides.lib.unc.edu/researchdatatoolkit/tools,n,
+University of Oregon,OSF,http://researchguides.uoregon.edu/library_workshops/using_osf,n,
+University of Oregon,OSF,https://researchguides.uoregon.edu/library_workshops/digital_projects,y,
+University of Southern California,OSF,https://libguides.usc.edu/CER_RDM,n,
+University of Utah,OSF,https://campusguides.lib.utah.edu/reproducibility/toolkit,n,
+University of Washington,OSF,https://guides.lib.uw.edu/research/osf,y,
+University of Washington,OSF,https://www.lib.washington.edu/dataservices/tools/osf,n,
+Washington State University,OSF,https://libguides.libraries.wsu.edu/lovedataweek,n,
+Arizona State University,Reproducible_research,https://sgsup.asu.edu/sparc/RRWorkshop,n,Not library related
+Ohio State University,Reproducible_research,https://library.osu.edu/researchcommons/event/center-for-open-science-workshop,n,2017 event
+Pennsylvania State University,Reproducible_research,https://sites.psu.edu/codeforher/r-workshop-series/,n,"Event at Library, but not by Library staff"
+Stanford University,Reproducible_research,https://library.stanford.edu/events/2016-05-02/improving-reproducibility-quantitative-research-hands-workshop,n,This is from 2016
+Stanford University,Reproducible_research,https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services,n,"Events seem outdate, nothing scream out ""reproducible research"" easily"
+University of Arizona,Reproducible_research,https://data.library.arizona.edu/best-practices/data-publishing-reproducibility,y,resources
+"University of California, Berkeley",Reproducible_research,https://guides.lib.berkeley.edu/reproducibility-guide,y,"guides, resources"
+"University of California, Davis",Reproducible_research,https://www.library.ucdavis.edu/service/data-management/stride/,y,more of a program
+"University of California, Los Angeles",Reproducible_research,https://www.library.ucla.edu/events/increasing-openness-reproducibility-quantitative-research,n,event from 2016
+University of Florida,Reproducible_research,https://guides.uflib.ufl.edu/reproducibility,y,"Some basic resources, how to contact"
+University of Illinois at Urbana-Champaign,Reproducible_research,https://guides.library.illinois.edu/c.php?g=706469&p=6591153,y,provide web resources
+University of Iowa,Reproducible_research,https://blog.lib.uiowa.edu/news/2018/11/09/ui-libraries-collaborates-to-expand-access-to-research-data/,n,This is a news bulletin
+"University of Minnesota, Twin Cities",Reproducible_research,https://www.lib.umn.edu/researchsupport/reproducibility,y,web resources and info
+University of North Carolina at Chapel Hill,Reproducible_research,https://guides.lib.unc.edu/systematic-reviews,n,This doesn't seem to be research focus
+University of Southern California,Reproducible_research,https://libguides.usc.edu/CER_RDM,y,"library research guide, slides, examples, web resources, etc"
+University of Utah,Reproducible_research,https://campusguides.lib.utah.edu/reproducibility,y,"tutorials, online courses, web resources, guides"
+University of Washington,Reproducible_research,https://guides.lib.uw.edu/research/reproducibility,y,web resources and guides
+Washington State University,Reproducible_research,https://libguides.libraries.wsu.edu/lovedataweek,y,"Provide guides, resources"
+Arizona State University,Statistical_consulting,https://lib.asu.edu/data/open-lab,n,other consultation but unclear on statistics
+Michigan State University,Statistical_consulting,http://libguides.lib.msu.edu/datastats,n,A guide but not consultation
+Michigan State University,Statistical_consulting,https://lib.msu.edu/rdmg/servcat/cstat/,y,They provide consultation on statistical methods
+Ohio State University,Statistical_consulting,https://scs.osu.edu/,y,stated in their mission goal
+Oregon State University,Statistical_consulting,https://stat.oregonstate.edu/consultingdropin,n,"Not through library, but through stats department"
+Pennsylvania State University,Statistical_consulting,https://libraries.psu.edu/research/research-data-services/statistical-consultations,y,"consultation on R, Stata"
+Stanford University,Statistical_consulting,https://library.stanford.edu/research/cidr/consulting,y,for statistical software and programming
+Stanford University,Statistical_consulting,https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services,n,doesn't appear to be
+University of Arizona,Statistical_consulting,http://libguides.library.arizona.edu/EllerOnlineUndergrad/statistics,n,Mentions research computing services; not consultation through library
+"University of California, Berkeley",Statistical_consulting,https://update.lib.berkeley.edu/2012/03/06/ucla-statistical-consulting-classes-and-workshops/,n,"This seems to be a workshop, not specific to consultation"
+"University of California, Davis",Statistical_consulting,https://www.library.ucdavis.edu/service/research-data-services/#Health%20Science%20Data%20at%20the%20Blaisdell%20Medical%20Library,n,Unclear
+"University of California, Los Angeles",Statistical_consulting,https://calendly.com/data-science-team,y,R and other programs
+"University of California, Los Angeles",Statistical_consulting,https://www.library.ucla.edu/datasquad,y,consultation on R; DataSquad part of library
+"University of Colorado, Boulder",Statistical_consulting,https://calendar.colorado.edu/event/lisa_consult_hours?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder,n,This seems to be partners but not necessary the library
+University of Florida,Statistical_consulting,http://arcs.uflib.ufl.edu/services/datascience/,y,"limited, but yes it seems on R"
+University of Florida,Statistical_consulting,https://guides.uflib.ufl.edu/educationalstats,n,"unclear, librarian provided but seems to be general services"
+University of Illinois at Urbana-Champaign,Statistical_consulting,https://publish.illinois.edu/statsconsulting/,n,Not Library it seems
+University of Illinois at Urbana-Champaign,Statistical_consulting,https://www.library.illinois.edu/sc/statistical-consulting/,y,"This is through partnership, but uses Library spaces"
+University of Iowa,Statistical_consulting,https://ppc.uiowa.edu/isrc/methods-consulting,n,Seems to be outside library
+"University of Maryland, College Park",Statistical_consulting,https://www.lib.umd.edu/rc/statistical-consulting,y,
+University of North Carolina at Chapel Hill,Statistical_consulting,https://library.unc.edu/hub/services/statistical-consulting/,y,
+University of Oregon,Statistical_consulting,https://library.uoregon.edu/research-data-management/consultations,y,for grads and undergrads
+University of Southern California,Statistical_consulting,http://norris.usc.libguides.com/content.php?pid=51351,n,just stats for health sci
+University of Utah,Statistical_consulting,http://campusguides.lib.utah.edu/SAS,y,seems possible to schedule research consultation
+University of Utah,Statistical_consulting,https://lib.utah.edu/services/stats-ta.php,y,graduate teaching assistant in library it seems
+University of Washington,Statistical_consulting,https://guides.lib.uw.edu/research/dstools/help,n,A social sci center does it
+Washington State University,Statistical_consulting,https://ciser.wsu.edu/consulting/,y,
+Washington State University,Statistical_consulting,https://researchguides.library.wisc.edu/health-statistics,n,
+Arizona State University,Version_control,https://github.com/UnitForDataScience,n,
+Ohio State University,Version_control,https://u.osu.edu/ihudas/software/,n,not lib affiliated
+Oregon State University,Version_control,https://guides.library.oregonstate.edu/c.php?g=285930&p=7590538#s-lg-box-24107783,n,cal event unavailable
+Oregon State University,Version_control,https://osulp.github.io/workshop_intro_to_git/,y,unclear when though
+Stanford University,Version_control,https://library.stanford.edu/events/introduction-git-github-organizing-your-stuff-1,y,mid-2019
+Stanford University,Version_control,https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services,n,
+University of Arizona,Version_control,https://new.library.arizona.edu/events/basics-git-and-github,n,too long ago
+"University of California, Berkeley",Version_control,https://update.lib.berkeley.edu/2017/06/06/github-archiving-and-repositories/,n,"focus is on archive, not version control"
+"University of California, Davis",Version_control,https://itcatalog.ucdavis.edu/service/github,n,not lib affiliated
+"University of California, Davis",Version_control,https://www.library.ucdavis.edu/service/data-management/share/,n,
+"University of California, Los Angeles",Version_control,https://www.library.ucla.edu/datasquad,y,
+"University of California, Los Angeles",Version_control,https://www.library.ucla.edu/events/gitgithub,n,
+University of Florida,Version_control,http://apps.uflib.ufl.edu/Registration/public_workshops_view_details.aspx?ID=125,n,unclear of date
+University of Florida,Version_control,https://guides.uflib.ufl.edu/c.php?g=1007095&p=7296054,y,Name is provided
+University of Illinois at Urbana-Champaign,Version_control,https://guides.library.illinois.edu/c.php?g=736070,y,
+University of Iowa,Version_control,https://dsps.lib.uiowa.edu/bam/github/,n,just a repo blog
+University of Iowa,Version_control,https://www.lib.uiowa.edu/data/manage/version-control/,n,no mention of git
+"University of Minnesota, Twin Cities",Version_control,https://www.continuum.umn.edu/event/programming-pizza-5/,y,
+University of North Carolina at Chapel Hill,Version_control,https://guides.lib.unc.edu/intro-git-workshop,y,
+University of Oregon,Version_control,http://researchguides.uoregon.edu/library_workshops/version_control,y,
+University of Oregon,Version_control,https://researchguides.uoregon.edu/library_workshops/version_control,y,
+University of Texas at Austin,Version_control,https://guides.lib.utexas.edu/c.php?g=494171&p=5550739,n,too long ago
+University of Texas at Austin,Version_control,https://www.lib.utexas.edu/events/76,n,too long ago
+University of Utah,Version_control,https://campusguides.lib.utah.edu/reproducibility/toolkit,y,
+University of Utah,Version_control,https://campusguides.lib.utah.edu/srch.php?tag=GitHub&default_lg=1,n,unclear
+University of Washington,Version_control,https://guides.lib.uw.edu/research/reproducibility/robust-coding,y,
+"University of Wisconsin, Madison",Version_control,https://researchguides.library.wisc.edu/R/git,n,page not available
+Washington State University,Version_control,https://cereo.wsu.edu/2018/03/16/github-version-control-collaboration/,n,2018 event
