@@ -11,7 +11,7 @@ library(tidyr)
 library(readr)
 library(stringr)
 
-responses <- readr::read_csv(file = "data/survey-form-responses-clean.csv")
+responses <- read_csv(file = "data/survey-form-responses-clean.csv")
 
 # Drop Timestamp and Reviewer columns
 # Convert to longer
@@ -48,21 +48,22 @@ services_absent <- responses_long %>%
 
 # For absent services, need to be sure neither reviewer entered a URL in the 
 # field. We know this is the case if there are two rows for an Institution/
-# Service combination.
+# Service combination. NOTE: only one reviewer inclueded information for 
+# University of Wisconsin, Madison, so need to accommodate that in filter
 # Not interested in "Other_service_*"
 # Also, drop the URL column, as it is now full of NAs
 services_absent <- services_absent %>%
   group_by(Institution, Service) %>%
-  filter(n() > 1) %>%
+  filter(n() > 1 | Institution == "University of Wisconsin, Madison") %>%
   filter(str_sub(Service, start = 1, end = 13) != "Other_service")
   select(-URL)
 
 # Drop any duplicates from absent services data frame
 services_absent <- services_absent[!duplicated(services_absent), ]
-services_absent
+# services_absent
 
 write_csv(x = services_absent, 
-          path = "data/services-absent.csv")
+          file = "data/services-absent.csv")
 
 # library(ggplot2)
 # services_counts <- services_present %>%

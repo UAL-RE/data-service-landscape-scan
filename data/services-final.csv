@@ -1,0 +1,726 @@
+"Institution","Service","URL"
+"Arizona State University","Aerial_imagery","https://lib.asu.edu/geo"
+"Arizona State University","Data_analysis_instruction","https://lib.asu.edu/data/open-lab"
+"Arizona State University","Data_management_plans_consult","https://libguides.asu.edu/data"
+"Arizona State University","Data_management_plans_web","https://libguides.asu.edu/c.php?g=264208&p=1763700"
+"Arizona State University","Data_management_web","https://libguides.asu.edu/c.php?g=264208&p=1763700"
+"Arizona State University","Data_repository","https://lib.asu.edu/research/store"
+"Arizona State University","Data_visualization_software_consult","https://lib.asu.edu/data/open-lab"
+"Arizona State University","DMPTool","https://libguides.asu.edu/data/start/dmptool"
+"Arizona State University","Geospatial_consult","https://lib.asu.edu/geo/services"
+"Arizona State University","Geospatial_software_consult","https://lib.asu.edu/geo/services"
+"Arizona State University","Geospatial_software_instruction","https://lib.asu.edu/geo/software"
+"Michigan State University","Data_management_consult","https://lib.msu.edu/rdmg/advising/"
+"Michigan State University","Data_management_plans_consult","https://lib.msu.edu/rdmg/advising/"
+"Michigan State University","Data_management_web","https://lib.msu.edu/rdmg/resources/"
+"Michigan State University","Data_visualization_software_consult","http://digitalscholarshiplab.msu.edu/using-the-lab/experts/; https://lib.msu.edu/about/data/"
+"Michigan State University","Geospatial_instruction","http://libguides.lib.msu.edu/gis"
+"Michigan State University","Geospatial_software_instruction","http://libguides.lib.msu.edu/gis"
+"Michigan State University","Geospatial_software_web","http://libguides.lib.msu.edu/c.php?g=95932&p=1493888"
+"Ohio State University","Data_management_plans_consult","https://library.osu.edu/researchcommons/help/managing-data"
+"Ohio State University","Data_management_web","https://guides.osu.edu/IntroDataManagement"
+"Ohio State University","Data_repository","https://library.osu.edu/site/osulstaff/2020/01/31/ohio-state-new-institutional-member-of-dryad-open-data-repository/"
+"Ohio State University","Data_visualization_software_consult","https://library.osu.edu/researchcommons/help/visualizing-data"
+"Ohio State University","DMPTool","https://library.osu.edu/researchcommons/2018/03/09/new-dmptool"
+"Ohio State University","Geospatial_consult","https://library.osu.edu/researchcommons/help/gis-and-mapping"
+"Ohio State University","Geospatial_software_consult","https://library.osu.edu/researchcommons/help/gis-and-mapping"
+"Ohio State University","Geospatial_software_web","http://guides.osu.edu/maps-geospatial-data/software-tools"
+"Ohio State University","Text_data_mining","https://research.osu.edu/collaborative-archive-and-data-research-environment-cadre-services-now-available/"
+"Ohio State University","Web_scraping","https://library.osu.edu/researchcommons/project-intake"
+"Oregon State University","Aerial_imagery","https://guides.library.oregonstate.edu/c.php?g=285932&p=1906685; https://spatialdata.oregonexplorer.info/geoportal/"
+"Oregon State University","Carpentries","https://library.oregonstate.edu/researcher-support"
+"Oregon State University","Data_management_plans_consult","https://guides.library.oregonstate.edu/friendly.php?s=dmp"
+"Oregon State University","Data_management_plans_web","https://guides.library.oregonstate.edu/friendly.php?s=dmp"
+"Oregon State University","Data_management_web","https://guides.library.oregonstate.edu/research-data-services/managing-data"
+"Oregon State University","Data_repository","https://guides.library.oregonstate.edu/research-data-services/data-management-data-repositories"
+"Oregon State University","DMPTool","https://guides.library.oregonstate.edu/friendly.php?s=dmp"
+"Oregon State University","Geospatial_web","https://guides.library.oregonstate.edu/c.php?g=285915&p=1905258"
+"Oregon State University","Version_control","https://osulp.github.io/workshop_intro_to_git/"
+"Pennsylvania State University","Aerial_imagery","http://guides.libraries.psu.edu/aerialphotographs"
+"Pennsylvania State University","Data_analysis_consult","https://guides.libraries.psu.edu/c.php?g=894031&p=6889383"
+"Pennsylvania State University","Data_analysis_instruction","https://libraries.psu.edu/about/departments/research-informatics-and-publishing/training-events"
+"Pennsylvania State University","Data_analysis_web","https://guides.libraries.psu.edu/c.php?g=894031&p=6429300"
+"Pennsylvania State University","Data_management_consult","https://libraries.psu.edu/research/research-data-services/data-management"
+"Pennsylvania State University","Data_management_plans_consult","http://guides.libraries.psu.edu/dmptoolkit; https://libraries.psu.edu/research/research-data-services/data-management"
+"Pennsylvania State University","Data_management_web","http://guides.libraries.psu.edu/dmptoolkit"
+"Pennsylvania State University","Data_visualization_software_consult","https://guides.libraries.psu.edu/data-analytics-visualization; https://libraries.psu.edu/about/departments/research-informatics-and-publishing/advanced-analytics-and-visualization-digital"
+"Pennsylvania State University","Data_visualization_software_instruction","https://guides.libraries.psu.edu/data-analytics-visualization"
+"Pennsylvania State University","Geospatial_consult","https://libraries.psu.edu/about/libraries/donald-w-hamer-center-maps-and-geospatial-information/request-geospatial-or-maps"
+"Pennsylvania State University","Statistical_consulting","https://libraries.psu.edu/research/research-data-services/statistical-consultations"
+"Stanford University","Carpentries","https://library.stanford.edu/research/data-management-services/events"
+"Stanford University","Data_analysis_consult","https://ssds.stanford.edu/consulting-workshops/walk-consulting"
+"Stanford University","Data_analysis_instruction","https://library.stanford.edu/research/cidr/workshops"
+"Stanford University","Data_management_consult","https://library.stanford.edu/research/data-management-services"
+"Stanford University","Data_management_plans_consult","https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services"
+"Stanford University","Data_management_plans_instruction","https://library.stanford.edu/research/data-management-services/consulting-training-and-other-services"
+"Stanford University","Data_management_plans_web","https://library.stanford.edu/research/data-management-services/data-management-plans"
+"Stanford University","Data_management_web","https://library.stanford.edu/research/data-management-services/data-best-practices; https://www.dataone.org/all-best-practices"
+"Stanford University","Data_visualization_software_instruction","https://library.stanford.edu/events/data-visualization-tableau"
+"Stanford University","DMPTool","https://library.stanford.edu/research/data-management-services/data-management-plans/dmptool"
+"Stanford University","Electronic_lab_notebooks","https://library.stanford.edu/science/software/chemoffice-professional"
+"Stanford University","Geospatial_consult","https://library.stanford.edu/research/stanford-geospatial-center/services; https://library.stanford.edu/rumsey/using-center/teaching-researching-and-consulting"
+"Stanford University","Geospatial_instruction","https://library.stanford.edu/research/stanford-geospatial-center/workshops"
+"Stanford University","Geospatial_software_instruction","https://library.stanford.edu/research/stanford-geospatial-center/workshops"
+"Stanford University","Geospatial_software_web","https://library.stanford.edu/research/stanford-geospatial-center/software"
+"Stanford University","Statistical_consulting","https://library.stanford.edu/research/cidr/consulting"
+"Stanford University","Version_control","https://library.stanford.edu/events/introduction-git-github-organizing-your-stuff-1"
+"Stanford University","Web_scraping","https://library.stanford.edu/research/cidr/consulting"
+"Texas A&M University","Aerial_imagery","http://tamu.libguides.com/aerialphotos"
+"Texas A&M University","Data_management_instruction","http://tamu.libguides.com/research-data-management/workshops; https://tamu.libguides.com/research-data-management/workshops"
+"Texas A&M University","Data_management_plans_consult","https://library.tamu.edu/services/scholarly_communication/Data_Management/planning.html"
+"Texas A&M University","Data_management_plans_instruction","http://tamu.libguides.com/research-data-management/workshops; https://tamu.libguides.com/research-data-management/workshops"
+"Texas A&M University","Data_management_plans_web","https://tamu.libguides.com/research-data-management/dmps"
+"Texas A&M University","Data_management_web","https://tamu.libguides.com/research-data-management/overview"
+"Texas A&M University","Data_repository","http://tamu.libguides.com/research-data-management/repositories; https://tamu.libguides.com/research-data-management/repositories"
+"Texas A&M University","DMPTool","https://tamu.libguides.com/research-data-management/dmps"
+"Texas A&M University","Geospatial_software_instruction","http://tamu.libguides.com/gis/tutorials"
+"University of Arizona","Aerial_imagery","https://libguides.library.arizona.edu/GIS/ImageryandLidar"
+"University of Arizona","Data_analysis_consult","https://new.library.arizona.edu/research/support/data"
+"University of Arizona","Data_management_consult","https://data.library.arizona.edu/; https://data.library.arizona.edu/our-services"
+"University of Arizona","Data_management_plans_consult","https://data.library.arizona.edu/our-services"
+"University of Arizona","Data_management_plans_web","https://data.library.arizona.edu/data-management-plans"
+"University of Arizona","Data_management_web","https://data.library.arizona.edu/best-practices"
+"University of Arizona","Data_repository","https://data.library.arizona.edu/services/ua-research-data-repository"
+"University of Arizona","DMPTool","https://data.library.arizona.edu/data-management-plans/dmptool"
+"University of Arizona","Geospatial_consult","https://libguides.library.arizona.edu/GIS/Help"
+"University of Arizona","Geospatial_instruction","https://libguides.library.arizona.edu/GIS/tutorials"
+"University of Arizona","Geospatial_software_consult","https://libguides.library.arizona.edu/GIS/Help"
+"University of Arizona","Geospatial_software_instruction","https://libguides.library.arizona.edu/GIS/tutorials"
+"University of Arizona","Geospatial_software_web","https://libguides.library.arizona.edu/GIS/software"
+"University of Arizona","OSF","https://data.library.arizona.edu/best-practices/open-science-framework-osf"
+"University of Arizona","Reproducible_research","https://data.library.arizona.edu/best-practices/data-publishing-reproducibility"
+"University of Arizona","Text_data_mining","https://libguides.library.arizona.edu/text-mining"
+"University of California, Berkeley","Aerial_imagery","https://guides.lib.berkeley.edu/c.php?g=130718&p=3874462"
+"University of California, Berkeley","Data_management_consult","https://guides.lib.berkeley.edu/researchdata; https://researchdata.berkeley.edu/services"
+"University of California, Berkeley","Data_management_plans_consult","https://guides.lib.berkeley.edu/researchdata; https://researchdata.berkeley.edu/services/data-management-plans"
+"University of California, Berkeley","Data_management_web","https://guides.lib.berkeley.edu/researchdata; https://researchdata.berkeley.edu/services"
+"University of California, Berkeley","Data_visualization_software_web","https://guides.lib.berkeley.edu/data-visualization/about"
+"University of California, Berkeley","DMPTool","https://researchdata.berkeley.edu/services/data-management-plans"
+"University of California, Berkeley","Geospatial_consult","https://guides.lib.berkeley.edu/gis/remote"
+"University of California, Berkeley","Geospatial_instruction","https://guides.lib.berkeley.edu/gis/remote"
+"University of California, Berkeley","Geospatial_software_instruction","https://guides.lib.berkeley.edu/gis/training"
+"University of California, Berkeley","Geospatial_software_web","https://guides.lib.berkeley.edu/gis/tools"
+"University of California, Berkeley","Reproducible_research","https://guides.lib.berkeley.edu/reproducibility-guide"
+"University of California, Berkeley","Text_data_mining","https://guides.lib.berkeley.edu/text-mining"
+"University of California, Davis","Aerial_imagery","https://www.library.ucdavis.edu/guide/ucd-aerial-photo-holdings-county/"
+"University of California, Davis","Data_analysis_consult","https://www.library.ucdavis.edu/service/digital-scholarship/"
+"University of California, Davis","Data_management_instruction","https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/"
+"University of California, Davis","Data_management_plans_instruction","https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/"
+"University of California, Davis","Data_management_web","https://www.library.ucdavis.edu/service/research-data-services/"
+"University of California, Davis","Data_visualization_software_consult","https://www.library.ucdavis.edu/service/digital-scholarship/"
+"University of California, Davis","Data_visualization_software_instruction","https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/"
+"University of California, Davis","DMPTool","https://www.library.ucdavis.edu/service/data-management/plan-2/"
+"University of California, Davis","Geospatial_instruction","https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/"
+"University of California, Davis","Geospatial_software_consult","https://www.library.ucdavis.edu/guide/mapping-and-gis/#gis-resources-on-campus-1"
+"University of California, Davis","Geospatial_software_instruction","https://www.library.ucdavis.edu/service/data-management/data-management-program-workshops-events/"
+"University of California, Davis","Reproducible_research","https://www.library.ucdavis.edu/service/data-management/stride/"
+"University of California, Davis","Text_data_mining","https://www.library.ucdavis.edu/service/digital-scholarship/"
+"University of California, Los Angeles","Aerial_imagery","https://guides.library.ucla.edu/maps/aerial-photos"
+"University of California, Los Angeles","Data_management_plans_consult","https://www.library.ucla.edu/support/research-help/research-data-services"
+"University of California, Los Angeles","Data_management_plans_web","https://guides.library.ucla.edu/c.php?g=180539&p=1189314"
+"University of California, Los Angeles","Data_management_web","https://guides.library.ucla.edu/data-management-sciences"
+"University of California, Los Angeles","Data_repository","https://www.library.ucla.edu/location/data-science-center/data-archive-collections"
+"University of California, Los Angeles","Data_visualization_software_consult","https://www.library.ucla.edu/datasquad"
+"University of California, Los Angeles","Data_visualization_software_instruction","https://www.library.ucla.edu/events/intro-tableau-public; https://www.library.ucla.edu/support/research-help/research-data-services"
+"University of California, Los Angeles","DMPTool","https://guides.library.ucla.edu/c.php?g=180539&p=1189314"
+"University of California, Los Angeles","Geospatial_consult","https://calendly.com/data-science-team; https://www.library.ucla.edu/get-help"
+"University of California, Los Angeles","Geospatial_software_consult","https://calendly.com/data-science-team"
+"University of California, Los Angeles","Statistical_consulting","https://calendly.com/data-science-team"
+"University of California, Los Angeles","Text_data_mining","https://guides.library.ucla.edu/text"
+"University of California, Los Angeles","Version_control","https://www.library.ucla.edu/datasquad"
+"University of California, Los Angeles","Web_scraping","https://www.library.ucla.edu/datasquad; https://www.library.ucla.edu/support/research-help/research-data-services"
+"University of Colorado, Boulder","Aerial_imagery","https://libguides.colorado.edu/strategies/maps"
+"University of Colorado, Boulder","Data_analysis_consult","https://calendar.colorado.edu/event/interdisciplinary_data_consult_hours_5549?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder"
+"University of Colorado, Boulder","Data_management_consult","https://www.colorado.edu/libraries/research-assistance/data-services"
+"University of Colorado, Boulder","Data_management_plans_consult","https://www.colorado.edu/libraries/research-assistance/data-services"
+"University of Colorado, Boulder","Data_visualization_software_consult","https://calendar.colorado.edu/event/interdisciplinary_data_consult_hours_5549?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder"
+"University of Colorado, Boulder","Data_visualization_software_instruction","https://osf.io/36mj4/"
+"University of Colorado, Boulder","Data_visualization_software_web","https://www.colorado.edu/crdds/learning-materials"
+"University of Colorado, Boulder","Geospatial_consult","https://www.colorado.edu/libraries/research/consultation"
+"University of Colorado, Boulder","Geospatial_web","https://geo.colorado.edu/"
+"University of Florida","Aerial_imagery","https://cms.uflib.ufl.edu/maps/collections"
+"University of Florida","Data_management_consult","http://arcs.uflib.ufl.edu/consultations/"
+"University of Florida","Data_management_plans_instruction","https://guides.uflib.ufl.edu/datamanagement/dmp; https://guides.uflib.ufl.edu/datamanagement/home"
+"University of Florida","Data_management_web","https://guides.uflib.ufl.edu/datamanagement/home"
+"University of Florida","Data_visualization_software_consult","http://arcs.uflib.ufl.edu/services/visualization/"
+"University of Florida","DMPTool","https://guides.uflib.ufl.edu/datamanagement/dmp"
+"University of Florida","Geospatial_consult","https://guides.uflib.ufl.edu/c.php?g=147404&p=966619"
+"University of Florida","Geospatial_software_consult","http://arcs.uflib.ufl.edu/services/geospatialanalysis/"
+"University of Florida","Reproducible_research","https://guides.uflib.ufl.edu/reproducibility"
+"University of Florida","Statistical_consulting","http://arcs.uflib.ufl.edu/services/datascience/"
+"University of Illinois at Urbana-Champaign","Aerial_imagery","https://www.library.illinois.edu/max/collections/aerial_photographs/"
+"University of Illinois at Urbana-Champaign","Data_management_instruction","https://www.library.illinois.edu/rds/workshops/"
+"University of Illinois at Urbana-Champaign","Data_management_plans_web","https://www.library.illinois.edu/rds/plan/"
+"University of Illinois at Urbana-Champaign","Data_management_web","http://guides.library.illinois.edu/introdata"
+"University of Illinois at Urbana-Champaign","Data_repository","https://www.library.illinois.edu/scp/repositories/"
+"University of Illinois at Urbana-Champaign","DMPTool","https://www.library.illinois.edu/rds/plan/"
+"University of Illinois at Urbana-Champaign","Geospatial_consult","https://www.library.illinois.edu/sc/gis/consult/"
+"University of Illinois at Urbana-Champaign","Geospatial_instruction","https://guides.library.illinois.edu/GIS/Workshops"
+"University of Illinois at Urbana-Champaign","Geospatial_software_consult","https://www.library.illinois.edu/sc/gis/consult/"
+"University of Illinois at Urbana-Champaign","Geospatial_software_instruction","https://guides.library.illinois.edu/GIS/Workshops"
+"University of Illinois at Urbana-Champaign","Reproducible_research","https://guides.library.illinois.edu/c.php?g=706469&p=6591153"
+"University of Illinois at Urbana-Champaign","Text_data_mining","https://guides.library.illinois.edu/textmining"
+"University of Illinois at Urbana-Champaign","Version_control","https://guides.library.illinois.edu/c.php?g=736070"
+"University of Iowa","Aerial_imagery","https://www.lib.uiowa.edu/maps/aerial/"
+"University of Iowa","Data_analysis_instruction","https://www.lib.uiowa.edu/news-and-events/event/?id=53141"
+"University of Iowa","Data_management_consult","https://www.lib.uiowa.edu/data/contact/"
+"University of Iowa","Data_management_plans_consult","https://www.lib.uiowa.edu/data/plan/"
+"University of Iowa","Data_management_plans_web","https://www.lib.uiowa.edu/data/plan/"
+"University of Iowa","Data_management_web","https://www.lib.uiowa.edu/data/manage/"
+"University of Iowa","Geospatial_software_web","https://guides.lib.uiowa.edu/c.php?g=132116&p=2713587"
+"University of Maryland, College Park","Carpentries","https://www.lib.umd.edu/rc/data-science"
+"University of Maryland, College Park","Data_analysis_consult","https://www.lib.umd.edu/rc/data-science"
+"University of Maryland, College Park","Data_analysis_instruction","https://www.lib.umd.edu/rc/data-science"
+"University of Maryland, College Park","Data_visualization_software_instruction","https://www.lib.umd.edu/rc/data-science"
+"University of Maryland, College Park","Geospatial_consult","https://www.lib.umd.edu/gis"
+"University of Maryland, College Park","Geospatial_instruction","https://www.lib.umd.edu/gis/learning"
+"University of Maryland, College Park","Geospatial_software_consult","https://www.lib.umd.edu/gis"
+"University of Maryland, College Park","Geospatial_software_instruction","https://www.lib.umd.edu/gis/workshops"
+"University of Maryland, College Park","Geospatial_web","https://www.lib.umd.edu/gis/data-and-resources"
+"University of Maryland, College Park","Statistical_consulting","https://www.lib.umd.edu/rc/statistical-consulting"
+"University of Minnesota, Twin Cities","Aerial_imagery","https://www.lib.umn.edu/borchert/aerial-photography-and-remote-sensed-imagery"
+"University of Minnesota, Twin Cities","Data_management_consult","https://www.lib.umn.edu/datamanagement/workshops"
+"University of Minnesota, Twin Cities","Data_management_instruction","https://www.lib.umn.edu/datamanagement/workshops"
+"University of Minnesota, Twin Cities","Data_management_plans_consult","https://www.lib.umn.edu/datamanagement/DMP"
+"University of Minnesota, Twin Cities","Data_management_plans_web","https://www.lib.umn.edu/datamanagement/dmp"
+"University of Minnesota, Twin Cities","Data_management_web","https://www.lib.umn.edu/datamanagement/best-practices-templates"
+"University of Minnesota, Twin Cities","Data_repository","https://conservancy.umn.edu/handle/11299/166578"
+"University of Minnesota, Twin Cities","Data_visualization_software_web","https://libguides.umn.edu/c.php?g=921727&p=6642925"
+"University of Minnesota, Twin Cities","DMPTool","https://www.lib.umn.edu/datamanagement/dmp; https://www.lib.umn.edu/datamanagement/DMP"
+"University of Minnesota, Twin Cities","Geospatial_web","https://www.lib.umn.edu/borchert/geodata"
+"University of Minnesota, Twin Cities","Reproducible_research","https://www.lib.umn.edu/researchsupport/reproducibility"
+"University of Minnesota, Twin Cities","Version_control","https://www.continuum.umn.edu/event/programming-pizza-5/"
+"University of North Carolina at Chapel Hill","Aerial_imagery","https://library.unc.edu/data/gis-usda/"
+"University of North Carolina at Chapel Hill","Data_analysis_consult","https://guides.lib.unc.edu/mattjansen"
+"University of North Carolina at Chapel Hill","Data_analysis_instruction","https://guides.lib.unc.edu/mattjansen"
+"University of North Carolina at Chapel Hill","Data_management_plans_web","https://guides.lib.unc.edu/researchdatatoolkit/home"
+"University of North Carolina at Chapel Hill","Data_management_web","https://guides.lib.unc.edu/researchdatatoolkit/home"
+"University of North Carolina at Chapel Hill","Data_repository","https://guides.lib.unc.edu/metadata/repositories"
+"University of North Carolina at Chapel Hill","Data_visualization_software_consult","https://guides.lib.unc.edu/lorinbruckner"
+"University of North Carolina at Chapel Hill","Data_visualization_software_instruction","https://guides.lib.unc.edu/lorinbruckner"
+"University of North Carolina at Chapel Hill","Data_visualization_software_web","http://learndataviz.web.unc.edu/; https://guides.lib.unc.edu/DataViz/basics"
+"University of North Carolina at Chapel Hill","DMPTool","https://guides.lib.unc.edu/researchdatatoolkit/tools"
+"University of North Carolina at Chapel Hill","Geospatial_software_web","https://guides.lib.unc.edu/software/data-vis"
+"University of North Carolina at Chapel Hill","Statistical_consulting","https://library.unc.edu/hub/services/statistical-consulting/"
+"University of North Carolina at Chapel Hill","Version_control","https://guides.lib.unc.edu/intro-git-workshop"
+"University of Oregon","Aerial_imagery","https://library.uoregon.edu/aerial-photography-collection"
+"University of Oregon","Data_analysis_consult","https://library.uoregon.edu/research-data-management/consultations"
+"University of Oregon","Data_management_consult","https://library.uoregon.edu/data-services/contact"
+"University of Oregon","Data_management_plans_instruction","https://researchguides.uoregon.edu/library_workshops/DMPtool"
+"University of Oregon","Data_management_plans_web","https://researchguides.uoregon.edu/data-management"
+"University of Oregon","Data_management_web","https://researchguides.uoregon.edu/data-management/services"
+"University of Oregon","Data_repository","https://researchguides.uoregon.edu/scholarsbank/faculty-publishing-data"
+"University of Oregon","Data_visualization_software_instruction","https://researchguides.uoregon.edu/library_workshops/r"
+"University of Oregon","Geospatial_web","https://library.uoregon.edu/map/gis_data/data_in_commons"
+"University of Oregon","Statistical_consulting","https://library.uoregon.edu/research-data-management/consultations"
+"University of Oregon","Version_control","http://researchguides.uoregon.edu/library_workshops/version_control; https://researchguides.uoregon.edu/library_workshops/version_control"
+"University of Southern California","Data_management_plans_instruction","https://libguides.usc.edu/CER_RDM"
+"University of Southern California","Data_visualization_software_instruction","https://libraries.usc.edu/events/usc-libraries-data-and-visualization-workshops-0"
+"University of Southern California","Reproducible_research","https://libguides.usc.edu/CER_RDM"
+"University of Southern California","Text_data_mining","https://libguides.usc.edu/contentmining"
+"University of Texas at Austin","Carpentries","https://www.lib.utexas.edu/events/285"
+"University of Texas at Austin","Data_management_consult","https://www.lib.utexas.edu/research-help-support/research-data-services"
+"University of Texas at Austin","Data_management_instruction","https://guides.lib.utexas.edu/data-and-donuts/managing-research-data"
+"University of Texas at Austin","Data_management_plans_consult","https://www.lib.utexas.edu/research-help-support/research-data-services"
+"University of Texas at Austin","Data_visualization_software_instruction","https://www.lib.utexas.edu/events/312"
+"University of Texas at Austin","DMPTool","https://guides.lib.utexas.edu/c.php?g=1020955&p=7395489; https://www.lib.utexas.edu/research-help-support/research-data-services"
+"University of Texas at Austin","Geospatial_consult","https://www.lib.utexas.edu/research-help-support/gis-geospatial-data-services"
+"University of Texas at Austin","Geospatial_instruction","https://guides.lib.utexas.edu/gis/past-event-info-and-downloads"
+"University of Texas at Austin","Geospatial_software_consult","https://www.lib.utexas.edu/research-help-support/gis-geospatial-data-services"
+"University of Texas at Austin","Geospatial_software_instruction","https://guides.lib.utexas.edu/gis/past-event-info-and-downloads"
+"University of Texas at Austin","Geospatial_software_web","https://guides.lib.utexas.edu/gis"
+"University of Texas at Austin","Web_scraping","https://www.lib.utexas.edu/events/238"
+"University of Utah","Aerial_imagery","https://campusguides.lib.utah.edu/c.php?g=160828&p=1054034"
+"University of Utah","Data_management_consult","https://campusguides.lib.utah.edu/c.php?g=246386&p=2090992; https://lib.utah.edu/services/data-management/consultations.php"
+"University of Utah","Data_management_instruction","https://lib.utah.edu/services/data-management/education-training.php"
+"University of Utah","Data_management_plans_consult","https://campusguides.lib.utah.edu/c.php?g=246386&p=2090997; https://lib.utah.edu/services/data-management/plans.php"
+"University of Utah","Data_management_plans_web","http://campusguides.lib.utah.edu/c.php?g=160412&p=1051780"
+"University of Utah","Data_management_web","http://campusguides.lib.utah.edu/researchdata"
+"University of Utah","Data_visualization_software_web","https://campusguides.lib.utah.edu/c.php?g=893558&p=6444106"
+"University of Utah","DMPTool","http://campusguides.lib.utah.edu/c.php?g=160412&p=1051780"
+"University of Utah","Electronic_lab_notebooks","http://campusguides.lib.utah.edu/ELNs; https://campusguides.lib.utah.edu/ELNs"
+"University of Utah","Geospatial_consult","https://lib.utah.edu/services/geospatial/services.php"
+"University of Utah","Geospatial_software_consult","https://lib.utah.edu/services/geospatial/training-materials.php"
+"University of Utah","Geospatial_software_instruction","https://lib.utah.edu/services/geospatial/training-materials.php"
+"University of Utah","Geospatial_software_web","https://campusguides.lib.utah.edu/c.php?g=160702&p=1052576; https://lib.utah.edu/services/geospatial/training-materials.php"
+"University of Utah","Reproducible_research","https://campusguides.lib.utah.edu/reproducibility"
+"University of Utah","Statistical_consulting","https://lib.utah.edu/services/stats-ta.php"
+"University of Utah","Version_control","https://campusguides.lib.utah.edu/reproducibility/toolkit"
+"University of Washington","Aerial_imagery","https://guides.lib.uw.edu/research/gis/imagery_available; https://guides.lib.uw.edu/research/maps/aerial_photography"
+"University of Washington","Data_management_consult","https://www.lib.washington.edu/digitalscholarship/services/data"
+"University of Washington","Data_management_instruction","https://www.lib.washington.edu/digitalscholarship/hacking-the-academy-programming-series"
+"University of Washington","Data_management_plans_consult","https://guides.lib.uw.edu/research/dmg/dmp"
+"University of Washington","Data_management_plans_instruction","https://www.lib.washington.edu/digitalscholarship/hacking-the-academy-programming-series"
+"University of Washington","Data_management_web","https://guides.lib.uw.edu/friendly.php?s=research/dmg; https://guides.lib.uw.edu/research/dmg"
+"University of Washington","DMPTool","https://guides.lib.uw.edu/research/dmg/home"
+"University of Washington","Geospatial_consult","https://guides.lib.uw.edu/research/gis/home; https://guides.lib.uw.edu/research/gis/resources"
+"University of Washington","Geospatial_software_consult","https://guides.lib.uw.edu/research/gis/resources"
+"University of Washington","OSF","https://guides.lib.uw.edu/research/osf"
+"University of Washington","Reproducible_research","https://guides.lib.uw.edu/research/reproducibility"
+"University of Washington","Text_data_mining","https://guides.lib.uw.edu/research/dstools/tdm"
+"University of Wisconsin, Madison","Aerial_imagery","https://geography.wisc.edu/maplibrary/aerial-photography/"
+"University of Wisconsin, Madison","Carpentries","https://ebling.library.wisc.edu/2020/05/14/data-carpentry-on-zoom/"
+"University of Wisconsin, Madison","Data_analysis_instruction","https://researchguides.library.wisc.edu/R/why"
+"University of Wisconsin, Madison","Data_management_plans_consult","https://researchdata.wisc.edu/our-services/"
+"University of Wisconsin, Madison","Data_management_plans_web","https://researchdata.wisc.edu/dmp-introduction/"
+"University of Wisconsin, Madison","Data_management_web","https://lo.library.wisc.edu/research_data_mgmt/"
+"University of Wisconsin, Madison","Data_repository","https://www.library.wisc.edu/digital-library-services/minds/"
+"University of Wisconsin, Madison","Data_visualization_software_instruction","https://researchguides.library.wisc.edu/R/why"
+"University of Wisconsin, Madison","DMPTool","https://researchdata.wisc.edu/dmp-use-dmptool-to-write-your-dmp/"
+"University of Wisconsin, Madison","Electronic_lab_notebooks","https://eln.wisc.edu/"
+"University of Wisconsin, Madison","Geospatial_consult","https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191"
+"University of Wisconsin, Madison","Geospatial_instruction","https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191"
+"University of Wisconsin, Madison","Geospatial_software_consult","https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191"
+"Washington State University","Data_management_consult","https://libguides.libraries.wsu.edu/rdmlibguide/training"
+"Washington State University","Data_management_plans_consult","https://libguides.libraries.wsu.edu/datamanagement/introduction"
+"Washington State University","Data_management_plans_web","https://libguides.libraries.wsu.edu/datamanagement/datasharing"
+"Washington State University","Data_management_web","https://libguides.libraries.wsu.edu/rdmlibguide"
+"Washington State University","Data_repository","https://libguides.libraries.wsu.edu/datamanagement/datastorage"
+"Stanford University","Data_analysis_web","https://library.stanford.edu/research/cidr/workshops"
+"Stanford University","Data_management_instruction","https://library.stanford.edu/research/data-management-services/events"
+"Stanford University","Data_repository","https://library.stanford.edu/research/stanford-digital-repository"
+"Stanford University","Data_visualization_software_consult",NA
+"Stanford University","Data_visualization_software_web",NA
+"Stanford University","Geospatial_software_consult","https://library.stanford.edu/research/stanford-geospatial-center/services"
+"Stanford University","Geospatial_web","https://library.stanford.edu/research/stanford-geospatial-center"
+"Stanford University","OSF","https://library.stanford.edu/research/data-management-services/data-best-practices/helpful-tools"
+"Stanford University","Reproducible_research",NA
+"Stanford University","Text_data_mining","https://library.stanford.edu/events/text-analysis-python-digital-tools-and-methods-humanities-and-social-sciences"
+"Texas A&M University","Data_analysis_instruction",NA
+"Texas A&M University","Data_analysis_web",NA
+"Texas A&M University","Data_management_consult","https://askus.library.tamu.edu/rdms"
+"Texas A&M University","Data_visualization_software_consult",NA
+"Texas A&M University","Data_visualization_software_instruction",NA
+"Texas A&M University","Data_visualization_software_web",NA
+"Texas A&M University","Electronic_lab_notebooks",NA
+"Texas A&M University","Geospatial_consult",NA
+"Texas A&M University","Geospatial_instruction",NA
+"Texas A&M University","Geospatial_software_consult",NA
+"Texas A&M University","Geospatial_software_web",NA
+"Texas A&M University","Geospatial_web",NA
+"Texas A&M University","OSF","https://tamu.libcal.com/event/7347739"
+"Texas A&M University","Reproducible_research","https://tamu.libguides.com/research-data-management/FAIR"
+"Texas A&M University","Statistical_consulting",NA
+"Texas A&M University","Text_data_mining",NA
+"Texas A&M University","Version_control",NA
+"Texas A&M University","Web_scraping",NA
+"University of Illinois at Urbana-Champaign","Data_management_consult","https://www.library.illinois.edu/rds/"
+"University of Illinois at Urbana-Champaign","Data_management_plans_consult","https://www.library.illinois.edu/rds/"
+"University of Illinois at Urbana-Champaign","Data_management_plans_instruction",NA
+"University of Illinois at Urbana-Champaign","Data_visualization_software_consult","https://www.library.illinois.edu/sc/about_us/resources_experts/"
+"University of Illinois at Urbana-Champaign","Data_visualization_software_instruction",NA
+"University of Illinois at Urbana-Champaign","Data_visualization_software_web","https://www.library.illinois.edu/sc/services/data-visualization/"
+"University of Illinois at Urbana-Champaign","Electronic_lab_notebooks",NA
+"University of Illinois at Urbana-Champaign","Geospatial_software_web",NA
+"University of Illinois at Urbana-Champaign","Geospatial_web","https://guides.library.illinois.edu/GIS"
+"University of Illinois at Urbana-Champaign","OSF","https://guides.library.illinois.edu/istclibraryguide/ideals"
+"University of Illinois at Urbana-Champaign","Statistical_consulting","https://www.library.illinois.edu/sc/statistical-consulting/"
+"University of Illinois at Urbana-Champaign","Web_scraping",NA
+"University of North Carolina at Chapel Hill","Data_analysis_web",NA
+"University of North Carolina at Chapel Hill","Data_management_consult","https://guides.lib.unc.edu/michelehayslett"
+"University of North Carolina at Chapel Hill","Data_management_instruction","https://guides.lib.unc.edu/researchdatatoolkit"
+"University of North Carolina at Chapel Hill","Data_management_plans_consult","https://calendar.lib.unc.edu/appointments/technology?g=6682"
+"University of North Carolina at Chapel Hill","Data_management_plans_instruction",NA
+"University of North Carolina at Chapel Hill","Electronic_lab_notebooks",NA
+"University of North Carolina at Chapel Hill","Geospatial_consult","https://library.unc.edu/data/gis-assistance/"
+"University of North Carolina at Chapel Hill","Geospatial_instruction","https://guides.lib.unc.edu/c.php?g=9007&p=45215"
+"University of North Carolina at Chapel Hill","Geospatial_software_consult","https://guides.lib.unc.edu/c.php?g=9007&p=45214"
+"University of North Carolina at Chapel Hill","Geospatial_software_instruction","https://guides.lib.unc.edu/c.php?g=9007&p=45216"
+"University of North Carolina at Chapel Hill","Geospatial_web","https://guides.lib.unc.edu/spatialdata"
+"University of North Carolina at Chapel Hill","OSF","https://osf.io/institutions/unc/"
+"University of North Carolina at Chapel Hill","Reproducible_research","https://dataverse.unc.edu/"
+"University of North Carolina at Chapel Hill","Text_data_mining",NA
+"University of North Carolina at Chapel Hill","Web_scraping",NA
+"University of Utah","Data_analysis_instruction","https://campusguides.lib.utah.edu/c.php?g=1029638&p=7462997"
+"University of Utah","Data_analysis_web",NA
+"University of Utah","Data_management_plans_instruction","https://campusguides.lib.utah.edu/researchdata"
+"University of Utah","Data_repository","https://campusguides.lib.utah.edu/c.php?g=160788&p=1051585"
+"University of Utah","Data_visualization_software_consult",NA
+"University of Utah","Data_visualization_software_instruction",NA
+"University of Utah","Geospatial_instruction","https://lib.utah.edu/services/geospatial/training-materials.php"
+"University of Utah","Geospatial_web",NA
+"University of Utah","OSF","https://osf.io/gd8h9/wiki/home/"
+"University of Utah","Text_data_mining",NA
+"University of Utah","Web_scraping",NA
+"University of Arizona","Data_analysis_instruction",NA
+"University of Arizona","Data_analysis_web",NA
+"University of Arizona","Data_management_instruction","https://data.library.arizona.edu/data-management/events-schedule-current"
+"University of Arizona","Data_management_plans_instruction","https://data.library.arizona.edu/data-management/events-schedule-current"
+"University of Arizona","Data_visualization_software_consult","https://data.library.arizona.edu/data-science/r-programming"
+"University of Arizona","Data_visualization_software_instruction",NA
+"University of Arizona","Data_visualization_software_web","https://data.library.arizona.edu/data-science/data-visualization"
+"University of Arizona","Electronic_lab_notebooks",NA
+"University of Arizona","Geospatial_web","https://libguides.library.arizona.edu/GIS"
+"University of Arizona","Statistical_consulting","https://new.library.arizona.edu/events/r-programming-help"
+"University of Arizona","Version_control",NA
+"University of Arizona","Web_scraping",NA
+"University of California, Berkeley","Data_analysis_instruction","https://guides.lib.berkeley.edu/data-analysis"
+"University of California, Berkeley","Data_analysis_web",NA
+"University of California, Berkeley","Data_management_instruction",NA
+"University of California, Berkeley","Data_management_plans_instruction","https://researchdata.berkeley.edu/training"
+"University of California, Berkeley","Data_management_plans_web","https://guides.lib.berkeley.edu/c.php?g=862102&p=6178956"
+"University of California, Berkeley","Data_repository","https://www.lib.berkeley.edu/scholarly-communication/publishing/your-data"
+"University of California, Berkeley","Data_visualization_software_consult","https://guides.lib.berkeley.edu/c.php?g=1069243&p=7782608"
+"University of California, Berkeley","Data_visualization_software_instruction","https://guides.lib.berkeley.edu/data-analysis"
+"University of California, Berkeley","Electronic_lab_notebooks","https://guides.lib.berkeley.edu/ERN"
+"University of California, Berkeley","Geospatial_software_consult","https://guides.lib.berkeley.edu/gis/help"
+"University of California, Berkeley","Geospatial_web","https://guides.lib.berkeley.edu/gis"
+"University of California, Berkeley","OSF","https://researchdata.berkeley.edu/tools/open-science-framework"
+"University of California, Berkeley","Statistical_consulting",NA
+"University of California, Berkeley","Version_control",NA
+"University of California, Berkeley","Web_scraping","https://guides.lib.berkeley.edu/text-mining"
+"University of Iowa","Data_analysis_web",NA
+"University of Iowa","Data_management_instruction","https://www.lib.uiowa.edu/data/workshop/"
+"University of Iowa","Data_management_plans_instruction","https://www.lib.uiowa.edu/data/workshop/"
+"University of Iowa","Data_repository",NA
+"University of Iowa","Data_visualization_software_consult",NA
+"University of Iowa","Data_visualization_software_instruction",NA
+"University of Iowa","Data_visualization_software_web",NA
+"University of Iowa","DMPTool","https://www.lib.uiowa.edu/data/plan/tools/"
+"University of Iowa","Electronic_lab_notebooks",NA
+"University of Iowa","Geospatial_consult",NA
+"University of Iowa","Geospatial_instruction","https://guides.lib.uiowa.edu/c.php?g=132116&p=2316517"
+"University of Iowa","Geospatial_software_consult",NA
+"University of Iowa","Geospatial_software_instruction","https://guides.lib.uiowa.edu/c.php?g=132116&p=2316517"
+"University of Iowa","Geospatial_web","https://guides.lib.uiowa.edu/c.php?g=132116&p=862462"
+"University of Iowa","OSF",NA
+"University of Iowa","Reproducible_research",NA
+"University of Iowa","Statistical_consulting",NA
+"University of Iowa","Text_data_mining",NA
+"University of Iowa","Version_control",NA
+"University of Iowa","Web_scraping",NA
+"University of Oregon","Data_analysis_instruction","https://library.uoregon.edu/research-data-management/training-workshops"
+"University of Oregon","Data_analysis_web",NA
+"University of Oregon","Data_management_instruction",NA
+"University of Oregon","Data_management_plans_consult","https://library.uoregon.edu/research-data-management/consultations"
+"University of Oregon","Data_visualization_software_consult",NA
+"University of Oregon","Data_visualization_software_web","https://researchguides.uoregon.edu/library_workshops/tidyverse"
+"University of Oregon","DMPTool","https://researchguides.uoregon.edu/dmp-tool"
+"University of Oregon","Electronic_lab_notebooks",NA
+"University of Oregon","Geospatial_consult",NA
+"University of Oregon","Geospatial_instruction",NA
+"University of Oregon","Geospatial_software_consult",NA
+"University of Oregon","Geospatial_software_instruction",NA
+"University of Oregon","Geospatial_software_web","https://researchguides.uoregon.edu/gis/uo-resources"
+"University of Oregon","OSF",NA
+"University of Oregon","Reproducible_research","https://library.uoregon.edu/research-data-management/training-workshops"
+"University of Oregon","Text_data_mining",NA
+"University of Oregon","Web_scraping",NA
+"University of Washington","Data_analysis_web",NA
+"University of Washington","Data_management_plans_web",NA
+"University of Washington","Data_repository",NA
+"University of Washington","Data_visualization_software_consult","https://guides.lib.uw.edu/datavisualization/home "
+"University of Washington","Data_visualization_software_instruction",NA
+"University of Washington","Data_visualization_software_web",NA
+"University of Washington","Electronic_lab_notebooks","https://guides.lib.uw.edu/research/ELN"
+"University of Washington","Geospatial_instruction",NA
+"University of Washington","Geospatial_software_instruction",NA
+"University of Washington","Geospatial_software_web",NA
+"University of Washington","Geospatial_web","https://guides.lib.uw.edu/research/gis"
+"University of Washington","Statistical_consulting",NA
+"University of Washington","Version_control","https://guides.lib.uw.edu/research/reproducibility/robust-coding"
+"University of Washington","Web_scraping",NA
+"University of Colorado, Boulder","Data_analysis_instruction","https://calendar.colorado.edu/event/r_workshop_series_-_statistical_analysis_in_r_288?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder#.YD1ZMv5lCV4"
+"University of Colorado, Boulder","Data_analysis_web",NA
+"University of Colorado, Boulder","Data_management_instruction","https://www.colorado.edu/crdds/what-we-do/research-data-management"
+"University of Colorado, Boulder","Data_management_plans_instruction",NA
+"University of Colorado, Boulder","Data_management_plans_web",NA
+"University of Colorado, Boulder","Data_management_web",NA
+"University of Colorado, Boulder","Data_repository","https://scholar.colorado.edu/about"
+"University of Colorado, Boulder","DMPTool","https://www.colorado.edu/crdds/what-we-do/research-data-management"
+"University of Colorado, Boulder","Electronic_lab_notebooks",NA
+"University of Colorado, Boulder","Geospatial_instruction","https://calendar.colorado.edu/event/make_a_web_map_with_r?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder#.YD1cFP5lCV4"
+"University of Colorado, Boulder","Geospatial_software_consult",NA
+"University of Colorado, Boulder","Geospatial_software_instruction",NA
+"University of Colorado, Boulder","Geospatial_software_web",NA
+"University of Colorado, Boulder","OSF","https://www.colorado.edu/crdds/what-we-do/research-data-management"
+"University of Colorado, Boulder","Reproducible_research",NA
+"University of Colorado, Boulder","Statistical_consulting",NA
+"University of Colorado, Boulder","Text_data_mining","https://cu-boulder-crdds.github.io/LearningMaterials/PythonText.html"
+"University of Colorado, Boulder","Version_control",NA
+"University of Colorado, Boulder","Web_scraping",NA
+"University of Florida","Data_analysis_web",NA
+"University of Florida","Data_management_instruction",NA
+"University of Florida","Data_management_plans_consult","https://datamgmt.uflib.ufl.edu/"
+"University of Florida","Data_management_plans_web","https://guides.uflib.ufl.edu/datamanagement/dmp"
+"University of Florida","Data_repository","https://ufdc.ufl.edu/ufirg"
+"University of Florida","Data_visualization_software_web",NA
+"University of Florida","Electronic_lab_notebooks",NA
+"University of Florida","Geospatial_instruction",NA
+"University of Florida","Geospatial_software_instruction",NA
+"University of Florida","Geospatial_software_web",NA
+"University of Florida","Geospatial_web",NA
+"University of Florida","OSF",NA
+"University of Florida","Text_data_mining",NA
+"University of Florida","Version_control","https://guides.uflib.ufl.edu/reproducibility/lessons"
+"University of Florida","Web_scraping",NA
+"University of Minnesota, Twin Cities","Data_analysis_instruction",NA
+"University of Minnesota, Twin Cities","Data_analysis_web",NA
+"University of Minnesota, Twin Cities","Data_visualization_software_consult",NA
+"University of Minnesota, Twin Cities","Data_visualization_software_instruction",NA
+"University of Minnesota, Twin Cities","Electronic_lab_notebooks",NA
+"University of Minnesota, Twin Cities","Geospatial_consult",NA
+"University of Minnesota, Twin Cities","Geospatial_instruction",NA
+"University of Minnesota, Twin Cities","Geospatial_software_consult",NA
+"University of Minnesota, Twin Cities","Geospatial_software_instruction",NA
+"University of Minnesota, Twin Cities","Geospatial_software_web",NA
+"University of Minnesota, Twin Cities","OSF",NA
+"University of Minnesota, Twin Cities","Statistical_consulting",NA
+"University of Minnesota, Twin Cities","Text_data_mining",NA
+"University of Minnesota, Twin Cities","Web_scraping",NA
+"University of Texas at Austin","Data_analysis_instruction","https://www.lib.utexas.edu/events/353"
+"University of Texas at Austin","Data_analysis_web",NA
+"University of Texas at Austin","Data_management_plans_instruction",NA
+"University of Texas at Austin","Data_management_plans_web",NA
+"University of Texas at Austin","Data_management_web",NA
+"University of Texas at Austin","Data_repository",NA
+"University of Texas at Austin","Data_visualization_software_consult",NA
+"University of Texas at Austin","Data_visualization_software_web",NA
+"University of Texas at Austin","Electronic_lab_notebooks",NA
+"University of Texas at Austin","Geospatial_web","https://guides.lib.utexas.edu/gis"
+"University of Texas at Austin","OSF",NA
+"University of Texas at Austin","Reproducible_research",NA
+"University of Texas at Austin","Statistical_consulting",NA
+"University of Texas at Austin","Text_data_mining","https://www.lib.utexas.edu/events/432"
+"University of Texas at Austin","Version_control",NA
+"Washington State University","Data_analysis_web",NA
+"Washington State University","Data_management_instruction",NA
+"Washington State University","Data_management_plans_instruction",NA
+"Washington State University","Data_visualization_software_consult",NA
+"Washington State University","Data_visualization_software_instruction",NA
+"Washington State University","Data_visualization_software_web",NA
+"Washington State University","DMPTool","https://libguides.libraries.wsu.edu/datamanagement/dmp"
+"Washington State University","Electronic_lab_notebooks",NA
+"Washington State University","Geospatial_consult",NA
+"Washington State University","Geospatial_instruction",NA
+"Washington State University","Geospatial_software_consult",NA
+"Washington State University","Geospatial_software_instruction",NA
+"Washington State University","Geospatial_software_web",NA
+"Washington State University","Geospatial_web",NA
+"Washington State University","OSF",NA
+"Washington State University","Reproducible_research",NA
+"Washington State University","Statistical_consulting",NA
+"Washington State University","Text_data_mining",NA
+"Washington State University","Version_control",NA
+"Washington State University","Web_scraping",NA
+"Arizona State University","Carpentries",NA
+"Arizona State University","Data_analysis_consult",NA
+"Arizona State University","Data_analysis_web","https://lib.asu.edu/data/learning"
+"Arizona State University","Data_management_consult",NA
+"Arizona State University","Data_management_instruction",NA
+"Arizona State University","Data_management_plans_instruction",NA
+"Arizona State University","Data_visualization_software_instruction",NA
+"Arizona State University","Data_visualization_software_web",NA
+"Arizona State University","Electronic_lab_notebooks",NA
+"Arizona State University","Geospatial_instruction","https://lib.asu.edu/geo/events"
+"Arizona State University","Geospatial_software_web",NA
+"Arizona State University","Geospatial_web","https://lib.asu.edu/geo"
+"Arizona State University","OSF",NA
+"Arizona State University","Reproducible_research",NA
+"Arizona State University","Statistical_consulting",NA
+"Arizona State University","Text_data_mining",NA
+"Arizona State University","Version_control",NA
+"Arizona State University","Web_scraping",NA
+"Michigan State University","Aerial_imagery","https://libguides.lib.msu.edu/c.php?g=95495&p=623953"
+"Michigan State University","Carpentries",NA
+"Michigan State University","Data_analysis_consult",NA
+"Michigan State University","Data_analysis_instruction",NA
+"Michigan State University","Data_analysis_web",NA
+"Michigan State University","Data_management_instruction","https://lib.msu.edu/rdmg/training/"
+"Michigan State University","Data_management_plans_instruction",NA
+"Michigan State University","Data_management_plans_web","https://lib.msu.edu/rdmg/resources/"
+"Michigan State University","Data_repository",NA
+"Michigan State University","Data_visualization_software_instruction",NA
+"Michigan State University","Data_visualization_software_web",NA
+"Michigan State University","DMPTool","https://lib.msu.edu/rdmg/resources/"
+"Michigan State University","Electronic_lab_notebooks",NA
+"Michigan State University","Geospatial_consult",NA
+"Michigan State University","Geospatial_software_consult",NA
+"Michigan State University","Geospatial_web","https://libguides.lib.msu.edu/c.php?g=95932&p=624998"
+"Michigan State University","OSF",NA
+"Michigan State University","Reproducible_research",NA
+"Michigan State University","Statistical_consulting",NA
+"Michigan State University","Text_data_mining","https://lib.msu.edu/dts/"
+"Michigan State University","Version_control",NA
+"Michigan State University","Web_scraping",NA
+"Ohio State University","Aerial_imagery",NA
+"Ohio State University","Carpentries",NA
+"Ohio State University","Data_analysis_consult",NA
+"Ohio State University","Data_analysis_instruction",NA
+"Ohio State University","Data_analysis_web",NA
+"Ohio State University","Data_management_consult",NA
+"Ohio State University","Data_management_instruction",NA
+"Ohio State University","Data_management_plans_instruction",NA
+"Ohio State University","Data_management_plans_web",NA
+"Ohio State University","Data_visualization_software_instruction",NA
+"Ohio State University","Data_visualization_software_web",NA
+"Ohio State University","Electronic_lab_notebooks",NA
+"Ohio State University","Geospatial_instruction",NA
+"Ohio State University","Geospatial_software_instruction",NA
+"Ohio State University","Geospatial_web","https://guides.osu.edu/geospatial-data/home"
+"Ohio State University","OSF",NA
+"Ohio State University","Reproducible_research",NA
+"Ohio State University","Statistical_consulting",NA
+"Ohio State University","Version_control",NA
+"Oregon State University","Data_analysis_consult",NA
+"Oregon State University","Data_analysis_instruction","https://guides.library.oregonstate.edu/Library-Workshops-for-Grad-Students-Faculty"
+"Oregon State University","Data_analysis_web",NA
+"Oregon State University","Data_management_consult","https://guides.library.oregonstate.edu/research-data-services/managing-data"
+"Oregon State University","Data_management_instruction","https://guides.library.oregonstate.edu/Library-Workshops-for-Grad-Students-Faculty"
+"Oregon State University","Data_management_plans_instruction","https://guides.library.oregonstate.edu/Library-Workshops-for-Grad-Students-Faculty"
+"Oregon State University","Data_visualization_software_consult",NA
+"Oregon State University","Data_visualization_software_instruction","https://guides.library.oregonstate.edu/Library-Workshops-for-Grad-Students-Faculty"
+"Oregon State University","Data_visualization_software_web",NA
+"Oregon State University","Electronic_lab_notebooks",NA
+"Oregon State University","Geospatial_consult",NA
+"Oregon State University","Geospatial_instruction",NA
+"Oregon State University","Geospatial_software_consult",NA
+"Oregon State University","Geospatial_software_instruction",NA
+"Oregon State University","Geospatial_software_web",NA
+"Oregon State University","OSF",NA
+"Oregon State University","Reproducible_research",NA
+"Oregon State University","Statistical_consulting",NA
+"Oregon State University","Text_data_mining",NA
+"Oregon State University","Web_scraping",NA
+"Pennsylvania State University","Carpentries",NA
+"Pennsylvania State University","Data_management_instruction","https://libraries.psu.edu/research/research-data-services/data-management"
+"Pennsylvania State University","Data_management_plans_instruction",NA
+"Pennsylvania State University","Data_management_plans_web","https://guides.libraries.psu.edu/rdm"
+"Pennsylvania State University","Data_repository",NA
+"Pennsylvania State University","Data_visualization_software_web",NA
+"Pennsylvania State University","DMPTool","https://libraries.psu.edu/research/research-data-services/data-management"
+"Pennsylvania State University","Electronic_lab_notebooks",NA
+"Pennsylvania State University","Geospatial_instruction","https://libraries.psu.edu/maps"
+"Pennsylvania State University","Geospatial_software_consult",NA
+"Pennsylvania State University","Geospatial_software_instruction","https://libraries.psu.edu/maps"
+"Pennsylvania State University","Geospatial_software_web",NA
+"Pennsylvania State University","Geospatial_web",NA
+"Pennsylvania State University","OSF",NA
+"Pennsylvania State University","Reproducible_research",NA
+"Pennsylvania State University","Text_data_mining",NA
+"Pennsylvania State University","Version_control",NA
+"Pennsylvania State University","Web_scraping",NA
+"Stanford University","Aerial_imagery",NA
+"Texas A&M University","Carpentries",NA
+"Texas A&M University","Data_analysis_consult",NA
+"University of Arizona","Carpentries",NA
+"University of California, Berkeley","Carpentries",NA
+"University of California, Berkeley","Data_analysis_consult",NA
+"University of California, Davis","Carpentries",NA
+"University of California, Los Angeles","Carpentries","https://www.library.ucla.edu/events/software-carpentry-python-0"
+"University of California, Los Angeles","Data_analysis_consult","https://www.library.ucla.edu/about-0"
+"University of Colorado, Boulder","Carpentries","https://www.colorado.edu/libraries/research-assistance/data-services"
+"University of Florida","Carpentries",NA
+"University of Florida","Data_analysis_consult","https://arcs.uflib.ufl.edu/services/data-science/"
+"University of Florida","Data_analysis_instruction","https://arcs.uflib.ufl.edu/services/data-science/"
+"University of Florida","Data_visualization_software_instruction","https://arcs.uflib.ufl.edu/services/data-science/"
+"University of Illinois at Urbana-Champaign","Carpentries",NA
+"University of Illinois at Urbana-Champaign","Data_analysis_consult",NA
+"University of Illinois at Urbana-Champaign","Data_analysis_instruction",NA
+"University of Illinois at Urbana-Champaign","Data_analysis_web",NA
+"University of Iowa","Carpentries",NA
+"University of Iowa","Data_analysis_consult",NA
+"University of Maryland, College Park","Aerial_imagery",NA
+"University of Minnesota, Twin Cities","Carpentries",NA
+"University of Minnesota, Twin Cities","Data_analysis_consult",NA
+"University of Minnesota, Twin Cities","Data_management_plans_instruction",NA
+"University of North Carolina at Chapel Hill","Carpentries",NA
+"University of Oregon","Carpentries",NA
+"University of Southern California","Aerial_imagery",NA
+"University of Southern California","Carpentries",NA
+"University of Southern California","Data_analysis_consult","https://libraries.usc.edu/bioinformatics/consultation"
+"University of Southern California","Data_analysis_instruction","https://libraries.usc.edu/bioinformatics/workshops-training"
+"University of Southern California","Data_analysis_web","https://libguides.usc.edu/LearnBioinformatics"
+"University of Texas at Austin","Aerial_imagery",NA
+"University of Texas at Austin","Data_analysis_consult",NA
+"University of Utah","Carpentries",NA
+"University of Utah","Data_analysis_consult",NA
+"University of Washington","Carpentries",NA
+"University of Washington","Data_analysis_consult",NA
+"University of Washington","Data_analysis_instruction",NA
+"Washington State University","Aerial_imagery",NA
+"Washington State University","Carpentries",NA
+"Washington State University","Data_analysis_consult",NA
+"Washington State University","Data_analysis_instruction",NA
+"University of California, Davis","Data_analysis_instruction","https://datalab.ucdavis.edu/archive/"
+"University of California, Davis","Data_analysis_web","https://datalab.ucdavis.edu/research-toolkits/"
+"University of California, Davis","Data_management_consult","https://www.library.ucdavis.edu/service/research-data-services/#Data Management, Publishing, and Preservation"
+"University of California, Davis","Data_management_plans_consult","https://www.library.ucdavis.edu/service/data-management/plan-2/"
+"University of California, Davis","Data_management_plans_web","https://www.library.ucdavis.edu/service/data-management/plan-2//"
+"University of California, Davis","Data_repository","https://www.library.ucdavis.edu/service/data-management/share/#dryad-1"
+"University of California, Davis","Data_visualization_software_web","https://datalab.ucdavis.edu/research-toolkits//"
+"University of California, Davis","Electronic_lab_notebooks",NA
+"University of California, Davis","Geospatial_consult","https://datalab.ucdavis.edu/services/"
+"University of California, Davis","Geospatial_software_web","https://datalab.ucdavis.edu/geospatial/"
+"University of California, Davis","Geospatial_web","https://datalab.ucdavis.edu/geospatial/"
+"University of California, Davis","OSF",NA
+"University of California, Davis","Statistical_consulting",NA
+"University of California, Davis","Version_control","https://datalab.ucdavis.edu/archive/"
+"University of California, Davis","Web_scraping","https://datalab.ucdavis.edu/archive/"
+"University of California, Los Angeles","Data_analysis_instruction",NA
+"University of California, Los Angeles","Data_analysis_web",NA
+"University of California, Los Angeles","Data_management_consult","https://www.library.ucla.edu/support/publishing-data-management/scholarly-communication-services/data-management-curation-services"
+"University of California, Los Angeles","Data_management_instruction",NA
+"University of California, Los Angeles","Data_management_plans_instruction",NA
+"University of California, Los Angeles","Data_visualization_software_web","https://guides.library.ucla.edu/data-visualization"
+"University of California, Los Angeles","Electronic_lab_notebooks",NA
+"University of California, Los Angeles","Geospatial_instruction",NA
+"University of California, Los Angeles","Geospatial_software_instruction",NA
+"University of California, Los Angeles","Geospatial_software_web","https://guides.library.ucla.edu/gis"
+"University of California, Los Angeles","Geospatial_web","https://guides.library.ucla.edu/gis"
+"University of California, Los Angeles","OSF",NA
+"University of California, Los Angeles","Reproducible_research",NA
+"University of Maryland, College Park","Data_analysis_web",NA
+"University of Maryland, College Park","Data_management_consult",NA
+"University of Maryland, College Park","Data_management_instruction",NA
+"University of Maryland, College Park","Data_management_plans_consult","https://www.lib.umd.edu/data"
+"University of Maryland, College Park","Data_management_plans_instruction",NA
+"University of Maryland, College Park","Data_management_plans_web","https://www.lib.umd.edu/data/management/dmp-guide"
+"University of Maryland, College Park","Data_management_web","https://www.lib.umd.edu/data"
+"University of Maryland, College Park","Data_repository","https://www.lib.umd.edu/data/preservation/drum-for-data"
+"University of Maryland, College Park","Data_visualization_software_consult",NA
+"University of Maryland, College Park","Data_visualization_software_web",NA
+"University of Maryland, College Park","DMPTool",NA
+"University of Maryland, College Park","Electronic_lab_notebooks",NA
+"University of Maryland, College Park","Geospatial_software_web","https://www.lib.umd.edu/gis/learning"
+"University of Maryland, College Park","OSF",NA
+"University of Maryland, College Park","Reproducible_research",NA
+"University of Maryland, College Park","Text_data_mining",NA
+"University of Maryland, College Park","Version_control",NA
+"University of Maryland, College Park","Web_scraping",NA
+"University of Southern California","Data_management_consult",NA
+"University of Southern California","Data_management_instruction","https://libguides.usc.edu/c.php?g=1061168&p=7714704"
+"University of Southern California","Data_management_plans_consult",NA
+"University of Southern California","Data_management_plans_web",NA
+"University of Southern California","Data_management_web",NA
+"University of Southern California","Data_repository",NA
+"University of Southern California","Data_visualization_software_consult",NA
+"University of Southern California","Data_visualization_software_web",NA
+"University of Southern California","DMPTool",NA
+"University of Southern California","Electronic_lab_notebooks",NA
+"University of Southern California","Geospatial_consult",NA
+"University of Southern California","Geospatial_instruction","https://libguides.usc.edu/c.php?g=1061168&p=7714704"
+"University of Southern California","Geospatial_software_consult",NA
+"University of Southern California","Geospatial_software_instruction","https://libguides.usc.edu/c.php?g=1061168&p=7714704"
+"University of Southern California","Geospatial_software_web",NA
+"University of Southern California","Geospatial_web","https://libguides.usc.edu/c.php?g=235195&p=15606655"
+"University of Southern California","OSF",NA
+"University of Southern California","Statistical_consulting",NA
+"University of Southern California","Version_control",NA
+"University of Southern California","Web_scraping",NA
+"University of Wisconsin, Madison","Data_analysis_web",NA
+"University of Wisconsin, Madison","Data_management_consult","https://researchdata.wisc.edu/our-services/"
+"University of Wisconsin, Madison","Data_management_instruction",NA
+"University of Wisconsin, Madison","Data_management_plans_instruction",NA
+"University of Wisconsin, Madison","Data_visualization_software_web",NA
+"University of Wisconsin, Madison","Geospatial_software_instruction","https://mediaspace.wisc.edu/media/Introduction+to+Geographic+Information+Systems+(GIS)+Workshop/1_m235nlfe"
+"University of Wisconsin, Madison","Geospatial_software_web","https://researchguides.library.wisc.edu/c.php?g=178144&p=1169833"
+"University of Wisconsin, Madison","Geospatial_web","https://researchguides.library.wisc.edu/c.php?g=178144&p=1170191"
+"University of Wisconsin, Madison","Text_data_mining",NA
+"University of Wisconsin, Madison","Version_control",NA
+"University of Wisconsin, Madison","Data_analysis_consult",NA
+"University of Wisconsin, Madison","Data_visualization_software_consult",NA
+"University of Wisconsin, Madison","OSF",NA
+"University of Wisconsin, Madison","Reproducible_research",NA
+"University of Wisconsin, Madison","Statistical_consulting",NA
+"University of Wisconsin, Madison","Web_scraping",NA
