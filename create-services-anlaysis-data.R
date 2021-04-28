@@ -11,6 +11,7 @@
 
 library(dplyr)
 library(readr)
+library(stringr)
 
 confirmed <- read_csv(file = "data/services-present-confirmed.csv")
 additional <- read_csv(file = "data/services-additional.csv")
@@ -41,6 +42,24 @@ if (nrow(services) != (29 * 25)) {
   message("Number of rows not 29 * 25")
 }
 
+# For some of the services, we have the delivery mode included, too 
+# (instruction, consult, web) as part of the Service name. Want to separate 
+# that information into a separate column, "Mode"
+services <- services %>%
+  mutate(Mode = case_when(str_detect(string = Service, 
+                                    pattern = "_instruction$") ~ "Instruction",
+                          str_detect(string = Service,
+                                    pattern = "_consult$") ~ "Consult",
+                          str_detect(string = Service,
+                                    pattern = "_web") ~ "Web",
+                          TRUE ~ NA_character_)) %>%
+  # no need to include mode in service at this point, so remove from Service
+  mutate(Service = str_replace(string = Service, 
+                               pattern = "_instruction$|_consult$|_web$",
+                               replacement = "")) %>%
+  # Rearrange columns, so URL is at end
+  select(Institution, Service, Mode, URL)
+  
 write.csv(x = services, 
           file = "data/services-final.csv", 
           row.names = FALSE)
