@@ -1,0 +1,26 @@
+Institution,Aerial_imagery,Carpentries,Data_analysis,Data_management,Data_management_plans,Data_repository,Data_visualization_software,DMPTool,Electronic_lab_notebooks,Geospatial,Geospatial_software,OSF,Reproducible_research,Statistical_consulting,Text_data_mining,Version_control,Web_scraping
+Arizona State University,1,0,1,1,1,1,1,1,0,1,1,0,0,0,0,0,0
+Michigan State University,1,0,0,1,1,0,1,1,0,1,1,0,0,0,1,0,0
+Ohio State University,0,0,0,1,1,1,1,1,0,1,1,0,0,0,1,0,1
+Oregon State University,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,1,0
+Pennsylvania State University,1,0,1,1,1,0,1,1,0,1,1,0,0,1,0,0,0
+Stanford University,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+Texas A&M University,1,0,0,1,1,1,0,1,0,0,1,1,1,0,0,0,0
+University of Arizona,1,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,0
+"University of California, Berkeley",1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1
+"University of California, Davis",1,0,1,1,1,1,1,1,0,1,1,0,1,0,1,1,1
+"University of California, Los Angeles",1,1,1,1,1,1,1,1,0,1,1,0,0,1,1,1,1
+"University of Colorado, Boulder",1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,0,0
+University of Florida,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0
+University of Illinois at Urbana-Champaign,1,0,0,1,1,1,1,1,0,1,1,1,1,1,1,1,0
+University of Iowa,1,0,1,1,1,0,0,1,0,1,1,0,0,0,0,0,0
+"University of Maryland, College Park",0,1,1,1,1,1,1,0,0,1,1,0,0,1,0,0,0
+"University of Minnesota, Twin Cities",1,0,0,1,1,1,1,1,0,1,0,0,1,0,0,1,0
+University of North Carolina at Chapel Hill,1,0,1,1,1,1,1,1,0,1,1,1,1,1,0,1,0
+University of Oregon,1,0,1,1,1,1,1,1,0,1,1,0,1,1,0,1,0
+University of Southern California,0,0,1,1,1,0,1,0,0,1,1,0,1,0,1,0,0
+University of Texas at Austin,0,1,1,1,1,0,1,1,0,1,1,0,0,0,1,0,1
+University of Utah,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0
+University of Washington,1,0,0,1,1,0,1,1,1,1,1,1,1,0,1,1,0
+"University of Wisconsin, Madison",1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+Washington State University,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0

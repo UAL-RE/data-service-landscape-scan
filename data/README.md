@@ -18,10 +18,15 @@ information; includes all institution / service combinations in
 services-absent-to-confirm.csv with information indicating whether service 
 actually present (a URL in the URL column) or absent (an `NA` in the URL 
 column).
-+ services-final.csv: List of institution /service combinations indicating 
-presence / absence of services. When present, location of web page(s) describing 
-the service are in URL column (multiple URLs are separated by a semicolon). 
-**This is the final version of data that is used for all subsequent analyses.**
++ services-final.csv: List of institution / service / mode combinations 
+that are offered at an institution. Values in URL field indicate source 
+describing the service; multiple URLs are separated by a semicolon. NA values 
+in the URL column indicate that service / mode was not found at the 
+institution's library.
+presence / absence of services.
+**This is the final version of data that is used for most subsequent analyses.**
++ services-final-pa.csv: Matrix of institution /service combinations indicating 
+presence / absence of services. 
 + services-present-confirmed.csv: Services that are confirmed as actually being 
 present. All services listed in services-present.csv were reviewed by two Data 
 Cooperative personnel.
