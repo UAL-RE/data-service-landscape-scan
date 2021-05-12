@@ -24,7 +24,7 @@ ubiquitous_services <- which(total_present == (nrow(services_pa)))
 absent_services <- which(total_present == 0) # probably none of these
 pa_matrix_var <- pa_matrix[, -c(ubiquitous_services, absent_services)]
 
-# Calculate correlation coefficients and p-values
+# Calculate Pearson correlation coefficients and p-values
 corr_matrix <- rcorr(pa_matrix_var)
 
 # Diagonal correlations are uninformative, set to 0
