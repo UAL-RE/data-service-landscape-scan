@@ -7,6 +7,9 @@ public/private status, land grant status, Association of American Universities
 membership, and whether or not institution includes a medical school. Retrieved 
 from [https://uair.arizona.edu/content/ua-peers](https://uair.arizona.edu/content/ua-peers) 
 on 2020-05-21.
++ salaries-ipeds.csv: Library total expenditures and salary/wage expenditures 
+for 2019. Retrieved from [Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/use-the-data)
+(IPEDS) survey data on 2021-05-17.
 + services-absent-to-confirm.csv: Following review of services initially 
 categorized as present, the institution / service combinations that remain 
 absent and need final check by Data Cooperative personnel to ensure they are 
