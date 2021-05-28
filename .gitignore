@@ -1,3 +1,7 @@
+# Output folder
+output/
+
+# GitHub default ignores below here
 # History files
 .Rhistory
 .Rapp.history
