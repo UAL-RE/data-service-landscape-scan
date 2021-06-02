@@ -39,12 +39,14 @@ corr_matrix$p_adj <- matrix(data = p.adjust(corr_matrix$P, method = "holm"),
 rownames(corr_matrix$p_adj) <- colnames(corr_matrix$p_adj) <- colnames(corr_matrix$P)
 
 # Plot only those correlations that are significant
+pdf(file = "output/pairwise-service-corr.pdf", useDingbats = FALSE)
 corrplot(corr = corr_matrix$r, 
          type = "upper", 
          order = "alphabet", 
          p.mat = corr_matrix$p_adj,
          sig.level = 0.05, 
          insig = "blank")
+dev.off()
 
 # Extract only those correlations that remain significant after p-value 
 # adjustment, start by converting correlation & adjusted-p matrices to a data 
