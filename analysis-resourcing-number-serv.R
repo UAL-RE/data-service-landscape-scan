@@ -21,6 +21,12 @@ services_dist <- services %>%
   select(Institution, Service_count) %>%
   left_join(resources, by = c("Institution" = "institution"))
 
+# May want to see which point is UArizona, so add column with that information
+services_dist <- services_dist %>%
+  mutate(UArizona = if_else(condition = Institution == "University of Arizona",
+                            true = TRUE,
+                            false = FALSE))
+
 # 1. Test to see if salaries predict number of services
 
 # Plot the data to see how they look
@@ -133,6 +139,23 @@ sans_two_plot <- ggplot(data = services_dist,
 print(sans_two_plot)
 ggsave(file = "output/salaries-services.pdf",
        plot = sans_two_plot)
+
+# Same plot, but color UArizona red
+sans_two_plot_az <- ggplot(data = services_dist,
+                        mapping = aes(x = salaries_wages, 
+                                      y = Service_count)) +
+  geom_point(size = 2.0, mapping = aes(color = UArizona)) +
+  scale_color_manual(values = c("#555555", "#FF0000")) +
+  geom_smooth(method = "lm", se = FALSE, lty = 2, lwd = 0.5) +
+  geom_smooth(data = sans_two,
+              method = "lm", se = FALSE) +
+  xlab(label = "Total salaries/wages ($)") +
+  ylab(label = "Number of services offered") +
+  theme_bw() +
+  theme(legend.position = "none")
+print(sans_two_plot_az)
+ggsave(file = "output/salaries-services-az.pdf",
+       plot = sans_two_plot_az)
 
 # 2. Test to see if total expenditures predict number of services
 
