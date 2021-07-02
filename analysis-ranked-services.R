@@ -44,6 +44,38 @@ print(service_rank_plot)
 ggsave(filename = "output/service-ranks.pdf", 
        plot = service_rank_plot)
 
+# Same plot as above, but highlighting ones at UArizona
+# Start by seeing which ones are at UArizona
+# Am I lazy, or just over-enamored with pivot?
+ua_services <- services %>%
+  filter(Institution == "University of Arizona") %>%
+  pivot_longer(cols = -Institution, names_to = "Service", values_to = "Present") %>%
+  filter(Present == 1) %>%
+  select(-Institution) %>%
+  # Need to update by replacing underscore with space in service name
+  mutate(Service = gsub(pattern = "_",
+                        replacement = " ",
+                        x = Service))
+
+# Add a column to services_counts indicating which ones are offered at UArizona
+services_counts <- services_counts %>%
+  mutate(UArizona = if_else(condition = Service %in% ua_services$Service,
+                            true = TRUE,
+                            false = FALSE))
+
+service_rank_plot_az <- ggplot(data = services_counts, 
+                            mapping = aes(x = Service, y = Count)) +
+  geom_bar(stat = "identity", mapping = aes(fill = UArizona)) +
+  scale_fill_manual(values = c("#777777", "#FF9999")) +
+  ylab(label = "# Institutions") +
+  xlab(label = element_blank()) +
+  coord_flip() +
+  theme_bw() +
+  theme(legend.position = "none")
+print(service_rank_plot_az)
+ggsave(filename = "output/service-ranks-az.pdf", 
+       plot = service_rank_plot_az)
+
 # 2. Plot distribution of # services per institution
 services_dist <- services %>% 
   rowwise(Institution) %>% 
