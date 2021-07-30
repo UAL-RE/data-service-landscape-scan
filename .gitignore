@@ -1,6 +1,9 @@
 # Output folder
 output/
 
+# Reports
+*.pdf
+
 # GitHub default ignores below here
 # History files
 .Rhistory

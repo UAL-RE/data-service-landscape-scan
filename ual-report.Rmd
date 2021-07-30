@@ -1,0 +1,48 @@
+---
+title: "Data Services Landscape Scan"
+author: "Data Cooperative"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: pdf_document
+---
+
+# Summary (bulleted)
+
++ Why did we do this?
++ How did we do this?
++ Brief statement of # institutions and # services
++ Brief statement about results (widespread, rare)
++ UAL compared to peers (above regression line)
++ Next steps? Where should we invest?
+
+# Introduction
+
+1 (short) paragraph of high-level introduction, why did we do this?
+Data support at libraries growing
+Areas that UAL could invest more in?
+
+# Background / Methods
+1 paragraph of methods, setting up landscape
+Also include salary stuff
+Limitations of approach
+
+# Findings
+
+## How many services per library?
+## How many libraries for each service?
+
+![**A**. Frequency of services supported across institutions; bars shown in red represent services offered by UAL; grey bars indicate services not supported by UAL. **B**. Number of services across institutions; vertical dotted black line is average number of services offered by libraries (10.7) and red vertical line indicates number of services offered by UAL (13)](output/service-dist-ranks-az.png)
+
+## Services by salary
+![Total number of services offered as a function of library's total annual salaries and wages. Dotted line shows regression excluding outlier Washington State University (lower left corner); solid line shows regression excluding Washington State University and Stanford University (upper right corner); red dot (upper left) is UAL.](output/salaries-services-az.png)
+
+# Insights / Conclusions?
+Areas where we are like our peers
+Are we doing anything special (i.e. the rarities)?
+Where could we send more resources?
+
+# Benefits & outcomes
+1 paragraph describing benefits to relevant stakeholders
+1 paragraph about measurable outcomes; can be integrated with benefits description
+
+# Closing summary
+1 paragraph re-iterating problem and solution

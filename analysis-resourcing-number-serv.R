@@ -37,7 +37,7 @@ salaries_plot <- ggplot(data = services_dist,
   geom_smooth(method = "lm", se = FALSE) +
   xlab(label = "Total salaries/wages ($)") +
   ylab(label = "Number of services offered") +
-  theme_bw()
+  theme_minimal()
 print(salaries_plot)
 
 # Run linear regression
@@ -89,16 +89,16 @@ sans_wsu_infl <- which(sans_wsu_cooks > sans_wsu_cutoff)
 services_dist$Institution[sans_wsu_infl]
 # None. Can stand with 24 institutions.
 sans_wsu_plot <- ggplot(data = sans_wsu,
-                        mapping = aes(x = salaries_wages, 
+                        mapping = aes(x = salaries_wages/1e6, 
                                       y = Service_count)) +
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
-  xlab(label = "Total salaries/wages ($)") +
+  xlab(label = "Total salaries/wages (Million $)") +
   ylab(label = "Number of services offered") +
-  theme_bw()
+  theme_minimal()
 print(sans_wsu_plot)
 
-ggsave(filename = "output/salaries-services.pdf",
+ggsave(filename = "output/salaries-services-sans-wsu.png",
        plot = sans_wsu_plot)
 
 # Because we are pedantic, try without Stanford anyway
@@ -135,37 +135,38 @@ sans_two_plot <- ggplot(data = services_dist,
               method = "lm", se = FALSE) +
   xlab(label = "Total salaries/wages ($)") +
   ylab(label = "Number of services offered") +
-  theme_bw()
+  theme_minimal()
 print(sans_two_plot)
-ggsave(file = "output/salaries-services.pdf",
+ggsave(file = "output/salaries-services-sans-two.png",
        plot = sans_two_plot)
 
-# Same plot, but color UArizona red
-sans_two_plot_az <- ggplot(data = services_dist,
-                        mapping = aes(x = salaries_wages, 
+# Same plot as sans two above, but color UArizona red
+sans_two_plot_az <- ggplot(data = services_dist %>% arrange(UArizona),
+                        mapping = aes(x = salaries_wages/1e6, 
                                       y = Service_count)) +
   geom_point(size = 2.0, mapping = aes(color = UArizona)) +
   scale_color_manual(values = c("#555555", "#FF0000")) +
   geom_smooth(method = "lm", se = FALSE, lty = 2, lwd = 0.5) +
   geom_smooth(data = sans_two,
               method = "lm", se = FALSE) +
-  xlab(label = "Total salaries/wages ($)") +
+  xlab(label = "Total salaries/wages (Million $)") +
   ylab(label = "Number of services offered") +
-  theme_bw() +
+  theme_minimal() +
   theme(legend.position = "none")
 print(sans_two_plot_az)
-ggsave(file = "output/salaries-services-az.pdf",
-       plot = sans_two_plot_az)
+ggsave(file = "output/salaries-services-az.png",
+       plot = sans_two_plot_az,
+       width = 6.5, height = 2.5, units = "in")
 
 # 2. Test to see if total expenditures predict number of services
 
 # Start with plot to eyeball linearity
 expenditures_plot <- ggplot(data = services_dist, 
-                        mapping = aes(x = total_expenditures, 
+                        mapping = aes(x = total_expenditures/1e6, 
                                       y = Service_count)) +
   geom_point() +
   geom_smooth(method = "lm", se = FALSE) +
-  xlab(label = "Total expenditures ($)") +
+  xlab(label = "Total expenditures (Million $)") +
   ylab(label = "Number of services offered") +
   theme_bw()
 print(expenditures_plot)

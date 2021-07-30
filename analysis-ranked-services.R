@@ -9,6 +9,7 @@
 library(dplyr)
 library(tidyr)
 library(ggplot2)
+library(ggpubr)  # for multi-panel plot
 
 services <- read.csv(file = "data/services-final-pa.csv")
 
@@ -41,7 +42,7 @@ service_rank_plot <- ggplot(data = services_counts,
   coord_flip() +
   theme_bw()
 print(service_rank_plot)
-ggsave(filename = "output/service-ranks.pdf", 
+ggsave(filename = "output/service-ranks.png", 
        plot = service_rank_plot)
 
 # Same plot as above, but highlighting ones at UArizona
@@ -70,11 +71,13 @@ service_rank_plot_az <- ggplot(data = services_counts,
   ylab(label = "# Institutions") +
   xlab(label = element_blank()) +
   coord_flip() +
-  theme_bw() +
-  theme(legend.position = "none")
+  theme_minimal() +
+  theme(legend.position = "none",
+        axis.text = element_text(size = 8))
 print(service_rank_plot_az)
-ggsave(filename = "output/service-ranks-az.pdf", 
-       plot = service_rank_plot_az)
+ggsave(filename = "output/service-ranks-az.png", 
+       plot = service_rank_plot_az, 
+       width = 3.25, height = 3.25, units = "in")
 
 # 2. Plot distribution of # services per institution
 services_dist <- services %>% 
@@ -86,12 +89,39 @@ mean_num_svc <- mean(services_dist$Service_count)
 
 service_histogram <- ggplot(data = services_dist,
                             mapping = aes(x = Service_count)) +
-  geom_histogram(bins = 10) +
+  geom_histogram(bins = 10, fill = "#777777") +
   geom_vline(xintercept = mean_num_svc, lty = 2, lwd = 0.25) +
   scale_x_continuous(breaks = seq(4, 16, 2)) +
   xlab("# Services") +
   ylab("# Institutions") +
-  theme_bw()
+  theme_minimal()
 print(service_histogram)
-ggsave(filename = "output/service-distribution.pdf",
+ggsave(filename = "output/service-distribution.png",
        plot = service_histogram)
+
+# Make histogram again, with red line for UA value
+service_histogram_az <- ggplot(data = services_dist,
+                            mapping = aes(x = Service_count)) +
+  geom_histogram(bins = 10, fill = "#777777") +
+  # scale_fill_manual(values = c("#00FF00")) +
+  geom_vline(xintercept = mean_num_svc, lty = 2, lwd = 0.25) +
+  geom_vline(xintercept = services_dist$Service_count[services_dist$Institution == "University of Arizona"],
+             lty = 1, lwd = 0.5, color = "#FF0000") +
+  scale_x_continuous(breaks = seq(4, 16, 2)) +
+  xlab("# Services") +
+  ylab("# Institutions") +
+  theme_minimal() +
+  theme(axis.text = element_text(size = 8))
+print(service_histogram_az)
+ggsave(filename = "output/service-distribution-az.png",
+       plot = service_histogram_az,
+       width = 3.25, height = 3.25, units = "in")
+
+# Make a single plot with AZ-focused graphs
+two_plots <- ggarrange(service_rank_plot_az, 
+                       service_histogram_az,
+                       ncol = 2,
+                       labels = c("A", "B"))
+print(two_plots)  
+ggsave(filename = "output/service-dist-ranks-az.png",
+       width = 6.5, height = 3, units = "in")
