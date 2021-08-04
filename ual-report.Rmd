@@ -5,6 +5,11 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: pdf_document
 ---
 
+```{r setup, echo = FALSE}
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(kableExtra))
+```
+
 # Summary (bulleted)
 
 + Why did we do this?
@@ -26,41 +31,127 @@ University of Arizona Libraries have yet to capitalize on.
 To identify current UAL strengths and opportunities in supporting data-intensive 
 scholarship, we performed a systematic survey of University of Arizona peer 
 institutions' library-based data services. Library staff surveyed library 
-websites for the 25 institutions listed at the University Analytics & 
-Institutional Research web site at 
-[https://uair.arizona.edu/content/ua-peers](https://uair.arizona.edu/content/ua-peers), 
-including the University of Arizona. The survey was designed to determine 
-whether or not a library offered a service by library staff, including, but not 
-limited to services in data management, geospatial data, statistical consulting, 
-and data visualization. Here we describe the survey details and results, 
-discuss the limitations of the approach, and close with recommendations for 
-future investments to support data-intensive work at the University of Arizona.
+websites for institutions listed as UA Peers by the University Analytics & 
+Institutional Research, including the University of Arizona. The survey was 
+designed to determine whether or not a library offered a service by library 
+staff, including, but not limited to services in data management, geospatial 
+data, statistical consulting, and data visualization. Here we describe the 
+survey details and results, discuss the limitations of the approach, and close 
+with recommendations for future investments to support data-intensive work at 
+the University of Arizona.
 
-# Background / Methods
+# Methods
 
-1. Survey details (not too much details, though)
-TS: goal
-First pass by WFH UAL staff using Qualtrics
-(insert table of services, and asterisk those we assessed for modality)
-QA/QC by Data Cooperative, include library staff criterion and timing of events
+## Data collection
 
-2. Analysis
-TS: how many and which ones
-Counted total per institution, regardless of modality
-Counted how many institutions supported each service
+The landscape scan was designed to determine the prevalence of a variety of 
+data services offered at peer institutions of the University of Arizona. The 
+25 institutions listed at 
+[https://uair.arizona.edu/content/ua-peers](https://uair.arizona.edu/content/ua-peers)
+includes ABOR-designated peer institutions as well as all PAC-12 universities. 
+We included all 25 institutions in our survey, including the University of 
+Arizona. Two UAL employees who were not part of the Office of Digital 
+Innovation & Stewardship, performed the first scan of the services offered by 
+the libraries at the 25 institutions. The two employees performed this survey 
+as part of the 2020 Work From Home effort and were asked to record the URL 
+where the service was described using a Qualtrics form. For a subset of the 
+services, the modality (web resource, instruction, or consult) was also 
+recorded. Only those services that were (1) offered by library personnel (as 
+opposed to guest instructors or outside consultants) and in the case of 
+instructional sessions or events (2) offered during or after January 2019 were 
+considered present at an intitution's library.
 
-3. Resourcing
-TS: Why
-Describe IPEDS data
-Used total salary data from (XXXX)
-Acknowledge this is proxy for investment in research services
-Describe test and dealing with outliers
+Following this initial scan, members of the Data Cooperative first 
+checked each URL to ensure the service was described at the URL; this was 
+required due to the specialized nature of some services not being correctly 
+classified in the initial scan. Each URL indicating the presence of a service 
+was independently checked by two members of the Data Cooperative. In some 
+cases, this resulted in some services being re-classified as absent. Finally, 
+for each service still listed as being absent from an institution, members of 
+Data Cooperative again searched the institution library's website to confirm 
+that the service was not offered. In some cases, this resulted in some services 
+being re-classified as present. 
 
-4. Limitations to approach
-TS: There are limitations blah blah blah
-Acknowledge that others have used this approach
-What the approach misses
-COVID-19 impact
+```{r services-table, echo = FALSE}
+# Want to use our dataset to create the table of services we surveyed for; only
+# works if each service was found in at least one institution (true as of 
+# 2021-08-04)
+services <- read.csv(file = "data/services-final.csv")
+
+# Create column that indicates whether or not we surveyed the modality of the 
+# service in question
+service_types <- services %>% 
+  select(Service, Mode) %>% 
+  distinct() %>% 
+  group_by(Service) %>% 
+  dplyr::summarize(NoMode = any(is.na(Mode)))
+
+# Remove the underscores from service names, make some more human accessible 
+# and add asterisks to those services that we surveyed for modality
+service_table <- service_types %>%
+  mutate(Service = gsub(pattern = "_", replacement = " ", x = Service)) %>%
+  mutate(Service = if_else(Service == "Geospatial", 
+                           true = "Geospatial services (general)", 
+                           false = Service)) %>%
+  mutate(Service = if_else(Service == "Data management",
+                           true = "Data management services (general)",
+                           false = Service)) %>%
+  mutate(Service = if_else(Service == "OSF",
+                           true = "Open Science Framework (OSF)",
+                           false = Service)) %>%
+  mutate(Service = if_else(NoMode, 
+                           true = Service, 
+                           false = paste(Service, "*"))) %>%
+  select(Service)
+
+# Print out the table
+knitr::kable(x = service_table,
+             format = "pipe",
+             # centering = FALSE,
+             caption = "Services included in this landscape scan; asterisks (*) 
+             indicate those services for which delivery mode (web resource, 
+             instruction, or consultation) was also assessed.")
+```
+
+
+We were also interested in testing how library resourcing might affect the 
+number of services offered by an academic library. As a measure of library 
+resourcing, we used library salary and wage expenditures for 2019. These data 
+were retrieved from the 
+[Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/use-the-data)
+(IPEDS) survey data on 2021-05-17. While this measures _total_ salary and wage 
+expenditures for a library, it is the best available proxy for measuring 
+resourcing to research-oriented services at academic libraries.
+
+## Analysis
+
+Following quality control checks described above, we measured the frequency of
+services offered by institutions' libraries. We counted the total number of 
+services offered by each library, regardless of which modalities they were 
+offered through. We also counted the number of libraries offering each 
+services, to identify which services are common among UAL peers, and which 
+services are rare.
+
+We used the total count of services offered at each library to test for an 
+influence of library resources. Briefly, we used linear regression to test 
+whether the total library salary and wage expenditures predicted the total 
+number of services offered. We removed those data points which were categorized 
+as having disproportionate influence on regression results. All analyses were 
+performed using the [R software package](https://www.R-project.org/).
+
+## Limitations
+
+The systematic web survey method has been used in prior work (e.g. 
+[Radecki & Springer 2020](https://doi.org/10.18665/sr.314397)), but it is 
+important to note some caveats with the approach. First, surveying web sites 
+relies on efficient navigational design - some services may have been 
+categorized as absent by our scan if library web sites had poor search 
+optimization or non-intuitive menus and navigation. In some cases it was 
+difficult to determine whether or not a service listed on a library's web site 
+was still being offered. Finally, as this scan took place during the COVID-19 
+pandemic, library service offerings were undoubtedly evolving rapidly. However, 
+as web sites range from petrifyingly static to changing weekly, we could not 
+discern specific impacts of COVID-19 library service offerings.
 
 # Findings
 
