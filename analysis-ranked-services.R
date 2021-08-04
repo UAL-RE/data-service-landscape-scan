@@ -21,7 +21,7 @@ services_counts <- services %>%
                -Institution) %>%
   filter(PA == 1) %>%
   group_by(Service) %>%
-  summarize(Count = n()) %>%
+  dplyr::summarize(Count = n()) %>% # collision possible with Hmisc::summarize
   arrange(desc(Count))
 
 # Remove the underscores from service names for easier plotting

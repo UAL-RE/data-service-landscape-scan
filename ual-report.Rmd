@@ -16,29 +16,72 @@ output: pdf_document
 
 # Introduction
 
-1 (short) paragraph of high-level introduction, why did we do this?
-Data support at libraries growing
-Areas that UAL could invest more in?
+Data-intensive scholarship is an area of rapid growth, and many academic 
+libraries support this scholarship through data services. The Data Cooperative 
+supports several facets of data-intensive scholarship, including data 
+management, geospatial data stewardship and analysis, and computational 
+literacy. However, there may be opportunities in data services that the 
+University of Arizona Libraries have yet to capitalize on.
+
+To identify current UAL strengths and opportunities in supporting data-intensive 
+scholarship, we performed a systematic survey of University of Arizona peer 
+institutions' library-based data services. Library staff surveyed library 
+websites for the 25 institutions listed at the University Analytics & 
+Institutional Research web site at 
+[https://uair.arizona.edu/content/ua-peers](https://uair.arizona.edu/content/ua-peers), 
+including the University of Arizona. The survey was designed to determine 
+whether or not a library offered a service by library staff, including, but not 
+limited to services in data management, geospatial data, statistical consulting, 
+and data visualization. Here we describe the survey details and results, 
+discuss the limitations of the approach, and close with recommendations for 
+future investments to support data-intensive work at the University of Arizona.
 
 # Background / Methods
-1 paragraph of methods, setting up landscape
-Also include salary stuff
-Limitations of approach
+
+1. Survey details (not too much details, though)
+TS: goal
+First pass by WFH UAL staff using Qualtrics
+(insert table of services, and asterisk those we assessed for modality)
+QA/QC by Data Cooperative, include library staff criterion and timing of events
+
+2. Analysis
+TS: how many and which ones
+Counted total per institution, regardless of modality
+Counted how many institutions supported each service
+
+3. Resourcing
+TS: Why
+Describe IPEDS data
+Used total salary data from (XXXX)
+Acknowledge this is proxy for investment in research services
+Describe test and dealing with outliers
+
+4. Limitations to approach
+TS: There are limitations blah blah blah
+Acknowledge that others have used this approach
+What the approach misses
+COVID-19 impact
 
 # Findings
 
 ## How many services per library?
 ## How many libraries for each service?
 
-![**A**. Frequency of services supported across institutions; bars shown in red represent services offered by UAL; grey bars indicate services not supported by UAL. **B**. Number of services across institutions; vertical dotted black line is average number of services offered by libraries (10.7) and red vertical line indicates number of services offered by UAL (13)](output/service-dist-ranks-az.png)
+![**A**. Frequency of services supported across institutions; bars shown in red represent services offered by UAL; grey bars indicate services not supported by UAL. **B**. Number of services across institutions; vertical dotted black line is average number of services offered by libraries (10.64) and red vertical line indicates number of services offered by UAL (12)](output/service-dist-ranks-az.png)
 
 ## Services by salary
 ![Total number of services offered as a function of library's total annual salaries and wages. Dotted line shows regression excluding outlier Washington State University (lower left corner); solid line shows regression excluding Washington State University and Stanford University (upper right corner); red dot (upper left) is UAL.](output/salaries-services-az.png)
 
 # Insights / Conclusions?
 Areas where we are like our peers
+  + Note ubiquity of data management support
+  + Of those offered by over half institutions (n = 9), seven are either data 
+  management or geospatial
 Are we doing anything special (i.e. the rarities)?
+  + OSF
 Where could we send more resources?
+  + TDM, web scraping ==> Python
+  + version control (just more expertise)
 
 # Benefits & outcomes
 1 paragraph describing benefits to relevant stakeholders

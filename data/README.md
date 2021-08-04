@@ -26,7 +26,6 @@ that are offered at an institution. Values in URL field indicate source
 describing the service; multiple URLs are separated by a semicolon. NA values 
 in the URL column indicate that service / mode was not found at the 
 institution's library.
-presence / absence of services.
 **This is the final version of data that is used for most subsequent analyses.**
 + services-final-pa.csv: Matrix of institution /service combinations indicating 
 presence / absence of services. 

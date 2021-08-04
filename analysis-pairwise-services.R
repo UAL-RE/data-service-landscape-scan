@@ -39,7 +39,8 @@ corr_matrix$p_adj <- matrix(data = p.adjust(corr_matrix$P, method = "holm"),
 rownames(corr_matrix$p_adj) <- colnames(corr_matrix$p_adj) <- colnames(corr_matrix$P)
 
 # Plot only those correlations that are significant
-pdf(file = "output/pairwise-service-corr.pdf", useDingbats = FALSE)
+# pdf(file = "output/pairwise-service-corr.pdf", useDingbats = FALSE)
+png(file = "output/pairwise-service-corr.png")
 corrplot(corr = corr_matrix$r, 
          type = "upper", 
          order = "alphabet", 
