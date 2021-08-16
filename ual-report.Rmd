@@ -14,15 +14,18 @@ suppressPackageStartupMessages(library(kableExtra))
 
 + To guide future directions of data services offered by the University of 
 Arizona Libraries, we performed a landscape scan of services offered at the 
-libraries of peer institutions
+libraries of peer institutions.
 + We performed a systematic web survey to determine which of 18 services were 
 offered at the libraries of 25 institutions (including the University of 
-Arizona)
+Arizona).
 + Data management and geospatial data services were common across institutions, 
-while support for web scraping and version control were rare
-+ UAL offered an above-average number of these data services; the number of 
-services directly supported by UAL is higher than expected given total 
-expenditures on salaries and wages.
+while support for web scraping and version control were rare.
++ UAL offered an above-average number of these data services.
++ The number of services directly supported by UAL is higher than expected 
+given library resourcing.
++ We recommend continued support for data management and increased personnel 
+to support geospatial applications and computational humanities and social 
+sciences services.
 + **Next steps? Where should we invest?**
 
 # Introduction
@@ -166,9 +169,11 @@ Data services offered at peer academic libraries broke into two distinct groups:
 those services offered at a clear majority of the libraries surveyed and 
 those "rareties" that were only offered at a minority of libraries (Figure 1A). 
 Support for data management in general as well as data management plans was 
-ubiquitous, found at all surveyed libraries. At the rare end, support for 
+ubiquitous, found at all surveyed libraries. Geospatial-oriented services, 
+including geospatial software and aerial imagery services were also found at a 
+majority o fthe libraries investigated here. At the rare end, support for 
 electronic laboratory notebooks and web scraping were found in fewer than 25% 
-of libraries we surveyed. Libraries provided support for an average of 11 of 
+of libraries we surveyed. Libraries provided support for an average of 10.6 of 
 the services, while UAL supports 12 services, by our survey assessment (Figure 
 1B, also see [Insights](#insights), below)
 
@@ -181,8 +186,8 @@ line indicates number of services offered by UAL (12)](output/service-dist-ranks
 The amount of resourcing, as measured by a libraries' total salary and wage 
 expenditures, may influence the total number of data services offered. Data 
 from Washington State University were excluded from analyses: this library 
-offered the fewest surveyed data services (4) and had the second-lowest 
-salary and wage expenditures (approximately $6.2 million) and was classified as 
+offered the fewest surveyed data services (4), had the second-lowest 
+salary and wage expenditures (approximately $6.2 million), and was classified as 
 an outlier based on Cook's distance. In a regression analysis of the remaining 
 24 institutions, salary and wage expenditures was significantly correlated with 
 the total number of services a library offered, with each increase of 
@@ -204,15 +209,55 @@ dot (upper left) is UAL.](output/salaries-services-az.png)
 
 # Insights
 
-Areas where we are like our peers
-  + Note ubiquity of data management support
-  + Of those offered by over half institutions (n = 9), seven are either data 
-  management or geospatial
-Are we doing anything special (i.e. the rarities)?
-  + OSF
-Where could we send more resources?
-  + TDM, web scraping ==> Python
-  + version control (just more expertise)
+The University of Arizona Libraries performed well in providing data-oriented 
+services, especially considering the performance of peer institutions. UAL 
+supports all of the common data management and geospatial data services (Figure 
+1A) and offers an above-average total number of data services (Figure 1B). When 
+considering the level of resourcing in terms of salaries and wages, UAL 
+provides more services than expected (i.e. it is above the regression lines in 
+Figure 2).
+
+The services not directly supported by UAL were generally also not supported at 
+peer institutions (Figure 1A). Some of these services, including version 
+control, statistical consulting, and web scraping, require specialized 
+expertise that may not be common in library personnel. These unsupported 
+services do highlight a limitation of our approach: statistical consulting and 
+support for version control are both provided through the R programming 
+sessions, but are not explicitly mentioned on UAL web sites. This is largely 
+due to the limited capacity of the Data Cooperative: advertising support for 
+these services, especially statistical consulting, would be disingenuous, given 
+the high demand for such services on campus and limited number of personnel who 
+can support such services.
+
+## Recommendations
+
+UAL provides considerable support for data services, primarily through the 
+Research Engagement department. Based on our survey findings, there are 
+opportunities for deepening engagement and broader support for data-intensive 
+work at the University of Arizona.
+
++ **Continued commitment to data management support**: The recent 
+reorganization will allow high-quality support for data management, 
+reproducible research, and open science to expand.
+
++ **Increased support for geospatial data services**: Nearly as ubiquitous as 
+data management support, geospatial data services are in increasingly high 
+demand as GIS-based applications are used across domains, including public 
+health and public policy. To provide a quality service in this area, we 
+recommend a 0.5 FTE graduate assistantship to provide operational geospatial 
+support. The current model of _ad hoc_ student positions detracts from 
+important developmental work in support of geospatial services.
+
++ **Hire Digital Scholarship faculty with expertise in computational humanities 
+& social sciences**: While a minority of libraries provide support for 
+computational approaches like text data mining and web scraping, these are 
+areas of growing need on many campuses. This includes the University of 
+Arizona, as evidenced by the Computational Social Science graduate certificate 
+program. Investing in library personnel with expertise relevant to these fields 
+would allow UAL to be a leader in providing such services. Furthermore, such 
+investment would allow a sharing of the workload necessary to support services 
+that overlap with the area of data science, including version control, data 
+analysis, and statistical consulting.
 
 # Benefits & outcomes
 1 paragraph describing benefits to relevant stakeholders
