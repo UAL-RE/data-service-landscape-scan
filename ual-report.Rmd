@@ -10,7 +10,7 @@ suppressPackageStartupMessages(library(dplyr))
 suppressPackageStartupMessages(library(kableExtra))
 ```
 
-# Summary (bulleted)
+# Summary
 
 + To guide future directions of data services offered by the University of 
 Arizona Libraries, we performed a landscape scan of services offered at the 
@@ -26,7 +26,6 @@ given library resourcing.
 + We recommend continued support for data management and increased personnel 
 to support geospatial applications and computational humanities and social 
 sciences services.
-+ **Next steps? Where should we invest?**
 
 # Introduction
 
@@ -143,11 +142,13 @@ services, to identify which services are common among UAL peers and which
 services are rare.
 
 We used the total count of services offered at each library to test for an 
-influence of library resources. Briefly, we used linear regression to test 
-whether the total library salary and wage expenditures predicted the total 
-number of services offered. We removed those data points which were categorized 
-as having disproportionate influence on regression results. All analyses were 
-performed using the [R software package](https://www.R-project.org/).
+influence of library resources. Briefly, we used generalized linear regression 
+to test whether the total library salary and wage expenditures predicted the 
+total number of services offered. We tested to see if any data points had 
+disproportionate influence on regression results, but none were identified as 
+having undue influence. All analyses were performed using the 
+[R software package](https://www.R-project.org/) and all 
+data and analytical code are available on [GitHub](https://github.com/UAL-RE/data-service-landscape-scan).
 
 ## Limitations
 
@@ -171,7 +172,7 @@ those "rareties" that were only offered at a minority of libraries (Figure 1A).
 Support for data management in general as well as data management plans was 
 ubiquitous, found at all surveyed libraries. Geospatial-oriented services, 
 including geospatial software and aerial imagery services were also found at a 
-majority o fthe libraries investigated here. At the rare end, support for 
+majority of the libraries investigated here. At the rare end, support for 
 electronic laboratory notebooks and web scraping were found in fewer than 25% 
 of libraries we surveyed. Libraries provided support for an average of 10.6 of 
 the services, while UAL supports 12 services, by our survey assessment (Figure 
@@ -184,27 +185,13 @@ is average number of services offered by libraries (10.64) and red vertical
 line indicates number of services offered by UAL (12)](output/service-dist-ranks-az.png)
 
 The amount of resourcing, as measured by a libraries' total salary and wage 
-expenditures, may influence the total number of data services offered. Data 
-from Washington State University were excluded from analyses: this library 
-offered the fewest surveyed data services (4), had the second-lowest 
-salary and wage expenditures (approximately $6.2 million), and was classified as 
-an outlier based on Cook's distance. In a regression analysis of the remaining 
-24 institutions, salary and wage expenditures was significantly correlated with 
-the total number of services a library offered, with each increase of 
-approximately $1 million in salary and wage expenditures leading to one 
-additional data service provided (_p_ = 0.03; dotted line in Figure 2). 
-However, this relationship may be driven in large part by a single library: 
-Stanford University offered the most data services (15) and had the highest 
-resourcing ($47 million total salary and wage expenditures). When we removed 
-Stanford University from analysis (the library has 46% higher resourcing than 
-the next-highest resourced library, at UC Berkeley), the relationship between 
-salary and wage expenditures and the number of services is no longer 
-significant (_p_ = 0.21; solid line in Figure 2).
+expenditures, influenced the total number of data services offered. In a 
+regression analysis, salary and wage expenditures was significantly correlated 
+with the total number of services a library offered (_p_ = 0.046; line in 
+Figure 2).
 
 ![Total number of services offered as a function of library's total annual 
-salaries and wages. Dotted line shows regression excluding outlier Washington 
-State University (lower left corner); solid line shows regression excluding 
-Washington State University and Stanford University (upper right corner); red 
+salaries and wages. Solid line shows generalized linear regression model; red 
 dot (upper left) is UAL.](output/salaries-services-az.png)
 
 # Insights
@@ -214,20 +201,23 @@ services, especially considering the performance of peer institutions. UAL
 supports all of the common data management and geospatial data services (Figure 
 1A) and offers an above-average total number of data services (Figure 1B). When 
 considering the level of resourcing in terms of salaries and wages, UAL 
-provides more services than expected (i.e. it is above the regression lines in 
-Figure 2).
+provides more services than expected (i.e. it is above the regression line in 
+Figure 2). Although UAL was in the lower 25<sup>th</sup> percentile of terms of 
+resourcing, the number of services offered was above the average number of 
+services offered across surveyed institutions.
 
 The services not directly supported by UAL were generally also not supported at 
 peer institutions (Figure 1A). Some of these services, including version 
 control, statistical consulting, and web scraping, require specialized 
-expertise that may not be common in library personnel. These unsupported 
-services do highlight a limitation of our approach: statistical consulting and 
-support for version control are both provided through the R programming 
-sessions, but are not explicitly mentioned on UAL web sites. This is largely 
-due to the limited capacity of the Data Cooperative: advertising support for 
-these services, especially statistical consulting, would be disingenuous, given 
-the high demand for such services on campus and limited number of personnel who 
-can support such services.
+expertise that may not be common in library personnel. These services 
+categorized as "unsupported" at UAL do highlight a limitation of our web site 
+survey approach: statistical consulting and support for version control are 
+both provided through the R programming sessions, but are not explicitly 
+mentioned on UAL web sites. This is largely due to the limited capacity of the 
+Data Cooperative: advertising support for these services, especially 
+statistical consulting, would be disingenuous, given the high demand for such 
+services on campus and limited number of personnel who can support such 
+services.
 
 ## Recommendations
 
@@ -259,9 +249,21 @@ investment would allow a sharing of the workload necessary to support services
 that overlap with the area of data science, including version control, data 
 analysis, and statistical consulting.
 
-# Benefits & outcomes
-1 paragraph describing benefits to relevant stakeholders
-1 paragraph about measurable outcomes; can be integrated with benefits description
+# Summary
 
-# Closing summary
-1 paragraph re-iterating problem and solution
+Support for data services _sensu lato_ at UAL is strong, and future investments 
+in this area will further our relationship with researchers and scholars doing 
+data-intensive work. Data management support is a stalwart in academic 
+libraries, including UAL, and demands for these services are likely to continue 
+to increase with the increased emphasis on reproducibility from publishers and 
+funding sources. Geospatial and GIS applications are also drawing more 
+attention across academic institutions, which contrasts with UAL's decreasing 
+staff support in this area - continued quality support will rely on an 
+appropriate level of resourcing. Finally, UAL has the opportunity to lead in 
+supporting data and computational literacy across campus by meaningfully 
+supporting digital scholarship. While adjacencies with data science have been 
+sufficient to support topics like programmatic text data mining, intentional 
+support through UAL digital scholarship faculty could transform the 
+relationship with colleges such as Social & Behavioral Sciences, whereby UAL 
+plays the role of _partner_ with researchers and scholars in the humanities and 
+social sciences.
