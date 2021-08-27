@@ -5,6 +5,7 @@
 
 library(dplyr)
 library(tidyr)
+library(ggplot2)
 library(multcomp)
 
 services <- read.csv(file = "data/services-final.csv")
@@ -14,13 +15,13 @@ services <- read.csv(file = "data/services-final.csv")
 services <- services %>%
   filter(!is.na(Mode)) %>%
   filter(!is.na(URL)) %>%
-  select(-URL)
+  dplyr::select(-URL)
 
 # Let's try a plot of this, similar to what we see in analysis-ranked-services
 
 # Want to count number of institutions offering each service, regardless of mode
 service_counts <- services %>%
-  select(Institution, Service) %>%
+  dplyr::select(Institution, Service) %>%
   distinct() %>%
   group_by(Service) %>%
   summarize(Inst_count = n())
@@ -36,22 +37,38 @@ mode_counts <- services %>%
 mode_props <- mode_counts %>%
   left_join(service_counts) %>%
   mutate(Percent = (Count/Inst_count) * 100) %>%
-  select(-Inst_count) %>% 
+  dplyr::select(-Inst_count) %>% 
   mutate(Service = gsub(pattern = "_", 
                         replacement = " ", 
                         x = Service))
 
-?scale_fill_brewer
-  
+# Need to re-level Services so data management, geospatial, and data science 
+# cluster appropriately
+
+mode_props$Service_graph <- gsub(pattern = " ",
+                                 replacement = "\n",
+                                 x = mode_props$Service)
+
+mode_props$Service_graph <- factor(x = mode_props$Service_graph,
+                                   levels = c("Data\nmanagement",
+                                              "Data\nmanagement\nplans",
+                                              "Geospatial",
+                                              "Geospatial\nsoftware",
+                                              "Data\nanalysis",
+                                              "Data\nvisualization\nsoftware"))
+
 mode_rank_plot <- ggplot(data = mode_props,
-                         mapping = aes(x = Service, y = Percent, fill = Mode)) +
+                         mapping = aes(x = Service_graph, y = Percent, fill = Mode)) +
   geom_col(position = position_dodge2(reverse = TRUE)) +
   scale_fill_brewer(type = "qualitative", palette = "Set2", direction = 1) +
   xlab(label = element_blank()) +
   ylab(label = "Percent offered in Mode") +
-  coord_flip() +
+  # coord_flip() +
   theme_bw()
 print(mode_rank_plot)
+ggsave(file = "output/service-modes.png",
+       plot = mode_rank_plot,
+       width = 6.5, height = 2.5, units = "in")
 
 # What about doing a logistic regression, where we do a very rough 
 # categorization of geo vs. management vs. data science and use those groups
@@ -127,7 +144,7 @@ summary(multcomp::glht(instruction_logit, multcomp::mcp(Category = "Tukey")))
 # Geospatial - Data_science == 0       -0.1178     0.4979  -0.237    0.970
 
 # Same general approach, but now faceting data on Category
-# A little tougher to explain...
+# Maybe _easier_ to explain
 data_sci_logit <- glm(Offered ~ Mode,
                       data = modes_long[modes_long$Category == "Data_science", ],
                       family = binomial())
