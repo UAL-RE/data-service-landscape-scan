@@ -150,6 +150,14 @@ having undue influence. All analyses were performed using the
 [R software package](https://www.R-project.org/) and all 
 data and analytical code are available on [GitHub](https://github.com/UAL-RE/data-service-landscape-scan).
 
+For a subset of the services, we also analyzed if the general area of service 
+(data management, geospatial, or data science) influenced the mode (web 
+resource, instruction, or consult) by which the service was offered. We 
+analyzed each of the three areas separately with logistic regression to 
+determine if there were significant differences in the likelihood of a service 
+being offered in each modality. We used Tukey _post-hoc_ pairwise comparisons 
+to compare individual modes to one another.
+
 ## Limitations
 
 The systematic web survey method has been used in prior work (e.g. 
@@ -193,6 +201,21 @@ Figure 2).
 ![Total number of services offered as a function of library's total annual 
 salaries and wages. Solid line shows generalized linear regression model; red 
 dot (upper left) is UAL.](output/salaries-services-az.png)
+
+The mode in which a service was offered differed among the different areas of 
+data services (Figure 3). Data management services (data management support in 
+general, and support for data management plans) were more likely to be offered 
+through consults and web resources than through formal instructional events (p 
+= 0.001 and p = 0.009, respectively). In contrast, data science services (data 
+analysis and data visualization software support) were more likely to be 
+offered through instructional opportunities than web resources (p = 0.003). 
+Geospatial services (general geospatial data support and geospatial software 
+support) were equally likely to be offered via any of the three modes (web, 
+consult, or instruction).
+
+![Modes of delivery for the different data service areas: data management, 
+geospatial support, and data science (data analysis and data visualization 
+software.)](output/service-modes.png)
 
 # Insights
 
@@ -263,7 +286,6 @@ appropriate level of resourcing. Finally, UAL has the opportunity to lead in
 supporting data and computational literacy across campus by meaningfully 
 supporting digital scholarship. While adjacencies with data science have been 
 sufficient to support topics like programmatic text data mining, intentional 
-support through UAL digital scholarship faculty could transform the 
-relationship with colleges such as Social & Behavioral Sciences, whereby UAL 
-plays the role of _partner_ with researchers and scholars in the humanities and 
-social sciences.
+support through UAL digital scholarship faculty could deepen the relationship 
+with colleges such as Social & Behavioral Sciences, whereby UAL partners with 
+researchers and scholars in the humanities and social sciences.
