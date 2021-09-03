@@ -13,9 +13,9 @@ suppressPackageStartupMessages(library(kableExtra))
 # Summary
 
 + To guide future directions of data services offered by the University of 
-Arizona Libraries, we performed a landscape scan of services offered at the 
-libraries of peer institutions.
-+ We performed a systematic web survey to determine which of 18 services were 
+Arizona Libraries (UAL), we performed a landscape scan of services offered at 
+the libraries of peer institutions.
++ We conducted a systematic web survey to determine which of 18 services were 
 offered at the libraries of 25 institutions (including the University of 
 Arizona).
 + Data management and geospatial data services were common across institutions, 
@@ -64,12 +64,12 @@ employees who were not part of the Office of Digital Innovation & Stewardship,
 performed the first scan of the services offered by the libraries at the 25 
 institutions. The two employees performed this survey as part of the 2020 Work 
 From Home effort and were asked to record the URL where the service was 
-described using a Qualtrics form. For a subset of the services, the modality 
-(web resource, instruction, or consult) was also recorded. Only those services 
-that were (1) offered by library personnel (as opposed to guest instructors or 
-outside consultants) and in the case of instructional sessions or events (2) 
-offered during or after January 2019 were considered present at an intitution's 
-library.
+described using a Qualtrics form. For a subset of the services, we also 
+recorded the mode(s) in which the service was offered (web resource, 
+instruction, or consult). Only those services that were (1) offered by library 
+personnel (as opposed to guest instructors or outside consultants) and in the 
+case of instructional sessions or events (2) offered during or after January 
+2019 were considered present at an intitution's library.
 
 Following this initial scan, members of the Data Cooperative first 
 checked each URL to ensure the service was described at the URL; this was 
@@ -144,11 +144,9 @@ services are rare.
 We used the total count of services offered at each library to test for an 
 influence of library resources. Briefly, we used generalized linear regression 
 to test whether the total library salary and wage expenditures predicted the 
-total number of services offered. We tested to see if any data points had 
-disproportionate influence on regression results, but none were identified as 
-having undue influence. All analyses were performed using the 
-[R software package](https://www.R-project.org/) and all 
-data and analytical code are available on [GitHub](https://github.com/UAL-RE/data-service-landscape-scan).
+total number of services offered, using a Poisson model for the count of total 
+services. We tested to see if any data points had disproportionate influence on 
+regression results, but none were identified as having undue influence.
 
 For a subset of the services, we also analyzed if the general area of service 
 (data management, geospatial, or data science) influenced the mode (web 
@@ -156,7 +154,12 @@ resource, instruction, or consult) by which the service was offered. We
 analyzed each of the three areas separately with logistic regression to 
 determine if there were significant differences in the likelihood of a service 
 being offered in each modality. We used Tukey _post-hoc_ pairwise comparisons 
-to compare individual modes to one another.
+to determine if modes were were offered at significantly different rates.
+
+ All analyses were performed using the 
+[R software package](https://www.R-project.org/) and all data and analytical 
+code are available on 
+[GitHub](https://github.com/UAL-RE/data-service-landscape-scan).
 
 ## Limitations
 
@@ -167,10 +170,14 @@ relies on efficient navigational design - some services may have been
 categorized as absent by our scan if library web sites had poor search 
 optimization or non-intuitive menus and navigation. In some cases it was 
 difficult to determine whether or not a service listed on a library's web site 
-was still being offered. Finally, as this scan took place during the COVID-19 
+was still being offered. This approach also restricts detection of those 
+services that an institution chooses to advertise - it is possible that a 
+library provides a service but does not include such information on the 
+library's web site. Finally, as this scan took place during the COVID-19 
 pandemic, library service offerings were undoubtedly evolving rapidly. However, 
-as web sites range from petrifyingly static to changing weekly, we could not 
-discern specific impacts of COVID-19 library service offerings.
+as web sites ranged from petrifyingly static to changing weekly even before the 
+current pandemic, we could not discern specific impacts of COVID-19 library 
+service offerings.
 
 # Findings
 
@@ -190,7 +197,8 @@ the services, while UAL supports 12 services, by our survey assessment (Figure
 represent services offered by UAL; grey bars indicate services not supported by 
 UAL. **B**. Number of services across institutions; vertical dotted black line 
 is average number of services offered by libraries (10.64) and red vertical 
-line indicates number of services offered by UAL (12)](output/service-dist-ranks-az.png)
+line indicates number of services offered by UAL 
+(12)](output/service-dist-ranks-az.png){ padding=40px }
 
 The amount of resourcing, as measured by a libraries' total salary and wage 
 expenditures, influenced the total number of data services offered. In a 
@@ -200,11 +208,11 @@ Figure 2).
 
 ![Total number of services offered as a function of library's total annual 
 salaries and wages. Solid line shows generalized linear regression model; red 
-dot (upper left) is UAL.](output/salaries-services-az.png)
+triangle (upper left) is UAL.](output/salaries-services-az.png)
 
 The mode in which a service was offered differed among the different areas of 
 data services (Figure 3). Data management services (data management support in 
-general, and support for data management plans) were more likely to be offered 
+general and support for data management plans) were more likely to be offered 
 through consults and web resources than through formal instructional events (p 
 = 0.001 and p = 0.009, respectively). In contrast, data science services (data 
 analysis and data visualization software support) were more likely to be 
@@ -251,7 +259,10 @@ work at the University of Arizona.
 
 + **Continued commitment to data management support**: The recent 
 reorganization will allow high-quality support for data management, 
-reproducible research, and open science to expand.
+reproducible research, and open science to expand. The heavy emphasis on 
+high-touch data management consultations (Figure 3) across the institutions we 
+investigated suggests the most important resource for data management services 
+is knowledgeable personnel.
 
 + **Increased support for geospatial data services**: Nearly as ubiquitous as 
 data management support, geospatial data services are in increasingly high 
@@ -259,7 +270,7 @@ demand as GIS-based applications are used across domains, including public
 health and public policy. To provide a quality service in this area, we 
 recommend a 0.5 FTE graduate assistantship to provide operational geospatial 
 support. The current model of _ad hoc_ student positions detracts from 
-important developmental work in support of geospatial services.
+important developmental work in geospatial services.
 
 + **Hire Digital Scholarship faculty with expertise in computational humanities 
 & social sciences**: While a minority of libraries provide support for 

@@ -69,7 +69,8 @@ services_dist$Institution[influential]
 salaries_plot_az <- ggplot(data = services_dist %>% arrange(UArizona),
                            mapping = aes(x = salaries_wages/1e6, 
                                          y = Service_count)) +
-  geom_point(size = 2.0, mapping = aes(color = UArizona)) +
+  geom_point(size = 2.0, mapping = aes(color = UArizona, shape = UArizona)) +
+  scale_shape_manual(values = c(16, 17)) + # circle, triangle
   scale_color_manual(values = c("#555555", "#FF0000")) +
   geom_smooth(method = "glm", 
               method.args = list(family = "poisson"), 
