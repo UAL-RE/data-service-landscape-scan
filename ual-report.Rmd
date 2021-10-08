@@ -23,9 +23,10 @@ while support for web scraping and version control were rare.
 + UAL offered an above-average number of these data services.
 + The number of services directly supported by UAL is higher than expected 
 given library resourcing.
-+ We recommend continued support for data management and increased personnel 
-to support geospatial applications and computational humanities and social 
-sciences services.
++ We recommend continued and increasing resourcing for data management and 
+infrastructure supporting reproducible research. We also recommend increased 
+personnel to support geospatial applications and computational humanities and 
+social sciences services.
 
 # Introduction
 
@@ -201,7 +202,7 @@ represent services offered by UAL; grey bars indicate services not supported by
 UAL. **B**. Number of services across institutions; vertical dotted black line 
 is average number of services offered by libraries (10.64) and red vertical 
 line indicates number of services offered by UAL 
-(12)](output/service-dist-ranks-az.png){ padding=40px }
+(12)](output/service-dist-ranks-az.png)
 
 The amount of resourcing, as measured by a libraries' total salary and wage 
 expenditures, influenced the total number of data services offered. In a 
@@ -278,11 +279,11 @@ University of Arizona research landscape.
 + **Increased support for geospatial data services**: Nearly as ubiquitous as 
 data management support, geospatial data services are in increasingly high 
 demand as GIS-based applications are used across domains, including public 
-health and public policy. To provide a quality service in this area, we 
-recommend a 0.5 FTE graduate assistantship or a dedicated staff position line 
-to provide operational geospatial support. The current model of _ad hoc_ 
-student positions detracts from important developmental work in geospatial 
-services.
+health, humanities, and public policy. To provide a quality service in this 
+area, we recommend a 0.5 FTE graduate assistantship or a dedicated staff 
+position line to provide operational geospatial support. The current model of 
+_ad hoc_ student positions detracts from important developmental work in 
+geospatial services.
 
 + **Hire Digital Scholarship faculty with expertise in computational humanities 
 & social sciences**: While a minority of libraries provide support for 
