@@ -22,6 +22,10 @@ on 2020-05-21.
 + salaries-ipeds.csv: Library total expenditures and salary/wage expenditures 
 for 2019. Retrieved from [Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/use-the-data)
 (IPEDS) survey data on 2021-05-17.
++ salaries-ipeds-CoL.csv: Library total expenditures and salary/wage 
+expenditures and cost of labor for 2019. Salary data come from 
+salaries-ipeds.csv and cost of labor information are drawn from the U.S. Bureau
+of Labor Statistics. See the script create-salaries-CoL.R
 + services-absent-to-confirm.csv: Following review of services initially 
 categorized as present, the institution / service combinations that remain 
 absent and need final check by Data Cooperative personnel to ensure they are 
