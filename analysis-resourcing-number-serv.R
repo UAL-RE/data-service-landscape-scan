@@ -46,7 +46,8 @@ salaries_plot <- ggplot(data = services_dist,
   theme_minimal()
 print(salaries_plot)
 ggsave(filename = "output/salaries-services.png",
-       plot = salaries_plot)
+       plot = salaries_plot,
+       width = 6.5, height = 2.5, units = "in")
 
 # Run glm, because Service_count is count, and should be Poisson modeled
 salaries_glm <- glm(Service_count ~ salaries_wages,
@@ -71,8 +72,9 @@ salaries_cooks <- cooks.distance(salaries_glm)
 cooks_cutoff <- 4 / (nrow(services_dist) - length(salaries_glm$coefficients) - 2)
 influential <- which(salaries_cooks > cooks_cutoff)
 services_dist$Institution[influential]
-# None. We're good. Make a copy of the plot showing where UA is.
+# None. We're good. 
 
+# Make a copy of the plot showing where UA is.
 salaries_plot_az <- ggplot(data = services_dist %>% arrange(UArizona),
                            mapping = aes(x = salaries_wages, 
                                          y = Service_count)) +

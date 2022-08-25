@@ -1,24 +1,33 @@
-# Test how well resourcing, correcting for labor costs, predicts individual services
+# Test how well resourcing predicts individual services
 # Jeff Oliver
 # jcoliver@arizona.edu
-# 2022-08-16
+# 2021-07-12
 
 library(dplyr)
-library(tidyr)
-library(ggplot2)
 
 # 1. Test to see if salaries predict probabilities of individual services
 # 2. Test to see if total expenditures predict probabilities of individual services
 
 services <- read.csv(file = "data/services-final-pa.csv")
-resources <- read.csv(file = "data/salaries-ipeds-CoL.csv")
+resources <- read.csv(file = "data/salaries-ipeds.csv")
 services <- services %>%
   left_join(resources, by = c("Institution" = "institution"))
 
+# May want to see which point is UArizona, so add column with that information
+services <- services %>%
+  mutate(UArizona = if_else(condition = Institution == "University of Arizona",
+                            true = TRUE,
+                            false = FALSE))
+
+# Drop invariant services
+column_sums <- colSums(services %>% select(Aerial_imagery:Web_scraping))
+invar <- which(column_sums %in% c(0, nrow(services)))
+invar_columns <- colnames(services %>% select(Aerial_imagery:Web_scraping))[invar]
+services <- services %>%
+  select(-all_of(invar_columns))
+
 # Test to see if salaries or total expenditures predict individual services
 service_names <- colnames(services %>% select(Aerial_imagery:Web_scraping))
-
-# TODO: Drop invariant services
 
 # Going to run logistic regression on each service
 logit_results <- data.frame(service = service_names,
@@ -32,7 +41,7 @@ for (i in 1:nrow(logit_results)) {
   service_data <- services %>%
     select(salaries_wages, total_expenditures, all_of(service_name), 
            UArizona, Institution) %>%
-    rename(present = service_name) # rename for easier formula building
+    rename(present = all_of(service_name)) # rename for easier formula building
 
   # Tests using salary as predictor
   salary_logit <- glm(present ~ salaries_wages, 

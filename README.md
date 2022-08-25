@@ -2,9 +2,20 @@
 
 Code and data for a landscape scan of data services at academic libraries
 
-This work generally focuses on two questions:
+## Summary
 
-1. Does the academic library offer support for X, Y, and Z?
-    1. If so, what form does the support come in? i.e. consulting, instruction, 
-    or web resources?
-2. What is the name of the unit that provides this support?
+This work generally focuses on four questions:
+
+1. Which research data services does an academic library provide?
+2. For a subset of those services, what form does the support come in? i.e.
+consulting, instruction, or web resources?
+3. Are there differences in support between three categories of services: data 
+management, geospatial, and data science?
+3. How does library resourcing (i.e. salaries) affect the number of research 
+data services?
+
+## Approach
+
+Using direct survey of web resources, we investigated the services offered at 
+25 Research 1 universities in the United States of America
+

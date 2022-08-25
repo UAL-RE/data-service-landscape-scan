@@ -5,16 +5,16 @@
 
 library(dplyr)
 
-# Output should be:
-# Institution salaries_corr total_corr
-# where the latter two come from data/salaries-ipeds.csv, but are divided by 
-# the annual average wages per employee, which is in the column called
-# avg_annual_pay. Use the values where own_code = 0 (which is for all types of 
-# employers, public and private companies)
+# Uses salary data from IPEDS and attempts to control for the cost of labor by 
+# dividing by the average salary for the city/county/region where the campus
+# is located
+# annual average wages per employee is in the column called avg_annual_pay. 
+# Use only the values where own_code = 0 (which is for all types of employers, 
+# public and private companies)
 
 institutions <- read.csv(file = "data/institutions.csv")
 ipeds <- read.csv(file = "data/salaries-ipeds.csv")
-wages <- read.csv(file = "data/bls-wages-2019.csv")
+wages <- read.csv(file = "eda/bls-wages-2019.csv")
 
 # Create a data frame with wages and BLS area identifier
 corr_salaries <- ipeds %>%
@@ -33,5 +33,5 @@ corr_salaries <- corr_salaries %>%
 
 # Write this to a file
 write.csv(x = corr_salaries,
-          file = "data/salaries-ipeds-CoL.csv",
+          file = "eda/salaries-ipeds-CoL.csv",
           row.names = FALSE)

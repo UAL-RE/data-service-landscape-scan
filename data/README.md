@@ -1,17 +1,5 @@
 # Data for data service landscape scan
 
-+ bls-area-titles.csv: Area titles from U.S. Bureau of Labor Statistics, 
-downloaded from [https://www.bls.gov/cew/classifications/areas/qcew-area-titles.htm](https://www.bls.gov/cew/classifications/areas/qcew-area-titles.htm) on 2022-08-09. 
-For use with bls-wages-2019.csv (area_fips column of bls-wages-2019.csv is 
-_almost_ equivalent to area_fips column of bls-area-titles.csv; the former has 
-a leading zero for all values below 10000 (e.g. "01001" for Autauga County, 
-Alabama) while the latter lacks the leading zero for those values below 10000 
-(e.g. "1001" for Autauga County, Alabama).
-+ bls-wages-2019.csv: County wages from U.S. Bureau of Labor Statistics, 
-available from [https://data.bls.gov/cew/data/api/2019/a/industry/10.csv](https://data.bls.gov/cew/data/api/2019/a/industry/10.csv). Downloaded on 2022-08-09 through 
-the portal at [https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=1&year=2019&qtr=A&own=0&ind=10&supp=0](https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=1&year=2019&qtr=A&own=0&ind=10&supp=0). Data are 2019 annual averages 
-for all establishment sizes, all industries. For total (across all ownership 
-types, use values in rows where own_code is 0).
 + institutions.csv: List of institutions considered peers of the University of 
 Arizona as well as any institutions in the PAC-12 that are not peers of the 
 University of Arizona. For each institution, includes location (state, city), 
@@ -22,10 +10,6 @@ on 2020-05-21.
 + salaries-ipeds.csv: Library total expenditures and salary/wage expenditures 
 for 2019. Retrieved from [Integrated Postsecondary Education Data System](https://nces.ed.gov/ipeds/use-the-data)
 (IPEDS) survey data on 2021-05-17.
-+ salaries-ipeds-CoL.csv: Library total expenditures and salary/wage 
-expenditures and cost of labor for 2019. Salary data come from 
-salaries-ipeds.csv and cost of labor information are drawn from the U.S. Bureau
-of Labor Statistics. See the script create-salaries-CoL.R
 + services-absent-to-confirm.csv: Following review of services initially 
 categorized as present, the institution / service combinations that remain 
 absent and need final check by Data Cooperative personnel to ensure they are 

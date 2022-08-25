@@ -3,8 +3,11 @@
 # jcoliver@arizona.edu
 # 2022-08-09
 
+# Note: this is a helper script to investigate BLS data; it is not part of the 
+# data preparation or analysis workflow
+
 institutions <- read.csv(file = "data/institutions.csv")
-area_codes <- read.csv(file = "data/bls-area-titles.csv")
+area_codes <- read.csv(file = "eda/bls-area-titles.csv")
 
 # Look for (near) exact matches to city, state abbreviation
 city_states <- unique(paste0(institutions$City, ", ", institutions$State))

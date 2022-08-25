@@ -4,14 +4,13 @@
 # 2022-08-16
 
 library(dplyr)
-library(tidyr)
 library(ggplot2)
 
 # 1. Test to see if salaries predict number of services
 # 2. Test to see if total expenditures predict number of services
 
 services <- read.csv(file = "data/services-final-pa.csv")
-resources <- read.csv(file = "data/salaries-ipeds-CoL.csv")
+resources <- read.csv(file = "eda/salaries-ipeds-CoL.csv")
 
 # Correct salaries and total expentitures by labor cost
 resources <- resources %>%
@@ -39,8 +38,8 @@ salaries_plot <- ggplot(data = services_dist,
   ylab(label = "Number of services offered") +
   theme_minimal()
 print(salaries_plot)
-ggsave(filename = "output/salaries-services-CoL.png",
-       plot = salaries_plot)
+# ggsave(filename = "output/salaries-services-CoL.png",
+#        plot = salaries_plot)
 
 # Run glm, because Service_count is count, and should be Poisson modeled
 salaries_glm <- glm(Service_count ~ salaries_wages,
