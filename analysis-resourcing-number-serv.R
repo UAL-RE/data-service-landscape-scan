@@ -15,11 +15,14 @@ services <- read.csv(file = "data/services-final-pa.csv")
 resources <- read.csv(file = "data/salaries-ipeds.csv")
 
 # Count number of institutions that offer each service and join with salary data
+# Easier to interpret if salaries are in millions of dollars
 services_dist <- services %>% 
   rowwise(Institution) %>% 
   mutate(Service_count = sum(c_across(Aerial_imagery:Web_scraping))) %>%
   select(Institution, Service_count) %>%
-  left_join(resources, by = c("Institution" = "institution"))
+  left_join(resources, by = c("Institution" = "institution")) %>%
+  mutate(salaries_wages = salaries_wages/1e6,
+         total_expenditures = total_expenditures/1e6)
 
 # May want to see which point is UArizona, so add column with that information
 services_dist <- services_dist %>%
@@ -38,7 +41,7 @@ salaries_plot <- ggplot(data = services_dist,
   geom_smooth(method = "glm", 
               method.args = list(family = "poisson"), 
               se = FALSE) +
-  xlab(label = "Total salaries/wages ($)") +
+  xlab(label = "Total salaries/wages ($M)") +
   ylab(label = "Number of services offered") +
   theme_minimal()
 print(salaries_plot)
@@ -51,15 +54,19 @@ salaries_glm <- glm(Service_count ~ salaries_wages,
                     family = "poisson")
 salaries_summary <- summary(salaries_glm)
 # Coefficients:
-#                   Estimate Std. Error z value Pr(>|z|)    
-#   (Intercept)    2.134e+00  1.339e-01  15.942   <2e-16 ***
-#   salaries_wages 1.261e-08  6.321e-09   1.995   0.0461 *  
+#                  Estimate Std. Error z value Pr(>|z|)    
+#   (Intercept)    2.134294   0.133876  15.942   <2e-16 ***
+#   salaries_wages 0.012609   0.006321   1.995   0.0461 *  
 
-# Interpreting the Poisson model, delta y = y(e^B - 1)
-# i.e. it's not linear - effect of x on y will vary based on value of y
+# dfbetas, which look at influence of each point on each coefficient estimate
+salaries_dfbeta <- dfbeta(salaries_glm)
+salaries_dfbeta_thresh <- 2/sqrt(nrow(services_dist))
 
-# Looks like there might be some influential points (from plot), calculate 
-# Cook's distance and see if any need to be excluded
+# See if any are beyond the threshold
+any(abs(salaries_dfbeta) > salaries_dfbeta_thresh)
+# Nope
+
+# Another outlier method is Cook's distance
 salaries_cooks <- cooks.distance(salaries_glm)
 cooks_cutoff <- 4 / (nrow(services_dist) - length(salaries_glm$coefficients) - 2)
 influential <- which(salaries_cooks > cooks_cutoff)
@@ -67,7 +74,7 @@ services_dist$Institution[influential]
 # None. We're good. Make a copy of the plot showing where UA is.
 
 salaries_plot_az <- ggplot(data = services_dist %>% arrange(UArizona),
-                           mapping = aes(x = salaries_wages/1e6, 
+                           mapping = aes(x = salaries_wages, 
                                          y = Service_count)) +
   geom_point(size = 2.0, mapping = aes(color = UArizona, shape = UArizona)) +
   scale_shape_manual(values = c(16, 17)) + # circle, triangle
@@ -75,7 +82,7 @@ salaries_plot_az <- ggplot(data = services_dist %>% arrange(UArizona),
   geom_smooth(method = "glm", 
               method.args = list(family = "poisson"), 
               se = FALSE) +
-  xlab(label = "Total salaries/wages (Million $)") +
+  xlab(label = "Total salaries/wages ($M)") +
   ylab(label = "Number of services offered") +
   theme_minimal() +
   theme(legend.position = "none")
@@ -84,17 +91,18 @@ ggsave(file = "output/salaries-services-az.png",
        plot = salaries_plot_az,
        width = 6.5, height = 2.5, units = "in")
 
+########################################
 # 2. Test to see if total expenditures predict number of services
 
 # Start with plot to eyeball linearity
 expenditures_plot <- ggplot(data = services_dist, 
-                            mapping = aes(x = total_expenditures/1e6, 
+                            mapping = aes(x = total_expenditures, 
                                           y = Service_count)) +
   geom_point() +
   geom_smooth(method = "glm", 
               method.args = list(family = "poisson"),
               se = FALSE) +
-  xlab(label = "Total expenditures (Million $)") +
+  xlab(label = "Total expenditures ($M)") +
   ylab(label = "Number of services offered") +
   theme_bw()
 print(expenditures_plot)
@@ -105,8 +113,14 @@ expenditures_glm <- glm(Service_count ~ total_expenditures,
                         family = "poisson")
 expenditures_summary <- summary(expenditures_glm)
 # Coefficients:
-#                       Estimate Std. Error z value Pr(>|z|)    
-#   (Intercept)        2.161e+00  1.427e-01   15.14   <2e-16 ***
-#   total_expenditures 4.460e-09  2.753e-09    1.62    0.105 
+#                      Estimate Std. Error z value Pr(>|z|)    
+#   (Intercept)        2.160613   0.142674   15.14   <2e-16 ***
+#   total_expenditures 0.004460   0.002753    1.62    0.105 
 
-# Not significant, stop here
+# Look to see if any points had undue influence
+expenditures_dfbeta <- dfbeta(expenditures_glm)
+expenditures_dfbeta_thresh <- 2/sqrt(nrow(services_dist))
+
+# See if any are beyond the threshold
+any(abs(expenditures_dfbeta) > expenditures_dfbeta_thresh)
+# None beyond threshold
