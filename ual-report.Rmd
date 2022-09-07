@@ -73,7 +73,7 @@ recorded the mode(s) in which the service was offered (web resource,
 instruction, or consult). Only those services that were (1) offered by library 
 personnel (as opposed to guest instructors or outside consultants) and in the 
 case of instructional sessions or events (2) offered during or after January 
-2019 were considered present at an intitution's library.
+2019 were considered present at an institution's library.
 
 ```{r services-table, echo = FALSE}
 # Want to use our dataset to create the table of services we surveyed for; only
