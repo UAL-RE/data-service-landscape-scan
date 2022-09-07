@@ -59,7 +59,7 @@ mode_props$Service_graph <- factor(x = mode_props$Service_graph,
 
 mode_rank_plot <- ggplot(data = mode_props,
                          mapping = aes(x = Service_graph, y = Percent, fill = Mode)) +
-  geom_col(position = position_dodge2(reverse = TRUE)) +
+  geom_col(position = position_dodge2(reverse = FALSE)) +
   scale_fill_brewer(type = "qualitative", palette = "Set2", direction = 1) +
   xlab(label = element_blank()) +
   ylab(label = "Percent offered in Mode") +
