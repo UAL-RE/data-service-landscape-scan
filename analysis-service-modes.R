@@ -64,9 +64,13 @@ mode_rank_plot <- ggplot(data = mode_props,
   xlab(label = element_blank()) +
   ylab(label = "Percent offered in Mode") +
   # coord_flip() +
-  theme_bw()
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 6))
 print(mode_rank_plot)
 ggsave(file = "output/service-modes.png",
+       plot = mode_rank_plot,
+       width = 6.5, height = 2.5, units = "in")
+ggsave(file = "output/figure-2.png",
        plot = mode_rank_plot,
        width = 6.5, height = 2.5, units = "in")
 

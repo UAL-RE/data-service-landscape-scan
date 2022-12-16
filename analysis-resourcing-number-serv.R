@@ -6,7 +6,6 @@
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-library(car)     # For outlier detection
 
 # 1. Test to see if salaries predict number of services
 # 2. Test to see if total expenditures predict number of services
@@ -19,7 +18,7 @@ resources <- read.csv(file = "data/salaries-ipeds.csv")
 services_dist <- services %>% 
   rowwise(Institution) %>% 
   mutate(Service_count = sum(c_across(Aerial_imagery:Web_scraping))) %>%
-  select(Institution, Service_count) %>%
+  dplyr::select(c(Institution, Service_count)) %>%
   left_join(resources, by = c("Institution" = "institution")) %>%
   mutate(salaries_wages = salaries_wages/1e6,
          total_expenditures = total_expenditures/1e6)
@@ -40,13 +39,26 @@ salaries_plot <- ggplot(data = services_dist,
   # geom_smooth(method = "lm", se = FALSE) +
   geom_smooth(method = "glm", 
               method.args = list(family = "poisson"), 
-              se = FALSE) +
+              se = FALSE,
+              size = 0.5) +
   xlab(label = "Total salaries/wages ($M)") +
   ylab(label = "Number of services offered") +
   theme_minimal()
 print(salaries_plot)
 ggsave(filename = "output/salaries-services.png",
        plot = salaries_plot,
+       width = 6.5, height = 2.5, units = "in")
+
+salaries_plot_2lines <- salaries_plot +
+  geom_smooth(data = services_dist %>% filter(Institution != "Stanford University"),
+              method = "glm",
+              method.args = list(family = "poisson"),
+              se = FALSE, 
+              linetype = 2,
+              color = "black",
+              size = 0.5)
+ggsave(filename = "output/figure-3.png",
+       plot = salaries_plot_2lines,
        width = 6.5, height = 2.5, units = "in")
 
 # Run glm, because Service_count is count, and should be Poisson modeled
@@ -73,6 +85,17 @@ cooks_cutoff <- 4 / (nrow(services_dist) - length(salaries_glm$coefficients) - 2
 influential <- which(salaries_cooks > cooks_cutoff)
 services_dist$Institution[influential]
 # None. We're good. 
+
+# No outliers, but would be good to have the p-value if we exclude Stanford
+# University...
+salaries_notree_glm <- glm(Service_count ~ salaries_wages,
+                    data = services_dist %>% filter(Institution != "Stanford University"),
+                    family = "poisson")
+salaries_notree_summary <- summary(salaries_notree_glm)
+# Coefficients:
+#         Estimate Std. Error z value Pr(>|z|)    
+#   (Intercept)    2.123119   0.167722  12.659   <2e-16 ***
+#   salaries_wages 0.013330   0.009065   1.471    0.141 
 
 # Make a copy of the plot showing where UA is.
 salaries_plot_az <- ggplot(data = services_dist %>% arrange(UArizona),

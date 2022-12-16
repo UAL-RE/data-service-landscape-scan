@@ -99,6 +99,15 @@ print(service_histogram)
 ggsave(filename = "output/service-distribution.png",
        plot = service_histogram)
 
+# Combine ranks and histogram into a single figure and save
+figure_1 <- ggarrange(service_rank_plot, 
+                      service_histogram,
+                      ncol = 2,
+                      labels = c("A", "B"))
+print(figure_1)
+ggsave(filename = "output/figure-1.png",
+       width = 6.5, height = 3, units = "in")
+
 # Make histogram again, with red line for UA value
 service_histogram_az <- ggplot(data = services_dist,
                             mapping = aes(x = Service_count)) +
