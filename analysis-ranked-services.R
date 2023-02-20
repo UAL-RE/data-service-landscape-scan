@@ -45,6 +45,36 @@ print(service_rank_plot)
 ggsave(filename = "output/service-ranks.png", 
        plot = service_rank_plot)
 
+# A version of service_rank_plot that separates top from bottom half
+services_counts <- services_counts %>%
+  mutate(Half = Count > max(Count)/2)
+
+ubiquitous_services <- ggplot(data = services_counts %>% filter(Half == TRUE),
+                                  mapping = aes(x = Service, y = Count)) +
+  geom_bar(stat = "identity") +
+  ylab(label = "# Institutions") +
+  xlab(label = element_blank()) +
+  scale_y_continuous(limits = c(0, max(services_counts$Count))) +
+  coord_flip() +
+  theme_bw() +
+  theme(axis.text.y = element_text(size = 12))
+print(ubiquitous_services)
+ggsave(filename = "output/service-ranks-ubiquitous.png", 
+       plot = ubiquitous_services)
+
+uncommon_services <- ggplot(data = services_counts %>% filter(Half != TRUE),
+                              mapping = aes(x = Service, y = Count)) +
+  geom_bar(stat = "identity") +
+  ylab(label = "# Institutions") +
+  xlab(label = element_blank()) +
+  scale_y_continuous(limits = c(0, max(services_counts$Count))) +
+  coord_flip() +
+  theme_bw() +
+  theme(axis.text.y = element_text(size = 12))
+print(uncommon_services)
+ggsave(filename = "output/service-ranks-uncommon.png", 
+       plot = uncommon_services)
+
 # Same plot as above, but highlighting ones at UArizona
 # Start by seeing which ones are at UArizona
 # Am I lazy, or just over-enamored with pivot?
