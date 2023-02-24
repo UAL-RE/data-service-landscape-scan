@@ -116,11 +116,14 @@ services_dist <- services %>%
   select(Institution, Service_count)
 
 mean_num_svc <- mean(services_dist$Service_count)
+median_num_svc <- median(services_dist$Service_count)
+se_num_svc <- sd(services_dist$Service_count)/sqrt(nrow(services_dist))
 
 service_histogram <- ggplot(data = services_dist,
                             mapping = aes(x = Service_count)) +
   geom_histogram(bins = 10, fill = "#777777") +
   geom_vline(xintercept = mean_num_svc, lty = 2, lwd = 0.25) +
+  geom_vline(xintercept = median_num_svc, lwd = 0.25) +
   scale_x_continuous(breaks = seq(4, 16, 2)) +
   xlab("# Services") +
   ylab("# Institutions") +
