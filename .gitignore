@@ -1,5 +1,6 @@
 # Output folder
-output/
+output/*
+!output/.gitkeep
 
 # Reports
 *.pdf

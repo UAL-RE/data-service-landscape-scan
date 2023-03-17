@@ -48,7 +48,7 @@ services_absent <- responses_long %>%
 
 # For absent services, need to be sure neither reviewer entered a URL in the 
 # field. We know this is the case if there are two rows for an Institution/
-# Service combination. NOTE: only one reviewer inclueded information for 
+# Service combination. NOTE: only one reviewer included information for 
 # University of Wisconsin, Madison, so need to accommodate that in filter
 # Not interested in "Other_service_*"
 # Also, drop the URL column, as it is now full of NAs

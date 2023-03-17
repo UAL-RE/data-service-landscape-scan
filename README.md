@@ -1,6 +1,6 @@
 # Data service landscape scan
 
-Code and data for a landscape scan of data services at academic libraries
+R code and data for a landscape scan of data services at academic libraries
 
 ## Summary
 
@@ -17,5 +17,27 @@ data services?
 ## Approach
 
 Using direct survey of web resources, we investigated the services offered at 
-25 Research 1 universities in the United States of America
+25 Research 1 universities in the United States of America.
 
+## Dependencies
+
+The following R packages are used in this work:
+
++ dplyr
++ ggplot2
++ ggpubr
++ lme4
++ multcomp
++ readr
++ stringr
++ tidyr
+
+## Directory structure
+
++ data: data used in this work; see data/README.md for more information
++ eda: preliminary exploratory data analyses; see eda/README.md for more 
+information
++ output: destination for outputs like plots; files are not under version 
+control
++ scripts: R scripts with bulk of analysis and data visualization for this
+project; see scripts/README.md for more information
