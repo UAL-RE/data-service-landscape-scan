@@ -45,7 +45,7 @@ salaries_plot <- ggplot(data = services_dist,
   ylab(label = "Number of services offered") +
   theme_minimal()
 print(salaries_plot)
-ggsave(filename = "output/figure-3-1.png",
+ggsave(filename = "output/figure-4.png",
        plot = salaries_plot,
        width = 6.5, height = 2.5, units = "in")
 
@@ -57,7 +57,7 @@ salaries_plot_2lines <- salaries_plot +
               linetype = 2,
               color = "black",
               size = 0.5)
-ggsave(filename = "output/figure-3-2.png",
+ggsave(filename = "output/figure-4-1.png",
        plot = salaries_plot_2lines,
        width = 6.5, height = 2.5, units = "in")
 

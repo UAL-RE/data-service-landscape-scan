@@ -44,6 +44,9 @@ service_rank_plot <- ggplot(data = services_counts,
 print(service_rank_plot)
 ggsave(filename = "output/service-ranks.png", 
        plot = service_rank_plot)
+ggsave(filename = "output/figure-1.png",
+       plot = service_rank_plot,
+       width = 6.5, height = 3.25, units = "in")
 
 # A version of service_rank_plot that separates top from bottom half
 services_counts <- services_counts %>%
@@ -82,7 +85,7 @@ ua_services <- services %>%
   filter(Institution == "University of Arizona") %>%
   pivot_longer(cols = -Institution, names_to = "Service", values_to = "Present") %>%
   filter(Present == 1) %>%
-  select(-Institution) %>%
+  dplyr::select(-Institution) %>%
   # Need to update by replacing underscore with space in service name
   mutate(Service = gsub(pattern = "_",
                         replacement = " ",
@@ -113,7 +116,7 @@ ggsave(filename = "output/service-ranks-az.png",
 services_dist <- services %>% 
   rowwise(Institution) %>% 
   mutate(Service_count = sum(c_across(Aerial_imagery:Web_scraping))) %>%
-  select(Institution, Service_count)
+  dplyr::select(Institution, Service_count)
 
 mean_num_svc <- mean(services_dist$Service_count)
 median_num_svc <- median(services_dist$Service_count)
@@ -127,10 +130,13 @@ service_histogram <- ggplot(data = services_dist,
   scale_x_continuous(breaks = seq(4, 16, 2)) +
   xlab("# Services") +
   ylab("# Institutions") +
-  theme_minimal()
+  theme_bw()
 print(service_histogram)
 ggsave(filename = "output/service-distribution.png",
        plot = service_histogram)
+ggsave(filename = "output/figure-2.png",
+       plot = service_histogram,
+       width = 6.5, height = 3.25, units = "in")
 
 # Combine ranks and histogram into a single figure and save
 figure_1 <- ggarrange(service_rank_plot, 
@@ -138,8 +144,8 @@ figure_1 <- ggarrange(service_rank_plot,
                       ncol = 2,
                       labels = c("A", "B"))
 print(figure_1)
-ggsave(filename = "output/figure-1.png",
-       width = 6.5, height = 3, units = "in")
+ggsave(filename = "output/figure-1_2.png",
+       width = 6.5, height = 6, units = "in", dpi = 1200)
 
 # Make histogram again, with red line for UA value
 service_histogram_az <- ggplot(data = services_dist,

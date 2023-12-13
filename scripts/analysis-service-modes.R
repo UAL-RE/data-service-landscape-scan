@@ -61,18 +61,18 @@ mode_rank_plot <- ggplot(data = mode_props,
                          mapping = aes(x = Service_graph, y = Percent, fill = Mode)) +
   geom_col(position = position_dodge2(reverse = FALSE)) +
   scale_fill_brewer(type = "qualitative", palette = "Set2", direction = 1) +
-  xlab(label = element_blank()) +
-  ylab(label = "Percent offered in Mode") +
+  xlab(label = "Service area") +
+  ylab(label = "% Service modality offered") +
   # coord_flip() +
   theme_bw() +
-  theme(axis.text.x = element_text(size = 6))
+  theme(axis.text.x = element_text(size = 8))
 print(mode_rank_plot)
 ggsave(file = "output/service-modes.png",
        plot = mode_rank_plot,
        width = 6.5, height = 2.5, units = "in")
-ggsave(file = "output/figure-2.png",
+ggsave(file = "output/figure-3.png",
        plot = mode_rank_plot,
-       width = 6.5, height = 2.5, units = "in")
+       width = 7.5, height = 3.5, units = "in")
 
 # What about doing a logistic regression, where we do a very rough 
 # categorization of geo vs. management vs. data science and use those groups
