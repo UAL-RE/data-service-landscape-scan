@@ -1,6 +1,12 @@
 # Data service landscape scan
 
-R code and data for a landscape scan of data services at academic libraries
+R code and data for a landscape scan of data services at academic libraries. 
+The results of this work is published as:
+
+Oliver, Jeffrey, Fernando Rios, Kiriann Carini, and Chun Ly. 2024. "Data 
+services at the academic library: a natural history of horses and unicorns." 
+*Journal of eScience Librarianship* **13** (2): e780. 
+[https://doi.org/10.7191/jeslib.780](https://doi.org/10.7191/jeslib.780).
 
 ## Summary
 
